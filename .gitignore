@@ -1,9 +1,8 @@
-_autosave*
-*.kicad_pcb-bak
-*.kicad_sch-bak
-
 # Dependencies
-node_modules
+/node_modules
+
+# Production
+/build
 
 # Generated files
 .docusaurus
