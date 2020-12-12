@@ -56,4 +56,12 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+    // String format.
+    'js/clicky.js',
+    {
+      src: '//static.getclicky.com/js',
+      async: true,
+    },
+  ],
 };

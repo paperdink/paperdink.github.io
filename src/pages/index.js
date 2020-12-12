@@ -152,9 +152,6 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="E-paper based dashboard with wifi & bluetooth">
       <header>
-        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101291457);</script>
-        <script async src="//static.getclicky.com/js"></script>
-        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101291457ns.gif" /></p></noscript>
         <section className={styles.heroMain}>
         <div className="container">
         <div className="row">
