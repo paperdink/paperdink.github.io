@@ -3,9 +3,9 @@
 ## Homepage
 title = "paperd.ink"
 logo = "images/paperd_ink.svg"
-titleSeparator = ""
-titleAddition = ""
-description = "Paperd.ink is a beautiful open source e-paper display board"
+titleSeparator = " | "
+titleAddition = "smart, simple and elegant"
+description = "paperd.ink is a beautiful open source e-paper display board"
 
 ## Open Graph + Twitter Cards
 images = ["doks.png"]
