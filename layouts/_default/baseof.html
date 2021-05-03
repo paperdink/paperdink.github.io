@@ -13,7 +13,10 @@
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
-    {{ partial "header/header.html" . }}
+    <div id="userinput"></div>
+    <form>
+        <div id="suggestions" class="shadow bg-white rounded"></div>
+    </form>
     <div class="wrap container" role="document">
       <div class="content">
         {{ block "main" . }}{{ end }}
