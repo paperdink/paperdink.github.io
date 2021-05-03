@@ -298,19 +298,18 @@ body {
 
       span {
         font-size: 18px;
-        color: $primary-light;
+        color: $primary;
       }
     }
 
     p {
       font-size: 18px;
-      color: $primary-light;
+      color: $primary;
       padding-bottom: 15px;
     }
   }
 
   .active {
-    opacity: 0.5;
     transition: all 0.3s;
   }
 
