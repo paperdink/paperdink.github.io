@@ -46,6 +46,11 @@
   pre = "images/twitter.svg"
   url = "https://twitter.com/paperddotink"
 
+[[social]]
+  name = "prasad@paperd.ink"
+  pre = "images/mail.svg"
+  url = "mailto:prasad@paperd.ink"
+
 # [[footer]]
 #   name = "Privacy"
 #   url = "/privacy-policy/"
