@@ -8,7 +8,7 @@ titleAddition = "e-paper development board"
 description = "paperd.ink is a beautiful open source e-paper display board"
 
 ## Open Graph + Twitter Cards
-images = ["images/paperd.ink_penguin.svg"]
+images = ["paperd_ink_penguin.jpg"]
 twitterSite = "paperddotink"
 twitterCreator = "paperddotink"
 ogLocale = "en_US"
