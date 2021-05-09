@@ -8,11 +8,9 @@ titleAddition = "simple & elegant"
 description = "paperd.ink is a beautiful open source e-paper display board"
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
-twitterSite = "henkverlinde"
-twitterCreator = "henkverlinde"
-facebookAuthor = "verlinde.henk"
-facebookPublisher = "verlinde.henk"
+images = ["images/paperd.ink_penguin.svg"]
+twitterSite = "paperddotink"
+twitterCreator = "paperddotink"
 ogLocale = "en_US"
 
 ## JSON-LD
