@@ -1,30 +1,30 @@
 [[docs]]
-  name = "Prologue"
+  name = "Software"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "software"
+  url = "/docs/software/"
 
 [[docs]]
-  name = "Examples"
+  name = "Hardware"
   weight = 20
-  identifier = "examples"
-  url = "/docs/examples/"
+  identifier = "hardware"
+  url = "/docs/hardware/"
 
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+  [[docs]]
+    name = "3D Files"
+    weight = 30
+    identifier = "3d files"
+    url = "/docs/3d_files/"
 
-#[[main]]
-#  name = "Docs"
-#  url = "/docs/prologue/introduction/"
-#  weight = 10
+[[main]]
+ name = "Docs"
+ url = "/docs/"
+ weight = 10
 
-#[[main]]
-#  name = "Blog"
-#  url = "/blog/"
-#  weight = 20
+[[main]]
+ name = "Blog"
+ url = "/blog/"
+ weight = 20
 
 [[social]]
   name = "Hackaday"
@@ -51,7 +51,7 @@
   pre = "images/mail.svg"
   url = "mailto:prasad@paperd.ink"
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+[[footer]]
+  name = "Privacy"
+  url = "/privacy-policy/"
+  weight = 10

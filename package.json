@@ -37,7 +37,7 @@
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13",
+    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.13",
     "@babel/preset-env": "^7.13",
     "@fullhuman/postcss-purgecss": "^4.0",
@@ -51,7 +51,7 @@
     "instant.page": "^5.1",
     "katex": "^0.13.0",
     "lazysizes": "^5.3",
-    "markdownlint-cli": "^0.27",
+    "markdownlint-cli": "^0.31.1",
     "netlify-lambda": "^2.0",
     "postcss": "^8.2",
     "postcss-cli": "^8.3",
