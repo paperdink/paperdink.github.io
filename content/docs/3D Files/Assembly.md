@@ -17,5 +17,5 @@ toc: true
 
 ## KiCAD files
 
-1. Download paperd.ink STL Model [here →](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/)
-2. Download paperd.ink STEP Model [here →](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/)
+1. Download paperd.ink STL Model [here →]( )
+2. Download paperd.ink STEP Model [here →]( )
