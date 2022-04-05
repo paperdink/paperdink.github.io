@@ -13,7 +13,7 @@ weight: 120
 toc: true
 ---
 
-{{< alert icon="💡" text="You can go to Tools > Manage Libraries in the Arduino IDE to search and install the following libraries." >}}
+{{< alert icon="💡" text="You can go to Tools > Manage Libraries in the Arduino IDE to search and install the latest versions of following libraries." >}}
 
 ### Adafruit GFX by Adafruit
 
