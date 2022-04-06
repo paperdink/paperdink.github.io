@@ -45,5 +45,5 @@ toc: true
 [GitHub →] ()
 
 ## Dimensions
-1. The PCB is 92.1x78.1 mm
-2. The enclosure is 98x82x16 mm
+1. The PCB is 92.1 x 78.1 mm
+2. The enclosure is 98 x 82 x 16 mm
