@@ -15,7 +15,5 @@ toc: true
 ## How to assemble paperd.ink
 <img src="/images/paperd.ink_Assembly.gif" width="375" height="300">
 
-## KiCAD files
-
-1. Download paperd.ink STL Model [here →]( )
-2. Download paperd.ink STEP Model [here →]( )
+## Enclosure files
+[Github →](https://github.com/paperdink/paperd.ink_enclosure)

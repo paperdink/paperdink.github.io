@@ -37,12 +37,8 @@ toc: true
 4. Disable the entire board using LDO_EN pin and have virtually no current consumed by the board.
 
 
-## Bill of Materials
-[GitHub →] ()
-
-
-## KiCAD Design Files & GERBER
-[GitHub →] ()
+## Design files
+[GitHub →] (https://github.com/paperdink/paperd.ink_hw)
 
 ## Dimensions
 1. The PCB is 92.1 x 78.1 mm

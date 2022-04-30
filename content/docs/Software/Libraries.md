@@ -15,8 +15,10 @@ toc: true
 
 {{< alert icon="💡" text="You can go to Tools > Manage Libraries in the Arduino IDE to search and install the latest versions of following libraries." >}}
 
-### Adafruit GFX by Adafruit
+These are some of the common libraries used in the examples. More information about these can be found in the examples github repo.
 
-### GxEPD by Jean-Marc Zingg
-
-### ArduinoJson by Benoit Blanchon
+- Adafruit GFX by Adafruit
+- GxEPD by Jean-Marc Zingg
+- GxEPD2 by Jean-Marc Zingg
+- ArduinoJson by Benoit Blanchon
+- JSON Streaming Parser by Daniel Eichhorn
