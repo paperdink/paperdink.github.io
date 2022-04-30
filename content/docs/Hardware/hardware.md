@@ -38,7 +38,7 @@ toc: true
 
 
 ## Design files
-[GitHub →] (https://github.com/paperdink/paperd.ink_hw)
+[GitHub →](https://github.com/paperdink/paperd.ink_hw)
 
 ## Dimensions
 1. The PCB is 92.1 x 78.1 mm
