@@ -31,7 +31,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 5. paperd.ink works with the `ESP32 Dev Module` board.
 
 ## Install ESP32 Sketch Data Upload
-Checkout this amazing tutorial from random nerd tutorials [here →](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/)
+Checkout this tutorial from random nerd tutorials [here →](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/)
 
 ## Install CP210x USB to UART Bridge VCP Drivers (Windows only)
 If windows is not able to recognize paperd.ink please install the CP210x driver by downloading the setup from the top menu [here →](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
