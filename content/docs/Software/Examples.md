@@ -1,6 +1,6 @@
 ---
 title: "3. Examples"
-description: "Installing dependencies"
+description: "Sample codes and use-cases to get started"
 lead: "Installing dependencies"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
