@@ -13,7 +13,7 @@ weight: 310
 toc: true
 ---
 ## How to assemble paperd.ink
-<img src="/images/paperd.ink_Assembly.gif" width="250" height="200">
+<img src="/images/paperd.ink_Assembly.gif" width="375" height="300">
 
 ## KiCAD files
 
