@@ -1,7 +1,7 @@
 ---
 title: "2. Libraries Used"
-description: "Install libraries in Arduino IDE"
-lead: "Install libraries in Arduino IDE"
+description: "Installing libraries in Arduino IDE"
+lead: "Installing libraries in Arduino IDE"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
