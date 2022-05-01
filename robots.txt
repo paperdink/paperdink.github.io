@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paperdink.github.io/docs/software/getting-started/sitemap.xml
+Sitemap: https://paperdink.github.io/sitemap.xml
