@@ -266,3 +266,7 @@
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after {
   top: 0;
 }
+
+.logo-img {
+  width: MIN(50vw, 200px);
+}
