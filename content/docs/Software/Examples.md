@@ -1,7 +1,7 @@
 ---
 title: "3. Examples"
 description: "Sample codes and use-cases to get started"
-lead: "Installing dependencies"
+lead: "Sample codes and use-cases to get started"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
