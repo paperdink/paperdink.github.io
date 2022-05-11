@@ -40,6 +40,7 @@ toc: true
 
 While selecting a battery for paperd.ink please note the polarity of the connection.
 A battery with in-built protection circuit is recommended.
+
 ![paperd.ink battery](/images/battery_connector.png)
 
 
