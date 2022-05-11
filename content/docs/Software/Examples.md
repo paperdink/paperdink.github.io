@@ -14,7 +14,7 @@ toc: true
 ---
 
 ## Onboarding
-Set up paperd.ink after assembling it and get a look at all of it's functions.
+Set up paperd.ink after assembling it and get a look at all of it's functions. Please note that you will also need to insert a FAT32 formatted mircoSD card in the paperd.ink development board with necessary file uploaded from the Github repo. 
 
 **[https://github.com/paperdink/paperd_ink_test](https://github.com/paperdink/paperd_ink_test)**
 
