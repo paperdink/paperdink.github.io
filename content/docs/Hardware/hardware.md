@@ -36,6 +36,12 @@ toc: true
 3. Disable ESP32 module using ESP_EN pin to reduce power consumption.
 4. Disable the entire board using LDO_EN pin and have virtually no current consumed by the board.
 
+## Battery
+
+While selecting a battery for paperd.ink please note the polarity of the connection.
+A battery with in-built protection circuit is recommended.
+![paperd.ink battery](/images/battery_connector.png)
+
 
 ## Design files
 [GitHub →](https://github.com/paperdink/paperd.ink_hw)
