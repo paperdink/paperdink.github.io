@@ -43,4 +43,4 @@ Minimal example showing how to use GxEPD library with paperd.ink, you should see
 ## Hello World
 Minimal example using GxEPD2 library with paperd.ink, you should see "hello world" and some images with partial update demo.
 
-**[https://github.com/paperdink/minimal_GxEPD2](https://github.com/paperdink/minimal_GxEPD2])**
+**[https://github.com/paperdink/minimal_GxEPD2](https://github.com/paperdink/minimal_GxEPD2)**
