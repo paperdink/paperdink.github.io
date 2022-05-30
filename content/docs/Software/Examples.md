@@ -22,7 +22,8 @@ Set up paperd.ink after assembling it and get a look at all of it's functions. P
 ## Get Productive
 Display time, calendar, to-do list syncs with todoist, and weather.
 
-**[https://github.com/paperdink/timcal](https://github.com/paperdink/timcal)**
+- AP based config: **[https://github.com/paperdink/timcal](https://github.com/paperdink/timcal)**
+- Config file based config: **[https://github.com/paperdink/timcal2](https://github.com/paperdink/timcal2)**
 
 ## Be up-to-date
 A clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with todoist or taiga.
