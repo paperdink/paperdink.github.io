@@ -38,6 +38,9 @@ toc: true
 
 ## Battery
 
+Batteries have shipping issues in terms of regulations and need special arrangements
+(which also increases the cost) so we recommend you buy a battery locally or you can keep the USB plugged in.
+The maximum battery size should be 62 x 35 x 5 mm.
 While selecting a battery for paperd.ink please note the polarity of the connection.
 A battery with in-built protection circuit is recommended.
 
