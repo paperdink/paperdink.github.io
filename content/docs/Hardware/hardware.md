@@ -36,6 +36,54 @@ toc: true
 3. Disable ESP32 module using ESP_EN pin to reduce power consumption.
 4. Disable the entire board using LDO_EN pin and have virtually no current consumed by the board.
 
+##### I2C pins
+- SDA: 16
+- SCL: 17
+
+##### SPI pins
+- SCK: 18
+- MOSI: 23
+- MISO: 19
+
+##### SD card pins
+- SD CS: 21
+- SD enable: 5
+
+##### E-paper pins
+- EPD DC: 15
+- EPD BUSY: 34
+- EPD RES: 13
+- EPD Enable: 12
+
+##### PCF8574 pins
+- PCF INT: 35
+- SD Chip Detect (low = SD card present): P4
+- EXT GPIO1: P5
+- EXT GPIO2: P6
+- EXT GPIO3: P7
+- PCF I2C ADDR: 0x20
+
+###### LiPo
+- Charging indicator (low = charging): 36
+- Battery Enable: 25
+- Battery Voltage: 34
+- Battery Voltage ADC: ADC1_CHANNEL_6
+
+##### Buzzer
+- Piezo: 26
+
+##### Buttons
+- Button 1: 2
+- Button 2: 4
+- Button 3: 27
+- Button 4: 14
+
+## Interfacing with components
+paperd.ink is designed to be low power. To achieve this goal, the EPD, SD card and battery sense circuits are powered via a MOSFET.
+This MOSFET can be turned off when not required which helps reduce the power consumption. All enable pins are active low, meaning when
+the enable pin is low, the device is turned on. For example, to use the EPD, first set EPD enable (pin 12) to low and when done writing
+to the display set EPD enable to high to reduce the power consumption.
+
 ## Battery
 
 Batteries have shipping issues in terms of regulations and need special arrangements
