@@ -45,3 +45,8 @@ Minimal example showing how to use GxEPD library with paperd.ink, you should see
 Minimal example using GxEPD2 library with paperd.ink, you should see "hello world" and some images with partial update demo.
 
 **[https://github.com/paperdink/minimal_GxEPD2](https://github.com/paperdink/minimal_GxEPD2)**
+
+## Minimal Micropython
+Minimal example showing how to use micropython with paperd.ink. Note that support is currently limited.
+
+**[https://github.com/paperdink/minimal_micropython](https://github.com/paperdink/minimal_micropython)**
