@@ -46,6 +46,11 @@ Minimal example using GxEPD2 library with paperd.ink, you should see "hello worl
 
 **[https://github.com/paperdink/minimal_GxEPD2](https://github.com/paperdink/minimal_GxEPD2)**
 
+## Simple Buzzer
+Simple example playing the mario theme song using the buzzer.
+
+**[https://github.com/paperdink/simple_buzzer](https://github.com/paperdink/simple_buzzer)**
+
 ## Minimal Micropython
 Minimal example showing how to use micropython with paperd.ink. Note that support is currently limited.
 
