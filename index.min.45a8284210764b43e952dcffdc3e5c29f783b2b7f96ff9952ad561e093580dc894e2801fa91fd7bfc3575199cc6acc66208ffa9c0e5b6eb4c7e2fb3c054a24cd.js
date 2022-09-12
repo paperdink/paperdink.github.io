@@ -60,6 +60,9 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch2 id="hello-world"\u003eHello World\u003c/h2\u003e
 \u003cp\u003eMinimal example using GxEPD2 library with paperd.ink, you should see \u0026ldquo;hello world\u0026rdquo; and some images with partial update demo.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/minimal_GxEPD2"\u003ehttps://github.com/paperdink/minimal_GxEPD2\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+\u003ch2 id="simple-buzzer"\u003eSimple Buzzer\u003c/h2\u003e
+\u003cp\u003eSimple example playing the mario theme song using the buzzer.\u003c/p\u003e
+\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/simple_buzzer"\u003ehttps://github.com/paperdink/simple_buzzer\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003ch2 id="minimal-micropython"\u003eMinimal Micropython\u003c/h2\u003e
 \u003cp\u003eMinimal example showing how to use micropython with paperd.ink. Note that support is currently limited.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/minimal_micropython"\u003ehttps://github.com/paperdink/minimal_micropython\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
