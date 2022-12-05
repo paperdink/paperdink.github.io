@@ -1,6 +1,6 @@
 var suggestions=document.getElementById("suggestions"),userinput=document.getElementById("userinput");document.addEventListener("keydown",inputFocus);function inputFocus(e){e.keyCode===191&&(e.preventDefault(),userinput.focus()),e.keyCode===27&&(userinput.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.querySelectorAll("a"),o=[...s],t=o.indexOf(document.activeElement);let n=0;e.keyCode===38?(e.preventDefault(),n=t>0?t-1:0,s[n].focus()):e.keyCode===40&&(e.preventDefault(),n=t+1<o.length?t+1:t,s[n].focus())}(function(){var e=new FlexSearch({preset:"score",cache:!0,doc:{id:"id",field:["title","description","content"],store:["href","title","description"]}}),n=[{id:0,href:"https://docs.paperd.ink/docs/software/getting-started/",title:"1. Getting Started",description:"Installing dependencies \u0026 paperd.ink library in Arduino IDE",content:`\u003ch2 id="install-arduino-ide"\u003eInstall Arduino IDE\u003c/h2\u003e
 \u003cp\u003ePlease download the latest compatible version of Arduino IDE from \u003ca href="https://www.arduino.cc/en/software"\u003eArduino\u0026rsquo;s site →\u003c/a\u003e\u003c/p\u003e
-\u003ch2 id="install-esp32-board-in-arduino-ide"\u003eInstall ESP32 Board in Arduino IDE\u003c/h2\u003e
+\u003ch2 id="install-esp32-board--the-paperdink-library-in-arduino-ide"\u003eInstall ESP32 Board \u0026amp; the paperd.ink Library in Arduino IDE\u003c/h2\u003e
 \u003col\u003e
 \u003cli\u003e
 \u003cp\u003eIn the Arduino IDE, go to \u003ccode\u003eFile \u0026gt; Preferences\u003c/code\u003e\u003c/p\u003e
@@ -17,18 +17,25 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003c/code\u003e\u003c/pre\u003e
 \u003col start="3"\u003e
 \u003cli\u003eOpen the Arduino IDE and go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; Boards Manager\u003c/code\u003e\u003c/li\u003e
-\u003cli\u003eIn the Boards Manager, search for \u003ccode\u003eESP32\u003c/code\u003e and install the ESP32 by Espressif Systems board.\u003c/li\u003e
+\u003cli\u003eIn the Boards Manager, search for \u003ccode\u003eESP32\u003c/code\u003e and install the \u003ccode\u003eESP32 by Espressif Systems board\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eAfter the installation is complete, go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; ESP32 Arduino board\u003c/code\u003e and select the \u003ccode\u003eESP32 Dev Module\u003c/code\u003e board.\u003c/li\u003e
 \u003cli\u003eInstall the paperd.ink library from the Arduino library manager and searching for \u003ccode\u003ePaperdink\u003c/code\u003e. Install the latest version. The Arduino IDE will automatically install any necessary dependencies.\u003c/li\u003e
 \u003cli\u003eTo access the examples provided by the library, go to \u003ccode\u003eFile \u0026gt; Examples \u0026gt; Paperdink\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eFor more information about the examples and how to configure them, visit the paperd.ink \u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples"\u003eGitHub page\u003c/a\u003e\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="install-esp32-sketch-data-upload"\u003eInstall ESP32 Sketch Data Upload\u003c/h2\u003e
-\u003cp\u003eSome examples require uploading bitmaps to the ESP32 flash storage.
-Checkout this tutorial from random nerd tutorials \u003ca href="https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/"\u003ehere →\u003c/a\u003e
-to learn how to install the tool and upload data.\u003c/p\u003e
+\u003col\u003e
+\u003cli\u003eSome examples provided by the paperd.ink library require uploading bitmaps to the ESP32 flash storage.\u003c/li\u003e
+\u003cli\u003eTo learn how to do this, visit the following tutorial: \u003ca href="https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/"\u003eInstall ESP32 Filesystem Uploader Arduino IDE\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003eThis tutorial will guide you through the process of installing the necessary tool and uploading data to the ESP32.\u003c/li\u003e
+\u003c/ol\u003e
 \u003ch2 id="install-cp210x-usb-to-uart-bridge-vcp-drivers-windows-only"\u003eInstall CP210x USB to UART Bridge VCP Drivers (Windows only)\u003c/h2\u003e
-\u003cp\u003eIf windows is not able to recognize your paperd.ink device please install the CP210x driver by downloading the setup from the top menu \u003ca href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers"\u003ehere →\u003c/a\u003e\u003c/p\u003e
+\u003cp\u003eIf your Windows computer is unable to recognize your paperd.ink device, you will need to install the CP210x driver. To do this, follow these steps:\u003c/p\u003e
+\u003col\u003e
+\u003cli\u003eVisit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu \u003ca href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003eFollow the instructions provided by the setup to install the driver on your computer.\u003c/li\u003e
+\u003cli\u003eOnce the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device.\u003c/li\u003e
+\u003c/ol\u003e
 `},{id:1,href:"https://docs.paperd.ink/docs/software/libraries/",title:"2. Libraries Used",description:"Installing libraries in Arduino IDE",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e💡\u003c/div\u003e
   \u003cdiv class="w-100"\u003eYou can go to Tools \u003e Manage Libraries in the Arduino IDE to search and install the latest versions of following libraries.\u003c/div\u003e
