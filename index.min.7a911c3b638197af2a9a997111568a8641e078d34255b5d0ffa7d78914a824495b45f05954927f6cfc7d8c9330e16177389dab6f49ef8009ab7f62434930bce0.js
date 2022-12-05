@@ -77,15 +77,15 @@ to learn how to install the tool and upload data.\u003c/p\u003e
 `},{id:4,href:"https://docs.paperd.ink/docs/hardware/hardware/",title:"5. Hardware",description:"Hardware details for paperd.ink",content:`\u003ch2 id="block-diagram"\u003eBlock Diagram\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_rev4_labels.png" width="600" height="400"\u003e
 \u003col\u003e
-\u003cli\u003e\u003cstrong\u003eESP32-WROOM-32\u003c/strong\u003e module\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eFCC/CE Certified\u003c/strong\u003e WiFi \u0026amp; Bluetooth for connectivity\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003e\u0026lt;20uA\u003c/strong\u003e current consumption in sleep mode\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eCP2104 USB-UART\u003c/strong\u003e converter onboard for programming\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eMicroSD Card\u003c/strong\u003e slot for storing images, files, etc\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003ePiezo Buzzer\u003c/strong\u003e for notifications and alerts\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003e4x Tactile Buttons\u003c/strong\u003e for user input\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eESP32-WROOM-32\u003c/strong\u003e powerful module\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eFCC/CE Certified\u003c/strong\u003e WiFi \u0026amp; Bluetooth and unlock the full potential of paperd.ink\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003e\u0026lt;20uA\u003c/strong\u003e current consumption in sleep mode means longer battery life and more freedom to create\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eCP2104 USB-UART\u003c/strong\u003e converter onboard for easy programming and updates\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eMicroSD Card\u003c/strong\u003e slot for convenient storage of images, files, and more\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003ePiezo Buzzer\u003c/strong\u003e provides notifications and alerts for a more interactive experience\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003e4x Tactile Buttons\u003c/strong\u003e for user input and control\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eBattery Charger\u003c/strong\u003e circuit to keep it truly wireless\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eExtension Header\u003c/strong\u003e for interfacing and expanding capabilities\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eExtension Header\u003c/strong\u003e for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="pin-map"\u003ePin Map\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_pinout.png" width="300"\u003e
