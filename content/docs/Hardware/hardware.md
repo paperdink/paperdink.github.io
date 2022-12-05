@@ -61,7 +61,7 @@ toc: true
 - PCF I2C ADDR (Rev 3): 0x20
 - PCF I2C ADDR (Rev 4): 0x38
 
-###### LiPo
+##### LiPo
 - Charging indicator (low = charging): GPIO36
 - Battery Enable: GPIO25
 - Battery Voltage: GPIO34
