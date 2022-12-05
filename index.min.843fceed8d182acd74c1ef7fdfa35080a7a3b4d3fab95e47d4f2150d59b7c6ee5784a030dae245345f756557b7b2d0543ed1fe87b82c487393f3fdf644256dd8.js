@@ -136,7 +136,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003ePCF I2C ADDR (Rev 3): 0x20\u003c/li\u003e
 \u003cli\u003ePCF I2C ADDR (Rev 4): 0x38\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch6 id="lipo"\u003eLiPo\u003c/h6\u003e
+\u003ch5 id="lipo"\u003eLiPo\u003c/h5\u003e
 \u003cul\u003e
 \u003cli\u003eCharging indicator (low = charging): GPIO36\u003c/li\u003e
 \u003cli\u003eBattery Enable: GPIO25\u003c/li\u003e
