@@ -21,7 +21,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eAfter the installation is complete, go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; ESP32 Arduino board\u003c/code\u003e and select the \u003ccode\u003eESP32 Dev Module\u003c/code\u003e board.\u003c/li\u003e
 \u003cli\u003eInstall the paperd.ink library from the Arduino library manager and searching for \u003ccode\u003ePaperdink\u003c/code\u003e. Install the latest version. The Arduino IDE will automatically install any necessary dependencies.\u003c/li\u003e
 \u003cli\u003eTo access the examples provided by the library, go to \u003ccode\u003eFile \u0026gt; Examples \u0026gt; Paperdink\u003c/code\u003e.\u003c/li\u003e
-\u003cli\u003eFor more information about the examples and how to configure them, visit the paperdink \u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples"\u003eGitHub page\u003c/a\u003e\u003c/li\u003e
+\u003cli\u003eFor more information about the examples and how to configure them, visit the paperd.ink \u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples"\u003eGitHub page\u003c/a\u003e\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="install-esp32-sketch-data-upload"\u003eInstall ESP32 Sketch Data Upload\u003c/h2\u003e
 \u003cp\u003eSome examples require uploading bitmaps to the ESP32 flash storage.
