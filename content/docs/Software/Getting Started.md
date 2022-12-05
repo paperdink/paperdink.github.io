@@ -34,12 +34,12 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ## paperd.ink Library
 1. Install the latest version paperd.ink library from the Arduino library manager by searching for `Paperdink`. The Arduino IDE will automatically install any necessary dependencies.
 2. To access the examples provided by the library, go to `File > Examples > Paperdink`.
-3. For more information about the examples and how to configure them, visit the paperd.ink [GitHub page](https://github.com/paperdink/PaperdInk-Library/tree/main/examples)
+3. For more information about the examples and how to configure them, visit the paperd.ink [GitHub page →](https://github.com/paperdink/PaperdInk-Library/tree/main/examples)
 
 
 ## ESP32 Sketch Data Upload
 1. Some examples provided by the paperd.ink library require uploading bitmaps to the ESP32 flash storage.
-2. To learn how to do this, visit the following tutorial: [Install ESP32 Filesystem Uploader Arduino IDE](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/). 
+2. To learn how to do this, visit the following tutorial: [Install ESP32 Filesystem Uploader Arduino IDE →](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/). 
 3. This tutorial will guide you through the process of installing the necessary tool and uploading data to the ESP32.
 
 
