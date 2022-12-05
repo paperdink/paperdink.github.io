@@ -15,15 +15,15 @@ toc: true
 ## Block Diagram
 <img src="/images/paperd.ink_rev4_labels.png" width="600" height="400">
 
-1. **ESP32-WROOM-32** module
-2. **FCC/CE Certified** WiFi & Bluetooth for connectivity
-3. **<20uA** current consumption in sleep mode
-4. **CP2104 USB-UART** converter onboard for programming
-5. **MicroSD Card** slot for storing images, files, etc
-6. **Piezo Buzzer** for notifications and alerts
-7. **4x Tactile Buttons** for user input
+1. **ESP32-WROOM-32** powerful module
+2. **FCC/CE Certified** WiFi & Bluetooth and unlock the full potential of paperd.ink
+3. **<20uA** current consumption in sleep mode means longer battery life and more freedom to create
+4. **CP2104 USB-UART** converter onboard for easy programming and updates 
+5. **MicroSD Card** slot for convenient storage of images, files, and more
+6. **Piezo Buzzer** provides notifications and alerts for a more interactive experience
+7. **4x Tactile Buttons** for user input and control
 8. **Battery Charger** circuit to keep it truly wireless
-9. **Extension Header** for interfacing and expanding capabilities
+9. **Extension Header** for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.
 
 ## Pin Map
 <img src="/images/paperd.ink_pinout.png" width="300">
