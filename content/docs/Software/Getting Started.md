@@ -22,7 +22,7 @@ Please download the latest compatible version of Arduino IDE from [Arduino's sit
 
 2. Find the `Additional Board Manager URLs` field to enter the following URL and click `OK`
 
-{{< btn-copy text="https://dl.espressif.com/dl/package_esp32_index.json" >}}
+
 ```bash
 https://dl.espressif.com/dl/package_esp32_index.json
 ```
