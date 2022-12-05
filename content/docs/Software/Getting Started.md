@@ -29,10 +29,9 @@ https://dl.espressif.com/dl/package_esp32_index.json
 3. Open the Arduino IDE and go to `Tools > Board > Boards Manager` 
 4. In the Boards Manager, search for `ESP32` and install the ESP32 by Espressif Systems board.
 5. After the installation is complete, go to `Tools > Board > ESP32 Arduino board` and select the `ESP32 Dev Module` board.
-6. Install the paperd.ink library from the Arduino library manager and searching for `Paperdink`. Install the latest version.
-7. The Arduino IDE will automatically install any necessary dependencies.
-8. To access the examples provided by the library, go to `File > Examples > Paperdink`.
-9. For more information about the examples and how to configure them, visit the paperdink [GitHub page](https://github.com/paperdink/PaperdInk-Library/tree/main/examples)
+6. Install the paperd.ink library from the Arduino library manager and searching for `Paperdink`. Install the latest version. The Arduino IDE will automatically install any necessary dependencies.
+7. To access the examples provided by the library, go to `File > Examples > Paperdink`.
+8. For more information about the examples and how to configure them, visit the paperdink [GitHub page](https://github.com/paperdink/PaperdInk-Library/tree/main/examples)
 
 ## Install ESP32 Sketch Data Upload
 Some examples require uploading bitmaps to the ESP32 flash storage.
