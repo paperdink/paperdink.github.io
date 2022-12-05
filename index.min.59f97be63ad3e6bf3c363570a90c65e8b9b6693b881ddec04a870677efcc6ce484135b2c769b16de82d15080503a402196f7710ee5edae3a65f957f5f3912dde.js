@@ -19,8 +19,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eOpen the Arduino IDE and go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; Boards Manager\u003c/code\u003e\u003c/li\u003e
 \u003cli\u003eIn the Boards Manager, search for \u003ccode\u003eESP32\u003c/code\u003e and install the ESP32 by Espressif Systems board.\u003c/li\u003e
 \u003cli\u003eAfter the installation is complete, go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; ESP32 Arduino board\u003c/code\u003e and select the \u003ccode\u003eESP32 Dev Module\u003c/code\u003e board.\u003c/li\u003e
-\u003cli\u003eInstall the paperd.ink library from the Arduino library manager and searching for \u003ccode\u003ePaperdink\u003c/code\u003e. Install the latest version.\u003c/li\u003e
-\u003cli\u003eThe Arduino IDE will automatically install any necessary dependencies.\u003c/li\u003e
+\u003cli\u003eInstall the paperd.ink library from the Arduino library manager and searching for \u003ccode\u003ePaperdink\u003c/code\u003e. Install the latest version. The Arduino IDE will automatically install any necessary dependencies.\u003c/li\u003e
 \u003cli\u003eTo access the examples provided by the library, go to \u003ccode\u003eFile \u0026gt; Examples \u0026gt; Paperdink\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eFor more information about the examples and how to configure them, visit the paperdink \u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples"\u003eGitHub page\u003c/a\u003e\u003c/li\u003e
 \u003c/ol\u003e
