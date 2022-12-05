@@ -1,7 +1,7 @@
 ---
 title: "1. Getting Started"
-description: "Installing dependencies & paperd.ink library in Arduino IDE"
-lead: "Installing dependencies & paperd.ink library in Arduino IDE"
+description: "Installing paperd.ink library & dependencies in Arduino IDE"
+lead: "Installing paperd.ink library & dependencies in Arduino IDE"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
