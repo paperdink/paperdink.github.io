@@ -148,7 +148,7 @@ to learn how to install the tool and upload data.\u003c/p\u003e
 \u003cli\u003eButton 4: GPIO14\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="interfacing-with-components"\u003eInterfacing with components\u003c/h2\u003e
-\u003cp\u003epaperd.ink is designed to be low power. Thus, the Electronic Paper Display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on a device. For example, to use the EPD, set EPD enable (pin 12) to low and then set it to high when finished to reduce power consumption.\u003c/p\u003e
+\u003cp\u003epaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on a device. For example, to use the EPD, set EPD enable (pin 12) to low and then set it to high when finished to reduce power consumption.\u003c/p\u003e
 \u003ch2 id="design-files"\u003eDesign files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_hw"\u003eGitHub →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="dimensions"\u003eDimensions\u003c/h2\u003e
