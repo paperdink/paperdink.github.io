@@ -13,7 +13,7 @@ weight: 110
 toc: true
 ---
 
-## Install Arduino IDE
+## Arduino IDE
 
 Please download the latest compatible version of Arduino IDE from [Arduino's site →](https://www.arduino.cc/en/software)
 
@@ -33,19 +33,19 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 
 
-## Install paperd.ink Library in Arduino IDE
-1. Install the paperd.ink library from the Arduino library manager and searching for `Paperdink`. Install the latest version. The Arduino IDE will automatically install any necessary dependencies.
+## paperd.ink Library
+1. Install the latest version paperd.ink library from the Arduino library manager by searching for `Paperdink`. The Arduino IDE will automatically install any necessary dependencies.
 2. To access the examples provided by the library, go to `File > Examples > Paperdink`.
 3. For more information about the examples and how to configure them, visit the paperd.ink [GitHub page](https://github.com/paperdink/PaperdInk-Library/tree/main/examples)
 
 
-## Install ESP32 Sketch Data Upload
+## ESP32 Sketch Data Upload
 1. Some examples provided by the paperd.ink library require uploading bitmaps to the ESP32 flash storage.
 2. To learn how to do this, visit the following tutorial: [Install ESP32 Filesystem Uploader Arduino IDE](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/). 
 3. This tutorial will guide you through the process of installing the necessary tool and uploading data to the ESP32.
 
 
-## Install CP210x USB to UART Bridge VCP Drivers (Windows only)
+## CP210x USB to UART Bridge VCP Drivers (Windows only)
 
 If your Windows computer is unable to recognize your paperd.ink device, you will need to install the CP210x driver. To do this, follow these steps:
 
