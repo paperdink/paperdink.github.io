@@ -9,10 +9,6 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eFind the \u003ccode\u003eAdditional Board Manager URLs\u003c/code\u003e field to enter the following URL and click \u003ccode\u003eOK\u003c/code\u003e\u003c/p\u003e
 \u003c/li\u003e
 \u003c/ol\u003e
-\u003cdiv class="doks-clipboard"\u003e
-  \u003cbutton class="btn-clipboard btn btn-link" data-clipboard-text="https://dl.espressif.com/dl/package_esp32_index.json"\u003e\u003cspan class="copy-status"\u003e\u003c/span\u003e\u003c/button\u003e
-\u003c/div\u003e
-
 \u003cpre\u003e\u003ccode class="language-bash"\u003ehttps://dl.espressif.com/dl/package_esp32_index.json
 \u003c/code\u003e\u003c/pre\u003e
 \u003col start="3"\u003e
