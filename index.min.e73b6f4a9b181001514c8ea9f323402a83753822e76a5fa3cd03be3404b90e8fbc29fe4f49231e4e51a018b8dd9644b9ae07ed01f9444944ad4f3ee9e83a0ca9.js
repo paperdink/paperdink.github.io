@@ -57,7 +57,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eTrack your cryptocurrency investments to see how much you\u0026rsquo;re in the red ;p\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Crypto_Tracker/Crypto_Tracker.png" width="600" height="400"\u003e
-\u003ch2 id="youtube-stats"\u003eYoutube stats\u003c/h2\u003e
+\u003ch2 id="youtube-stats"\u003eYoutube Stats\u003c/h2\u003e
 \u003cp\u003eShow off your youtube views and subscribers count\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Youtube_Stats/Youtube_Stats.png" width="600" height="400"\u003e

@@ -5,7 +5,7 @@ https://dl.espressif.com/dl/package_esp32_index.json Open the Arduino IDE and go
 Adafruit GFX by Adafruit GxEPD by Jean-Marc Zingg GxEPD2 by Jean-Marc Zingg ArduinoJson by Benoit Blanchon JSON Streaming Parser by Daniel Eichhorn</description></item><item><title>3. Examples</title><link>https://docs.paperd.ink/docs/software/examples/</link><pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate><guid>https://docs.paperd.ink/docs/software/examples/</guid><description>Paperdink Arduino Library Examples To get started with the Paperdink library follow the instructions here→ .
 Crypto Tracker Track your cryptocurrency investments to see how much you&amp;rsquo;re in the red ;p
 https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker
-Youtube stats Show off your youtube views and subscribers count
+Youtube Stats Show off your youtube views and subscribers count
 https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats
 Wave A clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with Taiga.
 https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave
