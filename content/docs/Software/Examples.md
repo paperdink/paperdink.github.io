@@ -24,7 +24,7 @@ Track your cryptocurrency investments to see how much you're in the red ;p
 
 <img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Crypto_Tracker/Crypto_Tracker.png" width="600" height="400">
 
-## Youtube stats
+## Youtube Stats
 Show off your youtube views and subscribers count
 
 **[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats)**
