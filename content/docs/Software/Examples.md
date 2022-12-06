@@ -15,24 +15,24 @@ toc: true
 
 # Paperdink Arduino Library Examples
 
-Follow instructions [here](https://docs.paperd.ink/docs/software/getting-started/#paperdink-library) to get started with the Paperdink library.
+To get started with the Paperdink library follow the instructions [here→](https://docs.paperd.ink/docs/software/getting-started/#paperdink-library) .
 
 ## Crypto Tracker
-Track your cryptocurrency investments.
+Track your cryptocurrency investments to see how much you're in the red ;p
 
 **[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker)**
 
 <img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Crypto_Tracker/Crypto_Tracker.png" width="600" height="400">
 
 ## Youtube stats
-Show off your youtube views and subscribers count.
+Show off your youtube views and subscribers count
 
 **[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats)**
 
 <img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Youtube_Stats/Youtube_Stats.png" width="600" height="400">
 
 ## Wave
-A clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with taiga.
+A clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with Taiga.
 
 **[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave)**
 
