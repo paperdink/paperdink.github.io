@@ -102,6 +102,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e\u003cstrong\u003e4x Tactile Buttons\u003c/strong\u003e for user input and control\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eBattery Charger\u003c/strong\u003e circuit to keep it truly wireless\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eExtension Header\u003c/strong\u003e for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003e1900mAh\u003c/strong\u003e LiPo battery.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="pin-map"\u003ePin Map\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_pinout.png" width="300"\u003e
@@ -168,6 +169,10 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch2 id="interfacing-with-components"\u003eInterfacing with components\u003c/h2\u003e
 \u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.\u003c/p\u003e
 \u003cp\u003eFor example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
+\u003ch2 id="battery-specifications"\u003eBattery specifications\u003c/h2\u003e
+\u003cp\u003epaperd.ink classic and paperd.ink merlot comes with a 3.7V (nominal) 1900 mAh LiPo battery with a 4.2V charging voltage.
+paperd.ink devices have an inbuilt LiPo charger and the battery can be charged by connecting a type-C cable. During charging, the
+red LED lights up and once charging is completed the LED will switch off.\u003c/p\u003e
 \u003ch2 id="design-files"\u003eDesign files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_hw"\u003eGitHub →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="dimensions"\u003eDimensions\u003c/h2\u003e
