@@ -90,7 +90,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 `},{id:3,href:"https://docs.paperd.ink/docs/software/community_contributions/",title:"4. Community Contributions",description:"Projects from the community",content:`\u003cp\u003eWe are excited to see what you build with paperd.ink. Send an email to \u003ccode\u003eprasad@paperd.ink\u003c/code\u003e with a link to your project and we will list it here.\u003c/p\u003e
 `},{id:4,href:"https://docs.paperd.ink/docs/hardware/hardware/",title:"5. Hardware",description:"Hardware details for paperd.ink",content:`\u003ch2 id="block-diagram"\u003eBlock Diagram\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_rev4_labels.png" width="600" height="400"\u003e
-\u003ch3 id="specifications"\u003eSpecifications\u003c/h3\u003e
+\u003ch2 id="specifications"\u003eSpecifications\u003c/h2\u003e
 \u003col\u003e
 \u003cli\u003e\u003cstrong\u003eESP32-WROOM-32\u003c/strong\u003e powerful module\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eFCC/CE Certified\u003c/strong\u003e WiFi \u0026amp; Bluetooth wireless connectivity to unlock the full potential of paperd.ink\u003c/li\u003e
