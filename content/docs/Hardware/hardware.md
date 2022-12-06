@@ -26,8 +26,8 @@ toc: true
 7. **Piezo Buzzer** provides notifications and alerts for a more interactive experience
 8. **4x Tactile Buttons** for user input and control
 9. **Battery Charger** circuit to keep it truly wireless
-10. **Extension Header** for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.
-11. **1900mAh** LiPo battery for keeping it truly wireless.
+10. **Extension Header** for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities
+11. **1900mAh** LiPo battery allows you to keep your e-paper projects running without worrying about running out of power
 
 ## Pin Map
 <img src="/images/paperd.ink_pinout.png" width="300">
