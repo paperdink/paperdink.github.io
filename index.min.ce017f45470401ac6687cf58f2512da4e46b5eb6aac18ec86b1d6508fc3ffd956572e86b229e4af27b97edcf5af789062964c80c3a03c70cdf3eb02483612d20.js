@@ -160,7 +160,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003ePiezo: GPIO26\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch3 id="buttons"\u003eButtons\u003c/h3\u003e
-\u003cp\u003eFrom top to bottom\u003c/p\u003e
+\u003cp\u003eFrom top to bottom:\u003c/p\u003e
 \u003cul\u003e
 \u003cli\u003eButton 1: GPIO14\u003c/li\u003e
 \u003cli\u003eButton 2: GPIO27\u003c/li\u003e
