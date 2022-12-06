@@ -78,7 +78,7 @@ toc: true
 - Piezo: GPIO26
 
 ### Buttons
-From top to bottom
+From top to bottom:
 - Button 1: GPIO14
 - Button 2: GPIO27
 - Button 3: GPIO4
