@@ -84,7 +84,7 @@ From top to bottom
 - Button 3: GPIO4
 - Button 4: GPIO2
 
-## Interfacing Components
+## Components Interfacing 
 Paperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.
 
 For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.
