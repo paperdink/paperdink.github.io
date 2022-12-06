@@ -34,31 +34,30 @@ toc: true
 1. **UART, SPI, and I2C** so you can easily add external sensors and modules to your paperd.ink device, making it highly extendable and customizable. This means you can create even more complex and sophisticated e-paper display projects.
 2. **8 I/O pins** for controlling any output and receiving any input.
 3. **Save power** with paperd.ink. The ESP_EN pin allows you to disable the ESP32 module when you need to, and the LDO_EN pin lets you disable the entire board for virtually no current consumption.
-4. Disable the entire board using LDO_EN pin and have virtually no current consumed by the board.
-5. **High battery life** using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.
-6. A header file with pin definitions is present [here →](https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h).
+4. **High battery life** using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.
+5. **Pin definitions** header file is [here →](https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h).
 
-##### I2C pins
+### I2C pins
 - SDA: GPIO16
 - SCL: GPIO17
 
-##### SPI pins
+### SPI pins
 - SCK: GPIO18
 - MOSI: GPIO23
 - MISO: GPIO19
 
-##### SD card pins
+### SD card pins
 - SD CS: GPIO21
 - SD enable: GPIO5
 
-##### E-paper pins
+### E-paper pins
 - EPD CS: GPIO22
 - EPD DC: GPIO15
 - EPD BUSY: GPIO34
 - EPD RESET: GPIO13
 - EPD Enable: GPIO12
 
-##### PCF8574 pins
+### PCF8574 pins
 - PCF INT: GPIO35
 - SD Chip Detect (low = SD card present): P4
 - EXT GPIO1: P5
@@ -67,16 +66,16 @@ toc: true
 - PCF I2C ADDR (Rev 3): 0x20
 - PCF I2C ADDR (Rev 4): 0x38
 
-##### LiPo
+### LiPo Battery
 - Charging indicator (low = charging): GPIO36
 - Battery Enable: GPIO25
 - Battery Voltage: GPIO39
 - Battery Voltage ADC: ADC1_CHANNEL_3
 
-##### Buzzer
+### Buzzer
 - Piezo: GPIO26
 
-##### Buttons
+### Buttons
 From top to bottom
 - Button 1: GPIO14
 - Button 2: GPIO27
