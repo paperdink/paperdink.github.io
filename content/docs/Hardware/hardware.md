@@ -18,8 +18,8 @@ toc: true
 ### Specifications
 
 1. **ESP32-WROOM-32** powerful module
-2. **FCC/CE Certified** WiFi & Bluetooth and unlock the full potential of paperd.ink
-3. **Tri-color or monochrome** 400x300 px e-paper display.
+2. **FCC/CE Certified** WiFi & Bluetooth wireless connectivity to unlock the full potential of paperd.ink
+3. **Tri-color & monochrome** 400x300 px e-paper displays for 2 variants Merlot and Classic
 4. **<20uA** current consumption in sleep mode means longer battery life and more freedom to create
 5. **CP2104 USB-UART** converter onboard for easy programming and updates 
 6. **MicroSD Card** slot for convenient storage of images, files, and more
@@ -31,11 +31,12 @@ toc: true
 ## Pin Map
 <img src="/images/paperd.ink_pinout.png" width="300">
 
-1. UART, SPI, and I2C so you can add external sensors and modules. This makes the board extendable.
-2. 8 I/O for controlling any output and receiving any input.
-3. Disable ESP32 module using ESP_EN pin to reduce power consumption.
+1. **UART, SPI, and I2C** so you can easily add external sensors and modules to your paperd.ink device, making it highly extendable and customizable. This means you can create even more complex and sophisticated e-paper display projects.
+2. **8 I/O pins** for controlling any output and receiving any input.
+3. **Save power** with paperd.ink. The ESP_EN pin allows you to disable the ESP32 module when you need to, and the LDO_EN pin lets you disable the entire board for virtually no current consumption.
 4. Disable the entire board using LDO_EN pin and have virtually no current consumed by the board.
-5. A header file with pin definitions is present [here](https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h).
+5. **High battery life** using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.
+6. A header file with pin definitions is present [here →](https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h).
 
 ##### I2C pins
 - SDA: GPIO16
@@ -84,6 +85,7 @@ From top to bottom
 
 ## Interfacing with components
 Paperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.
+
 For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.
 
 ## Design files
