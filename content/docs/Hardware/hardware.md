@@ -27,6 +27,7 @@ toc: true
 8. **4x Tactile Buttons** for user input and control
 9. **Battery Charger** circuit to keep it truly wireless
 10. **Extension Header** for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.
+11. **1900mAh** LiPo battery.
 
 ## Pin Map
 <img src="/images/paperd.ink_pinout.png" width="300">
@@ -86,6 +87,11 @@ From top to bottom
 Paperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.
 
 For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.
+
+## Battery specifications
+paperd.ink classic and paperd.ink merlot comes with a 3.7V (nominal) 1900 mAh LiPo battery with a 4.2V charging voltage.
+paperd.ink devices have an inbuilt LiPo charger and the battery can be charged by connecting a type-C cable. During charging, the
+red LED lights up and once charging is completed the LED will switch off.
 
 ## Design files
 [GitHub →](https://github.com/paperdink/paperd.ink_hw)
