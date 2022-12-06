@@ -19,7 +19,7 @@ toc: true
 
 1. **ESP32-WROOM-32** powerful module
 2. **FCC/CE Certified** WiFi & Bluetooth wireless connectivity to unlock the full potential of paperd.ink
-3. **Tri-color & monochrome** 400x300 px e-paper displays for 2 variants Merlot and Classic
+3. **Tri-color & monochrome** 400x300 px e-paper displays for the 2 variants Merlot and Classic
 4. **<20uA** current consumption in sleep mode means longer battery life and more freedom to create
 5. **CP2104 USB-UART** converter onboard for easy programming and updates 
 6. **MicroSD Card** slot for convenient storage of images, files, and more
