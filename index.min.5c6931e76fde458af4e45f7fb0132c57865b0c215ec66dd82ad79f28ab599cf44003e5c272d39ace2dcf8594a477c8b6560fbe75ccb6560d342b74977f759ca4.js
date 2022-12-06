@@ -170,7 +170,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch2 id="components-interfacing"\u003eComponents Interfacing\u003c/h2\u003e
 \u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.\u003c/p\u003e
 \u003cp\u003eFor example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
-\u003ch2 id="battery-specifications"\u003eBattery Specifications\u003c/h2\u003e
+\u003ch2 id="battery-specifications--charging"\u003eBattery Specifications \u0026amp; Charging\u003c/h2\u003e
 \u003cp\u003epaperd.ink Classic and paperd.ink Merlot come equipped with a 3.7V (nominal) 1900 mAh LiPo battery, which offers extended battery life for your e-paper projects.\u003c/p\u003e
 \u003cp\u003epaperd.ink devices have an inbuilt LiPo charger so the battery can be charged using a 4.2V charging voltage. Simply connect a type-C cable to charge the battery, and the red LED will light up to indicate that charging is in progress. Once charging is complete, the LED will switch off.\u003c/p\u003e
 \u003ch2 id="design-files"\u003eDesign Files\u003c/h2\u003e
