@@ -114,23 +114,23 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e\u003cstrong\u003eHigh battery life\u003c/strong\u003e using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003ePin definitions\u003c/strong\u003e header file is \u003ca href="https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
 \u003c/ol\u003e
-\u003ch3 id="i2c-pins"\u003eI2C pins\u003c/h3\u003e
+\u003ch3 id="i2c-pins"\u003eI2C Pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eSDA: GPIO16\u003c/li\u003e
 \u003cli\u003eSCL: GPIO17\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch3 id="spi-pins"\u003eSPI pins\u003c/h3\u003e
+\u003ch3 id="spi-pins"\u003eSPI Pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eSCK: GPIO18\u003c/li\u003e
 \u003cli\u003eMOSI: GPIO23\u003c/li\u003e
 \u003cli\u003eMISO: GPIO19\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch3 id="sd-card-pins"\u003eSD card pins\u003c/h3\u003e
+\u003ch3 id="sd-card-pins"\u003eSD Card Pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eSD CS: GPIO21\u003c/li\u003e
 \u003cli\u003eSD enable: GPIO5\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch3 id="e-paper-pins"\u003eE-paper pins\u003c/h3\u003e
+\u003ch3 id="e-paper-display-pins"\u003eE-paper Display Pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eEPD CS: GPIO22\u003c/li\u003e
 \u003cli\u003eEPD DC: GPIO15\u003c/li\u003e
@@ -138,7 +138,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eEPD RESET: GPIO13\u003c/li\u003e
 \u003cli\u003eEPD Enable: GPIO12\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch3 id="pcf8574-pins"\u003ePCF8574 pins\u003c/h3\u003e
+\u003ch3 id="pcf8574-pins"\u003ePCF8574 Pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003ePCF INT: GPIO35\u003c/li\u003e
 \u003cli\u003eSD Chip Detect (low = SD card present): P4\u003c/li\u003e
@@ -167,13 +167,13 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eButton 3: GPIO4\u003c/li\u003e
 \u003cli\u003eButton 4: GPIO2\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch2 id="interfacing-with-components"\u003eInterfacing with components\u003c/h2\u003e
+\u003ch2 id="interfacing-components"\u003eInterfacing Components\u003c/h2\u003e
 \u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.\u003c/p\u003e
 \u003cp\u003eFor example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
-\u003ch2 id="battery-specifications"\u003eBattery specifications\u003c/h2\u003e
+\u003ch2 id="battery-specifications"\u003eBattery Specifications\u003c/h2\u003e
 \u003cp\u003epaperd.ink Classic and paperd.ink Merlot come equipped with a 3.7V (nominal) 1900 mAh LiPo battery, which offers extended battery life for your e-paper projects.\u003c/p\u003e
 \u003cp\u003epaperd.ink devices have an inbuilt LiPo charger so the battery can be charged using a 4.2V charging voltage. Simply connect a type-C cable to charge the battery, and the red LED will light up to indicate that charging is in progress. Once charging is complete, the LED will switch off.\u003c/p\u003e
-\u003ch2 id="design-files"\u003eDesign files\u003c/h2\u003e
+\u003ch2 id="design-files"\u003eDesign Files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_hw"\u003eGitHub →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="dimensions"\u003eDimensions\u003c/h2\u003e
 \u003col\u003e
