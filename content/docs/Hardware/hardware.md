@@ -15,7 +15,7 @@ toc: true
 ## Block Diagram
 <img src="/images/paperd.ink_rev4_labels.png" width="600" height="400">
 
-### Specifications
+## Specifications
 
 1. **ESP32-WROOM-32** powerful module
 2. **FCC/CE Certified** WiFi & Bluetooth wireless connectivity to unlock the full potential of paperd.ink
