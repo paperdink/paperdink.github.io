@@ -51,20 +51,26 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eArduinoJson by Benoit Blanchon\u003c/li\u003e
 \u003cli\u003eJSON Streaming Parser by Daniel Eichhorn\u003c/li\u003e
 \u003c/ul\u003e
-`},{id:2,href:"https://docs.paperd.ink/docs/software/examples/",title:"3. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch2 id="onboarding"\u003eOnboarding\u003c/h2\u003e
-\u003cp\u003eSet up paperd.ink after assembling it and get a look at all of it\u0026rsquo;s functions. Please note that you will also need to insert a FAT32 formatted mircoSD card in the paperd.ink development board with necessary file uploaded from the Github repo.\u003c/p\u003e
-\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/paperd_ink_test"\u003ehttps://github.com/paperdink/paperd_ink_test\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+`},{id:2,href:"https://docs.paperd.ink/docs/software/examples/",title:"3. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch1 id="paperdink-arduino-library-examples"\u003ePaperdink Arduino Library Examples\u003c/h1\u003e
+\u003cp\u003eFollow instructions \u003ca href="https://docs.paperd.ink/docs/software/getting-started/#paperdink-library"\u003ehere\u003c/a\u003e to get started with the Paperdink library.\u003c/p\u003e
+\u003ch2 id="crypto-tracker"\u003eCrypto Tracker\u003c/h2\u003e
+\u003cp\u003eTrack your cryptocurrency investments.\u003c/p\u003e
+\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+\u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Crypto_Tracker/Crypto_Tracker.png" width="600" height="400"\u003e
+\u003ch2 id="youtube-stats"\u003eYoutube stats\u003c/h2\u003e
+\u003cp\u003eShow off your youtube views and subscribers count.\u003c/p\u003e
+\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+\u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Youtube_Stats/Youtube_Stats.png" width="600" height="400"\u003e
+\u003ch2 id="wave"\u003eWave\u003c/h2\u003e
+\u003cp\u003eA clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with taiga.\u003c/p\u003e
+\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+\u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Wave/Wave.png" width="600" height="400"\u003e
+\u003ch1 id="other-examples"\u003eOther Examples\u003c/h1\u003e
 \u003ch2 id="get-productive"\u003eGet Productive\u003c/h2\u003e
 \u003cp\u003eDisplay time, calendar, to-do list syncs with todoist, and weather.\u003c/p\u003e
 \u003cul\u003e
 \u003cli\u003eAP based config: \u003cstrong\u003e\u003ca href="https://github.com/paperdink/timcal"\u003ehttps://github.com/paperdink/timcal\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e
 \u003cli\u003eConfig file based config: \u003cstrong\u003e\u003ca href="https://github.com/paperdink/timcal2"\u003ehttps://github.com/paperdink/timcal2\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e
-\u003c/ul\u003e
-\u003ch2 id="be-up-to-date"\u003eBe up-to-date\u003c/h2\u003e
-\u003cp\u003eA clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with todoist or taiga.\u003c/p\u003e
-\u003cul\u003e
-\u003cli\u003eTodoist: \u003cstrong\u003e\u003ca href="https://github.com/paperdink/wave"\u003ehttps://github.com/paperdink/wave\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e
-\u003cli\u003eTaiga: \u003cstrong\u003e\u003ca href="https://github.com/paperdink/wave_taiga"\u003ehttps://github.com/paperdink/wave_taiga\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="get-inspired"\u003eGet Inspired\u003c/h2\u003e
 \u003cp\u003eDisplays random quotes from \u003ca href="api.quotable.io"\u003eapi.quotable.io\u003c/a\u003e\u003c/p\u003e
