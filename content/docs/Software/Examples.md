@@ -13,23 +13,38 @@ weight: 130
 toc: true
 ---
 
-## Onboarding
-Set up paperd.ink after assembling it and get a look at all of it's functions. Please note that you will also need to insert a FAT32 formatted mircoSD card in the paperd.ink development board with necessary file uploaded from the Github repo. 
+# Paperdink Arduino Library Examples
 
-**[https://github.com/paperdink/paperd_ink_test](https://github.com/paperdink/paperd_ink_test)**
+Follow instructions [here](https://docs.paperd.ink/docs/software/getting-started/#paperdink-library) to get started with the Paperdink library.
 
+## Crypto Tracker
+Track your cryptocurrency investments.
+
+**[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker)**
+
+<img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Crypto_Tracker/Crypto_Tracker.png" width="600" height="400">
+
+## Youtube stats
+Show off your youtube views and subscribers count.
+
+**[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats)**
+
+<img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Youtube_Stats/Youtube_Stats.png" width="600" height="400">
+
+## Wave
+A clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with taiga.
+
+**[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave)**
+
+<img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Wave/Wave.png" width="600" height="400">
+
+# Other Examples
 
 ## Get Productive
 Display time, calendar, to-do list syncs with todoist, and weather.
 
 - AP based config: **[https://github.com/paperdink/timcal](https://github.com/paperdink/timcal)**
 - Config file based config: **[https://github.com/paperdink/timcal2](https://github.com/paperdink/timcal2)**
-
-## Be up-to-date
-A clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with todoist or taiga.
-
-- Todoist: **[https://github.com/paperdink/wave](https://github.com/paperdink/wave)**
-- Taiga: **[https://github.com/paperdink/wave_taiga](https://github.com/paperdink/wave_taiga)**
 
 ## Get Inspired
 Displays random quotes from [api.quotable.io](api.quotable.io)
@@ -55,3 +70,4 @@ Simple example playing the mario theme song using the buzzer.
 Minimal example showing how to use micropython with paperd.ink. Note that support is currently limited.
 
 **[https://github.com/paperdink/minimal_micropython](https://github.com/paperdink/minimal_micropython)**
+
