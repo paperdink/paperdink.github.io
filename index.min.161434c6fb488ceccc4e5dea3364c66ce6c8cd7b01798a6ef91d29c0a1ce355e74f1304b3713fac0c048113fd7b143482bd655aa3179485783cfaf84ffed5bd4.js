@@ -93,8 +93,8 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch3 id="specifications"\u003eSpecifications\u003c/h3\u003e
 \u003col\u003e
 \u003cli\u003e\u003cstrong\u003eESP32-WROOM-32\u003c/strong\u003e powerful module\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eFCC/CE Certified\u003c/strong\u003e WiFi \u0026amp; Bluetooth and unlock the full potential of paperd.ink\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eTri-color or monochrome\u003c/strong\u003e 400x300 px e-paper display.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eFCC/CE Certified\u003c/strong\u003e WiFi \u0026amp; Bluetooth wireless connectivity to unlock the full potential of paperd.ink\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eTri-color \u0026amp; monochrome\u003c/strong\u003e 400x300 px e-paper displays for 2 variants Merlot and Classic\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003e\u0026lt;20uA\u003c/strong\u003e current consumption in sleep mode means longer battery life and more freedom to create\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eCP2104 USB-UART\u003c/strong\u003e converter onboard for easy programming and updates\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eMicroSD Card\u003c/strong\u003e slot for convenient storage of images, files, and more\u003c/li\u003e
@@ -106,11 +106,12 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch2 id="pin-map"\u003ePin Map\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_pinout.png" width="300"\u003e
 \u003col\u003e
-\u003cli\u003eUART, SPI, and I2C so you can add external sensors and modules. This makes the board extendable.\u003c/li\u003e
-\u003cli\u003e8 I/O for controlling any output and receiving any input.\u003c/li\u003e
-\u003cli\u003eDisable ESP32 module using ESP_EN pin to reduce power consumption.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eUART, SPI, and I2C\u003c/strong\u003e so you can easily add external sensors and modules to your paperd.ink device, making it highly extendable and customizable. This means you can create even more complex and sophisticated e-paper display projects.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003e8 I/O pins\u003c/strong\u003e for controlling any output and receiving any input.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eSave power\u003c/strong\u003e with paperd.ink. The ESP_EN pin allows you to disable the ESP32 module when you need to, and the LDO_EN pin lets you disable the entire board for virtually no current consumption.\u003c/li\u003e
 \u003cli\u003eDisable the entire board using LDO_EN pin and have virtually no current consumed by the board.\u003c/li\u003e
-\u003cli\u003eA header file with pin definitions is present \u003ca href="https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h"\u003ehere\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eHigh battery life\u003c/strong\u003e using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.\u003c/li\u003e
+\u003cli\u003eA header file with pin definitions is present \u003ca href="https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch5 id="i2c-pins"\u003eI2C pins\u003c/h5\u003e
 \u003cul\u003e
@@ -166,8 +167,8 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eButton 4: GPIO2\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="interfacing-with-components"\u003eInterfacing with components\u003c/h2\u003e
-\u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.
-For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
+\u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.\u003c/p\u003e
+\u003cp\u003eFor example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
 \u003ch2 id="design-files"\u003eDesign files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_hw"\u003eGitHub →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="dimensions"\u003eDimensions\u003c/h2\u003e
