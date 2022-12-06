@@ -32,7 +32,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 
 ## paperd.ink Library
-1. Install the latest version paperd.ink library from the Arduino library manager by searching for `Paperdink`. The Arduino IDE will automatically install any necessary dependencies.
+1. Install the latest version of paperd.ink library from the Arduino library manager by searching for `Paperdink`. The Arduino IDE will automatically install any necessary dependencies.
 2. To access the examples provided by the library, go to `File > Examples > Paperdink`.
 3. For more information about the examples and how to configure them, visit the paperd.ink [GitHub page →](https://github.com/paperdink/PaperdInk-Library/tree/main/examples)
 
