@@ -18,7 +18,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003col start="3"\u003e
 \u003cli\u003eOpen the Arduino IDE and go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; Boards Manager\u003c/code\u003e\u003c/li\u003e
 \u003cli\u003eIn the Boards Manager, search for \u003ccode\u003eESP32\u003c/code\u003e and install the \u003ccode\u003eESP32 by Espressif Systems board\u003c/code\u003e.\u003c/li\u003e
-\u003cli\u003eAfter the installation is complete, go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; ESP32 Arduino board\u003c/code\u003e and select the \u003ccode\u003eESP32 Dev Module\u003c/code\u003e board to start working with paperd.ink devices.\u003c/li\u003e
+\u003cli\u003eAfter the installation is complete, go to \u003ccode\u003eTools \u0026gt; Board \u0026gt; ESP32 Arduino board\u003c/code\u003e and select the \u003ccode\u003eESP32 Dev Module\u003c/code\u003e board to start working with your paperd.ink device.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="paperdink-library"\u003epaperd.ink Library\u003c/h2\u003e
 \u003col\u003e
