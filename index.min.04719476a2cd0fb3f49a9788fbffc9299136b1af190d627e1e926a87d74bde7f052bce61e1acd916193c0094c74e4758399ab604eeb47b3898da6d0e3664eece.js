@@ -22,7 +22,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003c/ol\u003e
 \u003ch2 id="paperdink-library"\u003epaperd.ink Library\u003c/h2\u003e
 \u003col\u003e
-\u003cli\u003eInstall the latest version paperd.ink library from the Arduino library manager by searching for \u003ccode\u003ePaperdink\u003c/code\u003e. The Arduino IDE will automatically install any necessary dependencies.\u003c/li\u003e
+\u003cli\u003eInstall the latest version of paperd.ink library from the Arduino library manager by searching for \u003ccode\u003ePaperdink\u003c/code\u003e. The Arduino IDE will automatically install any necessary dependencies.\u003c/li\u003e
 \u003cli\u003eTo access the examples provided by the library, go to \u003ccode\u003eFile \u0026gt; Examples \u0026gt; Paperdink\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eFor more information about the examples and how to configure them, visit the paperd.ink \u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples"\u003eGitHub page →\u003c/a\u003e\u003c/li\u003e
 \u003c/ol\u003e
@@ -84,9 +84,11 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 `},{id:3,href:"https://docs.paperd.ink/docs/software/community_contributions/",title:"4. Community Contributions",description:"Projects from the community",content:`\u003cp\u003eWe are excited to see what you build with paperd.ink. Send an email to \u003ccode\u003eprasad@paperd.ink\u003c/code\u003e with a link to your project and we will list it here.\u003c/p\u003e
 `},{id:4,href:"https://docs.paperd.ink/docs/hardware/hardware/",title:"5. Hardware",description:"Hardware details for paperd.ink",content:`\u003ch2 id="block-diagram"\u003eBlock Diagram\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_rev4_labels.png" width="600" height="400"\u003e
+\u003ch3 id="specifications"\u003eSpecifications\u003c/h3\u003e
 \u003col\u003e
 \u003cli\u003e\u003cstrong\u003eESP32-WROOM-32\u003c/strong\u003e powerful module\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eFCC/CE Certified\u003c/strong\u003e WiFi \u0026amp; Bluetooth and unlock the full potential of paperd.ink\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eTri-color or monochrome\u003c/strong\u003e 400x300 px e-paper display.\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003e\u0026lt;20uA\u003c/strong\u003e current consumption in sleep mode means longer battery life and more freedom to create\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eCP2104 USB-UART\u003c/strong\u003e converter onboard for easy programming and updates\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eMicroSD Card\u003c/strong\u003e slot for convenient storage of images, files, and more\u003c/li\u003e
@@ -102,6 +104,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e8 I/O for controlling any output and receiving any input.\u003c/li\u003e
 \u003cli\u003eDisable ESP32 module using ESP_EN pin to reduce power consumption.\u003c/li\u003e
 \u003cli\u003eDisable the entire board using LDO_EN pin and have virtually no current consumed by the board.\u003c/li\u003e
+\u003cli\u003eA header file with pin definitions is present \u003ca href="https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h"\u003ehere\u003c/a\u003e.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch5 id="i2c-pins"\u003eI2C pins\u003c/h5\u003e
 \u003cul\u003e
@@ -121,9 +124,10 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003c/ul\u003e
 \u003ch5 id="e-paper-pins"\u003eE-paper pins\u003c/h5\u003e
 \u003cul\u003e
+\u003cli\u003eEPD CS: GPIO22\u003c/li\u003e
 \u003cli\u003eEPD DC: GPIO15\u003c/li\u003e
 \u003cli\u003eEPD BUSY: GPIO34\u003c/li\u003e
-\u003cli\u003eEPD RES: GPIO13\u003c/li\u003e
+\u003cli\u003eEPD RESET: GPIO13\u003c/li\u003e
 \u003cli\u003eEPD Enable: GPIO12\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch5 id="pcf8574-pins"\u003ePCF8574 pins\u003c/h5\u003e
@@ -140,8 +144,8 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cul\u003e
 \u003cli\u003eCharging indicator (low = charging): GPIO36\u003c/li\u003e
 \u003cli\u003eBattery Enable: GPIO25\u003c/li\u003e
-\u003cli\u003eBattery Voltage: GPIO34\u003c/li\u003e
-\u003cli\u003eBattery Voltage ADC: ADC1_CHANNEL_6\u003c/li\u003e
+\u003cli\u003eBattery Voltage: GPIO39\u003c/li\u003e
+\u003cli\u003eBattery Voltage ADC: ADC1_CHANNEL_3\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch5 id="buzzer"\u003eBuzzer\u003c/h5\u003e
 \u003cul\u003e
@@ -150,13 +154,14 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch5 id="buttons"\u003eButtons\u003c/h5\u003e
 \u003cp\u003eFrom top to bottom\u003c/p\u003e
 \u003cul\u003e
-\u003cli\u003eButton 1: GPIO2\u003c/li\u003e
-\u003cli\u003eButton 2: GPIO4\u003c/li\u003e
-\u003cli\u003eButton 3: GPIO27\u003c/li\u003e
-\u003cli\u003eButton 4: GPIO14\u003c/li\u003e
+\u003cli\u003eButton 1: GPIO14\u003c/li\u003e
+\u003cli\u003eButton 2: GPIO27\u003c/li\u003e
+\u003cli\u003eButton 3: GPIO4\u003c/li\u003e
+\u003cli\u003eButton 4: GPIO2\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="interfacing-with-components"\u003eInterfacing with components\u003c/h2\u003e
-\u003cp\u003epaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on a device. For example, to use the EPD, set EPD enable (pin 12) to low and then set it to high when finished to reduce power consumption.\u003c/p\u003e
+\u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.
+For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
 \u003ch2 id="design-files"\u003eDesign files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_hw"\u003eGitHub →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="dimensions"\u003eDimensions\u003c/h2\u003e
