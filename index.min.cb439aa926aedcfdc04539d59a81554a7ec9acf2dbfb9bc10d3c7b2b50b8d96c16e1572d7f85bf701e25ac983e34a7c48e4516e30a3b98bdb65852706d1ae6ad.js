@@ -180,7 +180,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eThe PCB is 92.1 x 78.1 mm\u003c/li\u003e
 \u003cli\u003eThe enclosure is 98 x 82 x 16 mm\u003c/li\u003e
 \u003c/ol\u003e
-`},{id:5,href:"https://docs.paperd.ink/docs/hardware/comparison/",title:"6. Classic Vs Merlot",description:"Comparison betweeen Classic and Merlot",content:`\u003ch2 id="classic-vs-merlot"\u003eClassic Vs Merlot\u003c/h2\u003e
+`},{id:5,href:"https://docs.paperd.ink/docs/hardware/comparison/",title:"6. Classic Vs Merlot",description:"Comparison betweeen paperd.ink Classic and Merlot models",content:`\u003ch2 id="classic-vs-merlot"\u003eClassic Vs Merlot\u003c/h2\u003e
 \u003ctable\u003e
 \u003cthead\u003e
 \u003ctr\u003e
