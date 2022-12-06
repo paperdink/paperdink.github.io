@@ -27,7 +27,7 @@ toc: true
 8. **4x Tactile Buttons** for user input and control
 9. **Battery Charger** circuit to keep it truly wireless
 10. **Extension Header** for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.
-11. **1900mAh** LiPo battery.
+11. **1900mAh** LiPo battery for keeping it truly wireless.
 
 ## Pin Map
 <img src="/images/paperd.ink_pinout.png" width="300">
