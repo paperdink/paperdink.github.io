@@ -100,9 +100,9 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e\u003cstrong\u003eMicroSD Card\u003c/strong\u003e slot for convenient storage of images, files, and more\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003ePiezo Buzzer\u003c/strong\u003e provides notifications and alerts for a more interactive experience\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003e4x Tactile Buttons\u003c/strong\u003e for user input and control\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003eBattery Charger\u003c/strong\u003e circuit to keep it truly wireless\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eExtension Header\u003c/strong\u003e for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003e1900mAh\u003c/strong\u003e LiPo battery allows you to keep your e-paper projects running without worrying about running out of power\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003eBattery Charger\u003c/strong\u003e circuit to keep it truly wireless\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="pin-map"\u003ePin Map\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_pinout.png" width="300"\u003e
