@@ -180,8 +180,80 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eThe PCB is 92.1 x 78.1 mm\u003c/li\u003e
 \u003cli\u003eThe enclosure is 98 x 82 x 16 mm\u003c/li\u003e
 \u003c/ol\u003e
-`},{id:5,href:"https://docs.paperd.ink/docs/3d-files/assembly/",title:"6. Assembly",description:"3D models of paperd.ink",content:`\u003ch2 id="how-to-assemble-paperdink"\u003eHow to assemble paperd.ink\u003c/h2\u003e
+`},{id:5,href:"https://docs.paperd.ink/docs/hardware/comparison/",title:"6. Classic Vs Merlot",description:"Comparison betweeen Classic and Merlot",content:`\u003ch2 id="classic-vs-merlot"\u003eClassic Vs Merlot\u003c/h2\u003e
+\u003ctable\u003e
+\u003cthead\u003e
+\u003ctr\u003e
+\u003cth\u003eFeature\u003c/th\u003e
+\u003cth\u003eClassic\u003c/th\u003e
+\u003cth\u003eMerlot\u003c/th\u003e
+\u003c/tr\u003e
+\u003c/thead\u003e
+\u003ctbody\u003e
+\u003ctr\u003e
+\u003ctd\u003eColors\u003c/td\u003e
+\u003ctd\u003e4 level grayscale\u003c/td\u003e
+\u003ctd\u003eBlack, White and Red\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eDisplay resolution\u003c/td\u003e
+\u003ctd\u003e400x300 px\u003c/td\u003e
+\u003ctd\u003e400x300 px\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eScreen size\u003c/td\u003e
+\u003ctd\u003e4.2 inch\u003c/td\u003e
+\u003ctd\u003e4.2 inch\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eFull update time\u003c/td\u003e
+\u003ctd\u003e~ 1 sec\u003c/td\u003e
+\u003ctd\u003e~ 17 sec\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003ePartial update time\u003c/td\u003e
+\u003ctd\u003e~ 0.5 sec (Fast partial update)\u003c/td\u003e
+\u003ctd\u003e~ 17 sec (Slow partial update)\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eI/O expander address\u003c/td\u003e
+\u003ctd\u003e0x38\u003c/td\u003e
+\u003ctd\u003e0x38\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eDeep sleep current  (Timer Wakeup)\u003c/td\u003e
+\u003ctd\u003e16uA\u003c/td\u003e
+\u003ctd\u003e17uA\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eDeep sleep current (Button Wakeup)\u003c/td\u003e
+\u003ctd\u003e1.4mA\u003c/td\u003e
+\u003ctd\u003e1.4mA\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eBattery capacity\u003c/td\u003e
+\u003ctd\u003e1900mAh\u003c/td\u003e
+\u003ctd\u003e1900mAh\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eEnclosure color\u003c/td\u003e
+\u003ctd\u003eBlack + White\u003c/td\u003e
+\u003ctd\u003eWhite + Red\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eSD card tray\u003c/td\u003e
+\u003ctd\u003eYes\u003c/td\u003e
+\u003ctd\u003eYes\u003c/td\u003e
+\u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eType-C Charging/Programming port\u003c/td\u003e
+\u003ctd\u003eYes\u003c/td\u003e
+\u003ctd\u003eYes\u003c/td\u003e
+\u003c/tr\u003e
+\u003c/tbody\u003e
+\u003c/table\u003e
+`},{id:6,href:"https://docs.paperd.ink/docs/hardware/assembly/",title:"7. Assembly",description:"3D models of paperd.ink",content:`\u003ch2 id="how-to-assemble-paperdink"\u003eHow to assemble paperd.ink\u003c/h2\u003e
 \u003cimg src="/images/paperd_ink_merlot_assembly.gif" width="375" height="300"\u003e
 \u003ch2 id="enclosure-files"\u003eEnclosure files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_enclosure"\u003eGithub →\u003c/a\u003e\u003c/p\u003e
-`},{id:6,href:"https://docs.paperd.ink/docs/",title:"Docs",description:"paperd.ink docs",content:""}];e.add(n),userinput.addEventListener("input",s,!0),suggestions.addEventListener("click",o,!0);function s(){var n,i=this.value,s=e.search(i,5),o=suggestions.childNodes,r=0,c=s.length;for(suggestions.classList.remove("d-none"),s.forEach(function(e){n=document.createElement("div"),n.innerHTML="<a href><span></span><span></span></a>",a=n.querySelector("a"),t=n.querySelector("span:first-child"),d=n.querySelector("span:nth-child(2)"),a.href=e.href,t.textContent=e.title,d.textContent=e.description,suggestions.appendChild(n)});o.length>c;)suggestions.removeChild(o[r])}function o(){for(;suggestions.lastChild;)suggestions.removeChild(suggestions.lastChild);return!1}})(),function(){"use strict";var e=function(){$(".owl-carousel1").owlCarousel({loop:!0,center:!0,margin:0,responsiveClass:!0,nav:!1,responsive:{0:{items:1,nav:!1},680:{items:2,nav:!1,loop:!1},1000:{items:3,nav:!0}}})};(function(){e()})(jQuery)}()
+`},{id:7,href:"https://docs.paperd.ink/docs/",title:"Docs",description:"paperd.ink docs",content:""}];e.add(n),userinput.addEventListener("input",s,!0),suggestions.addEventListener("click",o,!0);function s(){var n,i=this.value,s=e.search(i,5),o=suggestions.childNodes,r=0,c=s.length;for(suggestions.classList.remove("d-none"),s.forEach(function(e){n=document.createElement("div"),n.innerHTML="<a href><span></span><span></span></a>",a=n.querySelector("a"),t=n.querySelector("span:first-child"),d=n.querySelector("span:nth-child(2)"),a.href=e.href,t.textContent=e.title,d.textContent=e.description,suggestions.appendChild(n)});o.length>c;)suggestions.removeChild(o[r])}function o(){for(;suggestions.lastChild;)suggestions.removeChild(suggestions.lastChild);return!1}})(),function(){"use strict";var e=function(){$(".owl-carousel1").owlCarousel({loop:!0,center:!0,margin:0,responsiveClass:!0,nav:!1,responsive:{0:{items:1,nav:!1},680:{items:2,nav:!1,loop:!1},1000:{items:3,nav:!0}}})};(function(){e()})(jQuery)}()
