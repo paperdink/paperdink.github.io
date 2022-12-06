@@ -167,7 +167,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eButton 3: GPIO4\u003c/li\u003e
 \u003cli\u003eButton 4: GPIO2\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch2 id="interfacing-components"\u003eInterfacing Components\u003c/h2\u003e
+\u003ch2 id="components-interfacing"\u003eComponents Interfacing\u003c/h2\u003e
 \u003cp\u003ePaperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.\u003c/p\u003e
 \u003cp\u003eFor example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.\u003c/p\u003e
 \u003ch2 id="battery-specifications"\u003eBattery Specifications\u003c/h2\u003e
