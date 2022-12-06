@@ -109,27 +109,26 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e\u003cstrong\u003eUART, SPI, and I2C\u003c/strong\u003e so you can easily add external sensors and modules to your paperd.ink device, making it highly extendable and customizable. This means you can create even more complex and sophisticated e-paper display projects.\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003e8 I/O pins\u003c/strong\u003e for controlling any output and receiving any input.\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eSave power\u003c/strong\u003e with paperd.ink. The ESP_EN pin allows you to disable the ESP32 module when you need to, and the LDO_EN pin lets you disable the entire board for virtually no current consumption.\u003c/li\u003e
-\u003cli\u003eDisable the entire board using LDO_EN pin and have virtually no current consumed by the board.\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eHigh battery life\u003c/strong\u003e using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.\u003c/li\u003e
-\u003cli\u003eA header file with pin definitions is present \u003ca href="https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003ePin definitions\u003c/strong\u003e header file is \u003ca href="https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
 \u003c/ol\u003e
-\u003ch5 id="i2c-pins"\u003eI2C pins\u003c/h5\u003e
+\u003ch3 id="i2c-pins"\u003eI2C pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eSDA: GPIO16\u003c/li\u003e
 \u003cli\u003eSCL: GPIO17\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="spi-pins"\u003eSPI pins\u003c/h5\u003e
+\u003ch3 id="spi-pins"\u003eSPI pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eSCK: GPIO18\u003c/li\u003e
 \u003cli\u003eMOSI: GPIO23\u003c/li\u003e
 \u003cli\u003eMISO: GPIO19\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="sd-card-pins"\u003eSD card pins\u003c/h5\u003e
+\u003ch3 id="sd-card-pins"\u003eSD card pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eSD CS: GPIO21\u003c/li\u003e
 \u003cli\u003eSD enable: GPIO5\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="e-paper-pins"\u003eE-paper pins\u003c/h5\u003e
+\u003ch3 id="e-paper-pins"\u003eE-paper pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eEPD CS: GPIO22\u003c/li\u003e
 \u003cli\u003eEPD DC: GPIO15\u003c/li\u003e
@@ -137,7 +136,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eEPD RESET: GPIO13\u003c/li\u003e
 \u003cli\u003eEPD Enable: GPIO12\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="pcf8574-pins"\u003ePCF8574 pins\u003c/h5\u003e
+\u003ch3 id="pcf8574-pins"\u003ePCF8574 pins\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003ePCF INT: GPIO35\u003c/li\u003e
 \u003cli\u003eSD Chip Detect (low = SD card present): P4\u003c/li\u003e
@@ -147,18 +146,18 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003ePCF I2C ADDR (Rev 3): 0x20\u003c/li\u003e
 \u003cli\u003ePCF I2C ADDR (Rev 4): 0x38\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="lipo"\u003eLiPo\u003c/h5\u003e
+\u003ch3 id="lipo-battery"\u003eLiPo Battery\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003eCharging indicator (low = charging): GPIO36\u003c/li\u003e
 \u003cli\u003eBattery Enable: GPIO25\u003c/li\u003e
 \u003cli\u003eBattery Voltage: GPIO39\u003c/li\u003e
 \u003cli\u003eBattery Voltage ADC: ADC1_CHANNEL_3\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="buzzer"\u003eBuzzer\u003c/h5\u003e
+\u003ch3 id="buzzer"\u003eBuzzer\u003c/h3\u003e
 \u003cul\u003e
 \u003cli\u003ePiezo: GPIO26\u003c/li\u003e
 \u003c/ul\u003e
-\u003ch5 id="buttons"\u003eButtons\u003c/h5\u003e
+\u003ch3 id="buttons"\u003eButtons\u003c/h3\u003e
 \u003cp\u003eFrom top to bottom\u003c/p\u003e
 \u003cul\u003e
 \u003cli\u003eButton 1: GPIO14\u003c/li\u003e
