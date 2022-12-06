@@ -90,9 +90,11 @@ Paperd.ink is designed to be power efficient. Thus, the electronic paper display
 For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.
 
 ## Battery specifications
-paperd.ink classic and paperd.ink merlot comes with a 3.7V (nominal) 1900 mAh LiPo battery with a 4.2V charging voltage.
-paperd.ink devices have an inbuilt LiPo charger and the battery can be charged by connecting a type-C cable. During charging, the
-red LED lights up and once charging is completed the LED will switch off.
+paperd.ink Classic and paperd.ink Merlot come equipped with a 3.7V (nominal) 1900 mAh LiPo battery, which offers extended battery life for your e-paper projects. 
+
+paperd.ink devices have an inbuilt LiPo charger so the battery can be charged using a 4.2V charging voltage. Simply connect a type-C cable to charge the battery, and the red LED will light up to indicate that charging is in progress. Once charging is complete, the LED will switch off.
+
+
 
 ## Design files
 [GitHub →](https://github.com/paperdink/paperd.ink_hw)
