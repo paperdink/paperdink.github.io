@@ -14,8 +14,9 @@ toc: true
 ---
 
 ## Classic Vs Merlot
+
 | Feature                            | Classic                         | Merlot                         |
----------------------------------------------------------------------------------------------------------
+| ---------------------------------- | ------------------------------- | ------------------------------ |
 | Colors                             | 4 level grayscale               | Black, White and Red           |
 | Display resolution                 | 400x300 px                      | 400x300 px                     |
 | Screen size                        | 4.2 inch                        | 4.2 inch                       |
