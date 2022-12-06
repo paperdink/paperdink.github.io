@@ -31,6 +31,7 @@ toc: true
 
 ## Pin Map
 <img src="/images/paperd.ink_pinout.png" width="300">
+<p>&nbsp;</p>
 
 1. **UART, SPI, and I2C** so you can easily add external sensors and modules to your paperd.ink device, making it highly extendable and customizable. This means you can create even more complex and sophisticated e-paper display projects.
 2. **8 I/O pins** for controlling any output and receiving any input.
