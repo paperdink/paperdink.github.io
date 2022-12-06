@@ -13,7 +13,7 @@ weight: 310
 toc: true
 ---
 ## How to assemble paperd.ink
-<img src="/images/paperd.ink_Assembly.gif" width="375" height="300">
+<img src="/images/paperd_ink_merlot_assembly.gif" width="375" height="300">
 
 ## Enclosure files
 [Github →](https://github.com/paperdink/paperd.ink_enclosure)
