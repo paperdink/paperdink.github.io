@@ -28,7 +28,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 ```
 3. Open the Arduino IDE and go to `Tools > Board > Boards Manager` 
 4. In the Boards Manager, search for `ESP32` and install the `ESP32 by Espressif Systems board`.
-5. After the installation is complete, go to `Tools > Board > ESP32 Arduino board` and select the `ESP32 Dev Module` board to start working with paperd.ink devices.
+5. After the installation is complete, go to `Tools > Board > ESP32 Arduino board` and select the `ESP32 Dev Module` board to start working with your paperd.ink device.
 
 
 ## paperd.ink Library
