@@ -106,6 +106,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003c/ol\u003e
 \u003ch2 id="pin-map"\u003ePin Map\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_pinout.png" width="300"\u003e
+\u003cp\u003e\u0026nbsp;\u003c/p\u003e
 \u003col\u003e
 \u003cli\u003e\u003cstrong\u003eUART, SPI, and I2C\u003c/strong\u003e so you can easily add external sensors and modules to your paperd.ink device, making it highly extendable and customizable. This means you can create even more complex and sophisticated e-paper display projects.\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003e8 I/O pins\u003c/strong\u003e for controlling any output and receiving any input.\u003c/li\u003e
