@@ -39,27 +39,27 @@ toc: true
 4. **High battery life** using the LDO_EN pin which lets you disable the entire board, reducing power consumption to virtually zero and allowing you to conserve battery life for your e-paper projects.
 5. **Pin definitions** header file is [here →](https://github.com/paperdink/PaperdInk-Library/blob/main/src/pin_assignment.h).
 
-### I2C pins
+### I2C Pins
 - SDA: GPIO16
 - SCL: GPIO17
 
-### SPI pins
+### SPI Pins
 - SCK: GPIO18
 - MOSI: GPIO23
 - MISO: GPIO19
 
-### SD card pins
+### SD Card Pins
 - SD CS: GPIO21
 - SD enable: GPIO5
 
-### E-paper pins
+### E-paper Display Pins
 - EPD CS: GPIO22
 - EPD DC: GPIO15
 - EPD BUSY: GPIO34
 - EPD RESET: GPIO13
 - EPD Enable: GPIO12
 
-### PCF8574 pins
+### PCF8574 Pins
 - PCF INT: GPIO35
 - SD Chip Detect (low = SD card present): P4
 - EXT GPIO1: P5
@@ -84,19 +84,19 @@ From top to bottom
 - Button 3: GPIO4
 - Button 4: GPIO2
 
-## Interfacing with components
+## Interfacing Components
 Paperd.ink is designed to be power efficient. Thus, the electronic paper display (EPD), SD card, and battery sense circuits are powered by a MOSFET that can be turned off when not in use. All enable pins are active low, meaning they must be set to low to turn on the circuitry.
 
 For example, to use the EPD, set EPD enable pin (GPIO 12) to low to provide power to the EPD and perform necessary display functions. Once display is updated set the EPD enable pin (GPIO 12) to high to reduce power consumption.
 
-## Battery specifications
+## Battery Specifications
 paperd.ink Classic and paperd.ink Merlot come equipped with a 3.7V (nominal) 1900 mAh LiPo battery, which offers extended battery life for your e-paper projects. 
 
 paperd.ink devices have an inbuilt LiPo charger so the battery can be charged using a 4.2V charging voltage. Simply connect a type-C cable to charge the battery, and the red LED will light up to indicate that charging is in progress. Once charging is complete, the LED will switch off.
 
 
 
-## Design files
+## Design Files
 [GitHub →](https://github.com/paperdink/paperd.ink_hw)
 
 ## Dimensions
