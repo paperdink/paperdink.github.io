@@ -102,7 +102,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e\u003cstrong\u003e4x Tactile Buttons\u003c/strong\u003e for user input and control\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eBattery Charger\u003c/strong\u003e circuit to keep it truly wireless\u003c/li\u003e
 \u003cli\u003e\u003cstrong\u003eExtension Header\u003c/strong\u003e for easy interfacing and expansion of capabilities, enabling limitless creativity and hacking possibilities.\u003c/li\u003e
-\u003cli\u003e\u003cstrong\u003e1900mAh\u003c/strong\u003e LiPo battery.\u003c/li\u003e
+\u003cli\u003e\u003cstrong\u003e1900mAh\u003c/strong\u003e LiPo battery for keeping it truly wireless.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="pin-map"\u003ePin Map\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_pinout.png" width="300"\u003e
