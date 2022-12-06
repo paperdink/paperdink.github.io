@@ -10,12 +10,6 @@
   identifier = "hardware"
   url = "/docs/hardware/"
 
-  [[docs]]
-    name = "3D Files"
-    weight = 30
-    identifier = "3d files"
-    url = "/docs/3d_files/"
-
 [[main]]
  name = "Docs"
  url = "/docs/"

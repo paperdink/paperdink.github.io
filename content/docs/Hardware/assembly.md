@@ -1,5 +1,5 @@
 ---
-title: "6. Assembly"
+title: "7. Assembly"
 description: "3D models of paperd.ink"
 lead: "3D models of paperd.ink"
 date: 2022-04-04T22:20:38+05:30
@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "3d files"
+    parent: "hardware"
 weight: 310
 toc: true
 ---
