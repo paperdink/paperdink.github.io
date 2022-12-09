@@ -51,40 +51,39 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eArduinoJson by Benoit Blanchon\u003c/li\u003e
 \u003cli\u003eJSON Streaming Parser by Daniel Eichhorn\u003c/li\u003e
 \u003c/ul\u003e
-`},{id:2,href:"https://docs.paperd.ink/docs/software/examples/",title:"3. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch1 id="paperdink-arduino-library-examples"\u003ePaperdink Arduino Library Examples\u003c/h1\u003e
+`},{id:2,href:"https://docs.paperd.ink/docs/software/examples/",title:"3. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch2 id="paperdink-arduino-library-examples"\u003ePaperdink Arduino Library Examples\u003c/h2\u003e
 \u003cp\u003eTo get started with the Paperdink library follow the instructions \u003ca href="https://docs.paperd.ink/docs/software/getting-started/#paperdink-library"\u003ehere→\u003c/a\u003e .\u003c/p\u003e
-\u003ch2 id="crypto-tracker"\u003eCrypto Tracker\u003c/h2\u003e
+\u003ch3 id="crypto-tracker"\u003eCrypto Tracker\u003c/h3\u003e
 \u003cp\u003eTrack your cryptocurrency investments to see how much you\u0026rsquo;re in the red ;p\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Crypto_Tracker\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Crypto_Tracker/Crypto_Tracker.png" width="600" height="400"\u003e
-\u003ch2 id="youtube-stats"\u003eYoutube Stats\u003c/h2\u003e
+\u003ch3 id="youtube-stats"\u003eYoutube Stats\u003c/h3\u003e
 \u003cp\u003eShow off your youtube views and subscribers count\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Youtube_Stats\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Youtube_Stats/Youtube_Stats.png" width="600" height="400"\u003e
-\u003ch2 id="wave"\u003eWave\u003c/h2\u003e
-\u003cp\u003eA clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with Taiga.\u003c/p\u003e
+\u003ch3 id="wave"\u003eWave\u003c/h3\u003e
+\u003cp\u003eA clean dashboard with weather, date and day, up to 11 to-do items. Syncs to-do list with Todoist or Taiga.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Wave\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Wave/Wave.png" width="600" height="400"\u003e
-\u003ch1 id="other-examples"\u003eOther Examples\u003c/h1\u003e
-\u003ch2 id="get-productive"\u003eGet Productive\u003c/h2\u003e
-\u003cp\u003eDisplay time, calendar, to-do list syncs with todoist, and weather.\u003c/p\u003e
-\u003cul\u003e
-\u003cli\u003eAP based config: \u003cstrong\u003e\u003ca href="https://github.com/paperdink/timcal"\u003ehttps://github.com/paperdink/timcal\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e
-\u003cli\u003eConfig file based config: \u003cstrong\u003e\u003ca href="https://github.com/paperdink/timcal2"\u003ehttps://github.com/paperdink/timcal2\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e
-\u003c/ul\u003e
-\u003ch2 id="get-inspired"\u003eGet Inspired\u003c/h2\u003e
-\u003cp\u003eDisplays random quotes from \u003ca href="api.quotable.io"\u003eapi.quotable.io\u003c/a\u003e\u003c/p\u003e
-\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/quotes"\u003ehttps://github.com/paperdink/quotes\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
-\u003ch2 id="minimal"\u003eMinimal\u003c/h2\u003e
+\u003ch3 id="calther"\u003eCalther\u003c/h3\u003e
+\u003cp\u003eDisplay calendar, date, weather and to-do list synced with Todoist or Taiga.\u003c/p\u003e
+\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Calther"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Calther\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+\u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Calther/Calther.png" width="600" height="400"\u003e
+\u003ch3 id="quotes"\u003eQuotes\u003c/h3\u003e
+\u003cp\u003eGet inspired and reading random quotes from \u003ca href="api.quotable.io"\u003eapi.quotable.io\u003c/a\u003e\u003c/p\u003e
+\u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Quotes"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Quotes\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
+\u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Quotes/Quotes.png" width="600" height="400"\u003e
+\u003ch2 id="other-examples"\u003eOther Examples\u003c/h2\u003e
+\u003ch3 id="minimal"\u003eMinimal\u003c/h3\u003e
 \u003cp\u003eMinimal example showing how to use GxEPD library with paperd.ink, you should see Albert Einstein.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/minimal_GxEPD"\u003ehttps://github.com/paperdink/minimal_GxEPD\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
-\u003ch2 id="hello-world"\u003eHello World\u003c/h2\u003e
+\u003ch3 id="hello-world"\u003eHello World\u003c/h3\u003e
 \u003cp\u003eMinimal example using GxEPD2 library with paperd.ink, you should see \u0026ldquo;hello world\u0026rdquo; and some images with partial update demo.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/minimal_GxEPD2"\u003ehttps://github.com/paperdink/minimal_GxEPD2\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
-\u003ch2 id="simple-buzzer"\u003eSimple Buzzer\u003c/h2\u003e
+\u003ch3 id="simple-buzzer"\u003eSimple Buzzer\u003c/h3\u003e
 \u003cp\u003eSimple example playing the mario theme song using the buzzer.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/simple_buzzer"\u003ehttps://github.com/paperdink/simple_buzzer\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
-\u003ch2 id="minimal-micropython"\u003eMinimal Micropython\u003c/h2\u003e
+\u003ch3 id="minimal-micropython"\u003eMinimal Micropython\u003c/h3\u003e
 \u003cp\u003eMinimal example showing how to use micropython with paperd.ink. Note that support is currently limited.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/minimal_micropython"\u003ehttps://github.com/paperdink/minimal_micropython\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 `},{id:3,href:"https://docs.paperd.ink/docs/software/community_contributions/",title:"4. Community Contributions",description:"Projects from the community",content:`\u003cp\u003eWe are excited to see what you build with paperd.ink. Send an email to \u003ccode\u003eprasad@paperd.ink\u003c/code\u003e with a link to your project and we will list it here.\u003c/p\u003e
