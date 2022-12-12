@@ -29,5 +29,5 @@ toc: true
 | Enclosure color                    | Black + White                   | White + Red                    |
 | SD card tray                       | Yes                             | Yes                            |
 | Type-C Charging/Programming port   | Yes                             | Yes                            |
-
+| Ideal Use Cases                    | Clock, To-Dos, Tracking, etc.      | Art display, Quotes generator, etc. |
 
