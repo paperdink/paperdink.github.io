@@ -249,6 +249,11 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ctd\u003eYes\u003c/td\u003e
 \u003ctd\u003eYes\u003c/td\u003e
 \u003c/tr\u003e
+\u003ctr\u003e
+\u003ctd\u003eIdeal Use Cases\u003c/td\u003e
+\u003ctd\u003eClock, To-Dos, Tracking, etc.\u003c/td\u003e
+\u003ctd\u003eArt display, Quotes generator, etc.\u003c/td\u003e
+\u003c/tr\u003e
 \u003c/tbody\u003e
 \u003c/table\u003e
 `},{id:6,href:"https://docs.paperd.ink/docs/hardware/assembly/",title:"7. Assembly",description:"3D models of paperd.ink",content:`\u003ch2 id="how-to-assemble-paperdink"\u003eHow to assemble paperd.ink\u003c/h2\u003e
