@@ -15,7 +15,8 @@ toc: true
 
 ## Arduino IDE
 
-Please download the latest compatible version of Arduino IDE from [Arduino's site →](https://www.arduino.cc/en/software)
+Please download the latest compatible version of Arduino IDE from [Arduino's site →](https://www.arduino.cc/en/software). 
+Note that in order to use bitmaps you need to install version 1.x of the Arduino IDE, the File System uploader is incompatible with version 2.x.
 
 ## ESP32 Board
 1. In the Arduino IDE, go to `File > Preferences`
@@ -43,10 +44,10 @@ https://dl.espressif.com/dl/package_esp32_index.json
 3. This tutorial will guide you through the process of installing the necessary tool and uploading data to the ESP32.
 
 
-## CP210x USB to UART Bridge VCP Drivers (Windows only)
+## CP210x USB to UART Bridge VCP Drivers (Windows/Mac)
 
-If your Windows computer is unable to recognize your paperd.ink device, you will need to install the CP210x driver. To do this, follow these steps:
+If your computer is unable to recognize your paperd.ink device, you will need to install the CP210x driver. To do this, follow these steps:
 
 1. Visit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu [here →](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 2. Follow the instructions provided by the setup to install the driver on your computer.
-3. Once the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device.
+3. Once the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device. A restart might be required.
