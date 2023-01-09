@@ -1,6 +1,7 @@
 var suggestions=document.getElementById("suggestions"),userinput=document.getElementById("userinput");document.addEventListener("keydown",inputFocus);function inputFocus(e){e.keyCode===191&&(e.preventDefault(),userinput.focus()),e.keyCode===27&&(userinput.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.querySelectorAll("a"),o=[...s],t=o.indexOf(document.activeElement);let n=0;e.keyCode===38?(e.preventDefault(),n=t>0?t-1:0,s[n].focus()):e.keyCode===40&&(e.preventDefault(),n=t+1<o.length?t+1:t,s[n].focus())}(function(){var e=new FlexSearch({preset:"score",cache:!0,doc:{id:"id",field:["title","description","content"],store:["href","title","description"]}}),n=[{id:0,href:"https://docs.paperd.ink/docs/software/getting-started/",title:"1. Getting Started",description:"Installing paperd.ink library \u0026 dependencies in Arduino IDE",content:`\u003ch2 id="arduino-ide"\u003eArduino IDE\u003c/h2\u003e
-\u003cp\u003ePlease download the latest compatible version of Arduino IDE from \u003ca href="https://www.arduino.cc/en/software"\u003eArduino\u0026rsquo;s site →\u003c/a\u003e.
-Note that in order to use bitmaps you need to install version 1.x of the Arduino IDE, the File System uploader is incompatible with version 2.x.\u003c/p\u003e
+\u003cp\u003ePlease download the latest compatible version of Arduino IDE from \u003ca href="https://www.arduino.cc/en/software"\u003eArduino\u0026rsquo;s site →\u003c/a\u003e.\u003c/p\u003e
+\u003cpre\u003e\u003ccode\u003e⚠ To use bitmaps please install Arduino IDE version 1.x, the File System uploader is incompatible with version 2.x.
+\u003c/code\u003e\u003c/pre\u003e
 \u003ch2 id="esp32-board"\u003eESP32 Board\u003c/h2\u003e
 \u003col\u003e
 \u003cli\u003e
