@@ -16,7 +16,10 @@ toc: true
 ## Arduino IDE
 
 Please download the latest compatible version of Arduino IDE from [Arduino's site →](https://www.arduino.cc/en/software). 
-Note that in order to use bitmaps you need to install version 1.x of the Arduino IDE, the File System uploader is incompatible with version 2.x.
+
+```
+⚠ To use bitmaps please install Arduino IDE version 1.x, the File System uploader is incompatible with version 2.x.
+```
 
 ## ESP32 Board
 1. In the Arduino IDE, go to `File > Preferences`
