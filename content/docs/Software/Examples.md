@@ -46,7 +46,7 @@ Display calendar, date, weather and to-do list synced with Todoist or Taiga.
 <img src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Calther/Calther.png" width="600" height="400">
 
 ### Quotes
-Get inspired and reading random quotes from [api.quotable.io](api.quotable.io)
+Get inspired and reading random quotes from [api.quotable.io](https://github.com/lukePeavey/quotable)
 
 **[https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Quotes](https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Quotes)**
 
