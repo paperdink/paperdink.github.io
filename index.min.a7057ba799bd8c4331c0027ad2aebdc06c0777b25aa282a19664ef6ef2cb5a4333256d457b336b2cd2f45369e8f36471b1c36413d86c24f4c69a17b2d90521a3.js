@@ -72,7 +72,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Calther"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Calther\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Calther/Calther.png" width="600" height="400"\u003e
 \u003ch3 id="quotes"\u003eQuotes\u003c/h3\u003e
-\u003cp\u003eGet inspired and reading random quotes from \u003ca href="api.quotable.io"\u003eapi.quotable.io\u003c/a\u003e\u003c/p\u003e
+\u003cp\u003eGet inspired and reading random quotes from \u003ca href="https://github.com/lukePeavey/quotable"\u003eapi.quotable.io\u003c/a\u003e\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/PaperdInk-Library/tree/main/examples/Quotes"\u003ehttps://github.com/paperdink/PaperdInk-Library/tree/main/examples/Quotes\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
 \u003cimg src="https://github.com/paperdink/PaperdInk-Library/raw/main/examples/Quotes/Quotes.png" width="600" height="400"\u003e
 \u003ch2 id="other-examples"\u003eOther Examples\u003c/h2\u003e
