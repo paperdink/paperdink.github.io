@@ -41,6 +41,47 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eFollow the instructions provided by the setup to install the driver on your computer.\u003c/li\u003e
 \u003cli\u003eOnce the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device. A restart might be required.\u003c/li\u003e
 \u003c/ol\u003e
+\u003ch2 id="hello-world"\u003eHello World\u003c/h2\u003e
+\u003cp\u003eCreate two file: \u003ccode\u003ehello_world.ino\u003c/code\u003e and \u003ccode\u003econfig.h\u003c/code\u003e.\u003c/p\u003e
+\u003cp\u003eThe file named \u003ccode\u003econfig.h\u003c/code\u003e merely sets the type of display you have:\u003c/p\u003e
+\u003cpre\u003e\u003ccode class="language-c"\u003e#define PAPERDINK_DEVICE Paperdink_Classic
+// #define PAPERDINK_DEVICE Paperdink_Merlot
+\u003c/code\u003e\u003c/pre\u003e
+\u003cp\u003eThe file \u003ccode\u003ehello_world.ino\u003c/code\u003e looks like this:\u003c/p\u003e
+\u003cpre\u003e\u003ccode class="language-c"\u003e#include \u0026quot;config.h\u0026quot;
+#include \u0026lt;Paperdink.h\u0026gt;
+
+PAPERDINK_DEVICE Paperdink;
+void setup() {
+  /* Initialize paperd.ink device */
+  Paperdink.begin();
+
+  /* Enable power to the display */
+  Paperdink.enable_display();
+
+  /* Clear the background */
+	Paperdink.epd.fillScreen(GxEPD_WHITE);
+
+  /* By default the text is white and thus invisible, make it black */
+  Paperdink.epd.setTextColor(GxEPD_BLACK);
+
+  /* Start writing in the top left corner */
+  Paperdink.epd.setCursor(0, 0);
+
+  Paperdink.epd.print(\u0026quot;Hello World!\u0026quot;);
+
+  /* Flush the buffer to the screen */
+  Paperdink.epd.display();
+
+  /*
+    For more functions available on the \`epd\` member see:
+    https://learn.adafruit.com/adafruit-gfx-graphics-library?view=all
+  */
+}
+
+void loop() {}
+
+\u003c/code\u003e\u003c/pre\u003e
 `},{id:1,href:"https://docs.paperd.ink/docs/software/libraries/",title:"2. Libraries Used",description:"Installing libraries in Arduino IDE",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e💡\u003c/div\u003e
   \u003cdiv class="w-100"\u003eYou can go to Tools \u003e Manage Libraries in the Arduino IDE to search and install the latest versions of following libraries.\u003c/div\u003e
