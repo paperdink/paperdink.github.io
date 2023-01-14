@@ -54,3 +54,52 @@ If your computer is unable to recognize your paperd.ink device, you will need to
 1. Visit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu [here →](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 2. Follow the instructions provided by the setup to install the driver on your computer.
 3. Once the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device. A restart might be required.
+
+## Hello World
+
+Create two file: `hello_world.ino` and `config.h`.
+
+The file named `config.h` merely sets the type of display you have:
+
+```c
+#define PAPERDINK_DEVICE Paperdink_Classic
+// #define PAPERDINK_DEVICE Paperdink_Merlot
+```
+
+The file `hello_world.ino` looks like this:
+
+```c
+#include "config.h"
+#include <Paperdink.h>
+
+PAPERDINK_DEVICE Paperdink;
+void setup() {
+  /* Initialize paperd.ink device */
+  Paperdink.begin();
+
+  /* Enable power to the display */
+  Paperdink.enable_display();
+
+  /* Clear the background */
+	Paperdink.epd.fillScreen(GxEPD_WHITE);
+
+  /* By default the text is white and thus invisible, make it black */
+  Paperdink.epd.setTextColor(GxEPD_BLACK);
+
+  /* Start writing in the top left corner */
+  Paperdink.epd.setCursor(0, 0);
+
+  Paperdink.epd.print("Hello World!");
+
+  /* Flush the buffer to the screen */
+  Paperdink.epd.display();
+
+  /*
+    For more functions available on the `epd` member see:
+    https://learn.adafruit.com/adafruit-gfx-graphics-library?view=all
+  */
+}
+
+void loop() {}
+
+```
