@@ -42,7 +42,8 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003eOnce the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device. A restart might be required.\u003c/li\u003e
 \u003c/ol\u003e
 \u003ch2 id="hello-world"\u003eHello World\u003c/h2\u003e
-\u003cp\u003eCreate two file: \u003ccode\u003ehello_world.ino\u003c/code\u003e and \u003ccode\u003econfig.h\u003c/code\u003e.\u003c/p\u003e
+\u003cp\u003eCreate two files \u003ccode\u003ehello_world.ino\u003c/code\u003e and \u003ccode\u003econfig.h\u003c/code\u003e in a folder called \u003ccode\u003ehello_world\u003c/code\u003e.
+The name of the folder and ino file should be the same.\u003c/p\u003e
 \u003cp\u003eThe file named \u003ccode\u003econfig.h\u003c/code\u003e merely sets the type of display you have:\u003c/p\u003e
 \u003cpre\u003e\u003ccode class="language-c"\u003e#define PAPERDINK_DEVICE Paperdink_Classic
 // #define PAPERDINK_DEVICE Paperdink_Merlot
