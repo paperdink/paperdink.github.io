@@ -57,7 +57,8 @@ If your computer is unable to recognize your paperd.ink device, you will need to
 
 ## Hello World
 
-Create two file: `hello_world.ino` and `config.h`.
+Create two files `hello_world.ino` and `config.h` in a folder called `hello_world`.
+The name of the folder and ino file should be the same.
 
 The file named `config.h` merely sets the type of display you have:
 
