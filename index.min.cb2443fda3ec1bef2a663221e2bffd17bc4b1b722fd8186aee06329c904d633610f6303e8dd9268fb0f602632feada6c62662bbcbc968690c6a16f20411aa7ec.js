@@ -295,7 +295,7 @@ void loop() {}
 \u003c/tr\u003e
 \u003ctr\u003e
 \u003ctd\u003eIdeal Use Cases\u003c/td\u003e
-\u003ctd\u003eClock, To-Dos, Tracking, etc.\u003c/td\u003e
+\u003ctd\u003eCalendar, To-Dos, Tracking, etc.\u003c/td\u003e
 \u003ctd\u003eArt display, Quotes generator, etc.\u003c/td\u003e
 \u003c/tr\u003e
 \u003c/tbody\u003e
