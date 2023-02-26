@@ -30,6 +30,8 @@ Note that you need to install the HA Supervisor in order to install the ESPHome 
 More instructions available [here →](https://www.home-assistant.io/integrations/esphome/)
 
 ## Installing ESPHome on Paperd.Ink
+{{< alert icon="⚠️" text="Only google chrome seems to be supported for the following steps at the moment." >}}
+
 - Connect Paperd.Ink to your computer via a USB cable.
 - Go to [ESPHome Dasboard →](https://web.esphome.io/?dashboard_wizard).
 - Click on `Connect` and select your Paperd.Ink device from the dropdown.
