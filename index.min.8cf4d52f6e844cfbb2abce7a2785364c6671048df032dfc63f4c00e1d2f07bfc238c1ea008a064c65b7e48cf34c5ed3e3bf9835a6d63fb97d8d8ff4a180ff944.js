@@ -1,4 +1,4 @@
-var suggestions=document.getElementById("suggestions"),userinput=document.getElementById("userinput");document.addEventListener("keydown",inputFocus);function inputFocus(e){e.keyCode===191&&(e.preventDefault(),userinput.focus()),e.keyCode===27&&(userinput.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.querySelectorAll("a"),o=[...s],t=o.indexOf(document.activeElement);let n=0;e.keyCode===38?(e.preventDefault(),n=t>0?t-1:0,s[n].focus()):e.keyCode===40&&(e.preventDefault(),n=t+1<o.length?t+1:t,s[n].focus())}(function(){var e=new FlexSearch({preset:"score",cache:!0,doc:{id:"id",field:["title","description","content"],store:["href","title","description"]}}),n=[{id:0,href:"https://docs.paperd.ink/docs/software/getting-started/",title:"1. Getting Started",description:"Installing paperd.ink library \u0026 dependencies in Arduino IDE",content:`\u003ch2 id="arduino-ide"\u003eArduino IDE\u003c/h2\u003e
+var suggestions=document.getElementById("suggestions"),userinput=document.getElementById("userinput");document.addEventListener("keydown",inputFocus);function inputFocus(e){e.keyCode===191&&(e.preventDefault(),userinput.focus()),e.keyCode===27&&(userinput.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.querySelectorAll("a"),o=[...s],t=o.indexOf(document.activeElement);let n=0;e.keyCode===38?(e.preventDefault(),n=t>0?t-1:0,s[n].focus()):e.keyCode===40&&(e.preventDefault(),n=t+1<o.length?t+1:t,s[n].focus())}(function(){var e=new FlexSearch({preset:"score",cache:!0,doc:{id:"id",field:["title","description","content"],store:["href","title","description"]}}),n=[{id:0,href:"https://docs.paperd.ink/docs/software/getting_started/",title:"1. Getting Started",description:"Installing paperd.ink library \u0026 dependencies in Arduino IDE",content:`\u003ch2 id="arduino-ide"\u003eArduino IDE\u003c/h2\u003e
 \u003cp\u003ePlease download the Arduino IDE version 1.x from \u003ca href="https://www.arduino.cc/en/software"\u003eArduino\u0026rsquo;s site →\u003c/a\u003e.\u003c/p\u003e
 \u003cpre\u003e\u003ccode\u003e⚠ To use bitmaps please install Arduino IDE version 1.x, the File System uploader is incompatible with version 2.x.
 \u003c/code\u003e\u003c/pre\u003e
@@ -95,7 +95,84 @@ void loop() {}
 \u003cli\u003eArduinoJson by Benoit Blanchon\u003c/li\u003e
 \u003cli\u003eJSON Streaming Parser by Daniel Eichhorn\u003c/li\u003e
 \u003c/ul\u003e
-`},{id:2,href:"https://docs.paperd.ink/docs/software/examples/",title:"3. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch2 id="paperdink-arduino-library-examples"\u003ePaperdink Arduino Library Examples\u003c/h2\u003e
+`},{id:2,href:"https://docs.paperd.ink/docs/software/home_assistant/",title:"3. Home Assistant",description:"Installing Home Assistant",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
+  \u003cdiv class="flex-shrink-1 alert-icon"\u003e⚠️\u003c/div\u003e
+  \u003cdiv class="w-100"\u003eHome Assistant is currently only supported on Paperd.Ink Classic.\u003c/div\u003e
+\u003c/div\u003e
+\u003ch2 id="setting-up-home-assistant"\u003eSetting up Home Assistant\u003c/h2\u003e
+\u003cp\u003eSetting up Home Assistant can differ for each person. Please follow the excellent instructions provided by the HA team \u003ca href="https://www.home-assistant.io/installation/"\u003ehere →\u003c/a\u003e.
+Note that you need to install the HA Supervisor in order to install the ESPHome add-on which is used to communicate with Paperd.Ink\u003c/p\u003e
+\u003ch2 id="setting-up-esphome-addon"\u003eSetting up ESPHome addon\u003c/h2\u003e
+\u003cul\u003e
+\u003cli\u003eGo to HA \u003ccode\u003eSettings\u003c/code\u003e by clicking on the sidebar icon.\u003c/li\u003e
+\u003cli\u003eGo to \u003ccode\u003eDevices \u0026amp; Services\u003c/code\u003e from the menu.\u003c/li\u003e
+\u003cli\u003eClick on the \u003ccode\u003eAdd Integration button\u003c/code\u003e available on the bottom right.\u003c/li\u003e
+\u003cli\u003eSearch for \u003ccode\u003eESPHome\u003c/code\u003e and install it.\u003c/li\u003e
+\u003cli\u003eFollow the instruction on screen to complete the set up.\u003c/li\u003e
+\u003cli\u003e\u003ccode\u003eESPHome\u003c/code\u003e should now show up on your HA sidebar.\u003c/li\u003e
+\u003c/ul\u003e
+\u003cp\u003eMore instructions available \u003ca href="https://www.home-assistant.io/integrations/esphome/"\u003ehere →\u003c/a\u003e\u003c/p\u003e
+\u003ch2 id="installing-esphome-on-paperdink"\u003eInstalling ESPHome on Paperd.Ink\u003c/h2\u003e
+\u003cul\u003e
+\u003cli\u003eConnect Paperd.Ink to your computer via a USB cable.\u003c/li\u003e
+\u003cli\u003eGo to \u003ca href="https://web.esphome.io/?dashboard_wizard"\u003eESPHome Dasboard →\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003eClick on \u003ccode\u003eConnect\u003c/code\u003e and select your Paperd.Ink device from the dropdown.\u003c/li\u003e
+\u003cli\u003eClick on \u003ccode\u003ePrepare for first use\u003c/code\u003e and click \u003ccode\u003eInstall\u003c/code\u003e on the popup.\u003c/li\u003e
+\u003cli\u003eAfter installation is succesful, the page will ask to connect to wifi. Enter the same wifi details where HA is installed and can be accessed.\u003c/li\u003e
+\u003cli\u003eIt will start provisioning the device and once done it should show \u003ccode\u003eProvisioned!\u003c/code\u003e success message. Click \u003ccode\u003eClose\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eGo to \u003ccode\u003eESPHome\u003c/code\u003e page from yout HA sidebar and it should show a new device is discovered. Click on \u003ccode\u003eAdopt\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eIt will ask to create a new name. Make it whatever you want and click \u003ccode\u003eInstall\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eClick \u003ccode\u003eclose\u003c/code\u003e once you see \u003ccode\u003eINFO Successfully uploaded program.\u003c/code\u003e.\u003c/li\u003e
+\u003c/ul\u003e
+\u003ch2 id="configuring-paperdink"\u003eConfiguring Paperd.Ink\u003c/h2\u003e
+\u003cul\u003e
+\u003cli\u003eGo to \u003ccode\u003eESPHome\u003c/code\u003e page from your HA sidebar.\u003c/li\u003e
+\u003cli\u003eClick on \u003ccode\u003eEdit\u003c/code\u003e under the device you created in the previous step.\u003c/li\u003e
+\u003cli\u003eCopy the below configuration under the existing configuration.\u003c/li\u003e
+\u003c/ul\u003e
+\u003cpre\u003e\u003ccode\u003eoutput:
+  - platform: gpio
+    pin:
+      number: 12
+    id: enable_epd
+
+font:
+  - file:
+      type: gfonts
+      family: Source+Sans+Pro
+      weight: 900
+    id: source_sans_pro_25
+    size: 25
+
+spi:
+  clk_pin: GPIO18
+  mosi_pin: GPIO23
+  miso_pin: GPIO19
+
+display:
+  - platform: waveshare_epaper
+    cs_pin: GPIO22
+    dc_pin: GPIO15
+    busy_pin: GPIO34
+    reset_pin: GPIO13
+    model: 4.20in
+    update_interval: 3600s
+    lambda: |-
+      id(enable_epd).turn_on(); // Turns on E-paper
+      it.printf(200, 150, id(source_sans_pro_25), TextAlign::BASELINE_CENTER, \u0026quot;%s\u0026quot;, \u0026quot;Hello World from HA!\u0026quot;);
+      id(enable_epd).turn_off();// Turns off E-paper
+\u003c/code\u003e\u003c/pre\u003e
+\u003cul\u003e
+\u003cli\u003eClick \u003ccode\u003eSave\u003c/code\u003e and then \u003ccode\u003eInstall\u003c/code\u003e and then \u003ccode\u003eWirelessly\u003c/code\u003e to install it on your Paperd.Ink.\u003c/li\u003e
+\u003cli\u003eYou should now see \u003ccode\u003eHello World from HA!\u003c/code\u003e on your Paperd.Ink.\u003c/li\u003e
+\u003c/ul\u003e
+\u003ch2 id="further-reading"\u003eFurther Reading\u003c/h2\u003e
+\u003cul\u003e
+\u003cli\u003ehttps://esphome.io/components/display/index.html\u003c/li\u003e
+\u003cli\u003ehttps://esphome.io/components/display/waveshare_epaper.html\u003c/li\u003e
+\u003cli\u003e\u003c/li\u003e
+\u003c/ul\u003e
+`},{id:3,href:"https://docs.paperd.ink/docs/software/examples/",title:"4. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch2 id="paperdink-arduino-library-examples"\u003ePaperdink Arduino Library Examples\u003c/h2\u003e
 \u003cp\u003eTo get started with the Paperdink library follow the instructions \u003ca href="https://docs.paperd.ink/docs/software/getting-started/#paperdink-library"\u003ehere→\u003c/a\u003e .\u003c/p\u003e
 \u003ch3 id="crypto-tracker"\u003eCrypto Tracker\u003c/h3\u003e
 \u003cp\u003eTrack your cryptocurrency investments to see how much you\u0026rsquo;re in the red ;p\u003c/p\u003e
@@ -130,8 +207,8 @@ void loop() {}
 \u003ch3 id="minimal-micropython"\u003eMinimal Micropython\u003c/h3\u003e
 \u003cp\u003eMinimal example showing how to use micropython with paperd.ink. Note that support is currently limited.\u003c/p\u003e
 \u003cp\u003e\u003cstrong\u003e\u003ca href="https://github.com/paperdink/minimal_micropython"\u003ehttps://github.com/paperdink/minimal_micropython\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e
-`},{id:3,href:"https://docs.paperd.ink/docs/software/community_contributions/",title:"4. Community Contributions",description:"Projects from the community",content:`\u003cp\u003eWe are excited to see what you build with paperd.ink. Send an email to \u003ccode\u003eprasad@paperd.ink\u003c/code\u003e with a link to your project and we will list it here.\u003c/p\u003e
-`},{id:4,href:"https://docs.paperd.ink/docs/hardware/hardware/",title:"5. Hardware",description:"Hardware details for paperd.ink",content:`\u003ch2 id="block-diagram"\u003eBlock Diagram\u003c/h2\u003e
+`},{id:4,href:"https://docs.paperd.ink/docs/software/community_contributions/",title:"5. Community Contributions",description:"Projects from the community",content:`\u003cp\u003eWe are excited to see what you build with paperd.ink. Send an email to \u003ccode\u003eprasad@paperd.ink\u003c/code\u003e with a link to your project and we will list it here.\u003c/p\u003e
+`},{id:5,href:"https://docs.paperd.ink/docs/hardware/hardware/",title:"6. Hardware",description:"Hardware details for paperd.ink",content:`\u003ch2 id="block-diagram"\u003eBlock Diagram\u003c/h2\u003e
 \u003cimg src="/images/paperd.ink_rev4_labels.png" width="600" height="400"\u003e
 \u003ch2 id="specifications"\u003eSpecifications\u003c/h2\u003e
 \u003col\u003e
@@ -223,7 +300,7 @@ void loop() {}
 \u003cli\u003eThe PCB is 92.1 x 78.1 mm\u003c/li\u003e
 \u003cli\u003eThe enclosure is 98 x 82 x 16 mm\u003c/li\u003e
 \u003c/ol\u003e
-`},{id:5,href:"https://docs.paperd.ink/docs/hardware/comparison/",title:"6. Classic Vs Merlot",description:"Comparison betweeen paperd.ink Classic and Merlot models",content:`\u003ch2 id="classic-vs-merlot"\u003eClassic Vs Merlot\u003c/h2\u003e
+`},{id:6,href:"https://docs.paperd.ink/docs/hardware/comparison/",title:"7. Classic Vs Merlot",description:"Comparison betweeen paperd.ink Classic and Merlot models",content:`\u003ch2 id="classic-vs-merlot"\u003eClassic Vs Merlot\u003c/h2\u003e
 \u003ctable\u003e
 \u003cthead\u003e
 \u003ctr\u003e
@@ -300,8 +377,8 @@ void loop() {}
 \u003c/tr\u003e
 \u003c/tbody\u003e
 \u003c/table\u003e
-`},{id:6,href:"https://docs.paperd.ink/docs/hardware/assembly/",title:"7. Assembly",description:"3D models of paperd.ink",content:`\u003ch2 id="how-to-assemble-paperdink"\u003eHow to assemble paperd.ink\u003c/h2\u003e
+`},{id:7,href:"https://docs.paperd.ink/docs/hardware/assembly/",title:"8. Assembly",description:"3D models of paperd.ink",content:`\u003ch2 id="how-to-assemble-paperdink"\u003eHow to assemble paperd.ink\u003c/h2\u003e
 \u003cimg src="/images/paperd_ink_merlot_assembly.gif" width="375" height="300"\u003e
 \u003ch2 id="enclosure-files"\u003eEnclosure files\u003c/h2\u003e
 \u003cp\u003e\u003ca href="https://github.com/paperdink/paperd.ink_enclosure"\u003eGithub →\u003c/a\u003e\u003c/p\u003e
-`},{id:7,href:"https://docs.paperd.ink/docs/",title:"Docs",description:"paperd.ink docs",content:""}];e.add(n),userinput.addEventListener("input",s,!0),suggestions.addEventListener("click",o,!0);function s(){var n,i=this.value,s=e.search(i,5),o=suggestions.childNodes,r=0,c=s.length;for(suggestions.classList.remove("d-none"),s.forEach(function(e){n=document.createElement("div"),n.innerHTML="<a href><span></span><span></span></a>",a=n.querySelector("a"),t=n.querySelector("span:first-child"),d=n.querySelector("span:nth-child(2)"),a.href=e.href,t.textContent=e.title,d.textContent=e.description,suggestions.appendChild(n)});o.length>c;)suggestions.removeChild(o[r])}function o(){for(;suggestions.lastChild;)suggestions.removeChild(suggestions.lastChild);return!1}})(),function(){"use strict";var e=function(){$(".owl-carousel1").owlCarousel({loop:!0,center:!0,margin:0,responsiveClass:!0,nav:!1,responsive:{0:{items:1,nav:!1},680:{items:2,nav:!1,loop:!1},1000:{items:3,nav:!0}}})};(function(){e()})(jQuery)}()
+`},{id:8,href:"https://docs.paperd.ink/docs/",title:"Docs",description:"paperd.ink docs",content:""}];e.add(n),userinput.addEventListener("input",s,!0),suggestions.addEventListener("click",o,!0);function s(){var n,i=this.value,s=e.search(i,5),o=suggestions.childNodes,r=0,c=s.length;for(suggestions.classList.remove("d-none"),s.forEach(function(e){n=document.createElement("div"),n.innerHTML="<a href><span></span><span></span></a>",a=n.querySelector("a"),t=n.querySelector("span:first-child"),d=n.querySelector("span:nth-child(2)"),a.href=e.href,t.textContent=e.title,d.textContent=e.description,suggestions.appendChild(n)});o.length>c;)suggestions.removeChild(o[r])}function o(){for(;suggestions.lastChild;)suggestions.removeChild(suggestions.lastChild);return!1}})(),function(){"use strict";var e=function(){$(".owl-carousel1").owlCarousel({loop:!0,center:!0,margin:0,responsiveClass:!0,nav:!1,responsive:{0:{items:1,nav:!1},680:{items:2,nav:!1,loop:!1},1000:{items:3,nav:!0}}})};(function(){e()})(jQuery)}()
