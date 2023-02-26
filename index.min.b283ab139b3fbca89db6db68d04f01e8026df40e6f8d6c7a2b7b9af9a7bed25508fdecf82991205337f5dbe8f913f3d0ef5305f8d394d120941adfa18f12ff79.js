@@ -113,6 +113,10 @@ Note that you need to install the HA Supervisor in order to install the ESPHome 
 \u003c/ul\u003e
 \u003cp\u003eMore instructions available \u003ca href="https://www.home-assistant.io/integrations/esphome/"\u003ehere →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="installing-esphome-on-paperdink"\u003eInstalling ESPHome on Paperd.Ink\u003c/h2\u003e
+\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
+  \u003cdiv class="flex-shrink-1 alert-icon"\u003e⚠️\u003c/div\u003e
+  \u003cdiv class="w-100"\u003eOnly google chrome seems to be supported for the following steps at the moment.\u003c/div\u003e
+\u003c/div\u003e
 \u003cul\u003e
 \u003cli\u003eConnect Paperd.Ink to your computer via a USB cable.\u003c/li\u003e
 \u003cli\u003eGo to \u003ca href="https://web.esphome.io/?dashboard_wizard"\u003eESPHome Dasboard →\u003c/a\u003e.\u003c/li\u003e
