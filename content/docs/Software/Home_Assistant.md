@@ -83,5 +83,4 @@ display:
 ## Further Reading
 - https://esphome.io/components/display/index.html
 - https://esphome.io/components/display/waveshare_epaper.html
-- 
 
