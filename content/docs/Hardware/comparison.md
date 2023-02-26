@@ -1,5 +1,5 @@
 ---
-title: "6. Classic Vs Merlot"
+title: "7. Classic Vs Merlot"
 description: "Comparison betweeen paperd.ink Classic and Merlot models"
 lead: "Comparison betweeen paperd.ink Classic and Merlot models"
 date: 2022-04-04T22:20:38+05:30

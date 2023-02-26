@@ -1,5 +1,5 @@
 ---
-title: "5. Hardware"
+title: "6. Hardware"
 description: "Hardware details for paperd.ink"
 lead: "Hardware details for paperd.ink"
 date: 2022-04-04T22:20:38+05:30

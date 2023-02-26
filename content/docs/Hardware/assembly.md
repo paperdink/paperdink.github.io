@@ -1,5 +1,5 @@
 ---
-title: "7. Assembly"
+title: "8. Assembly"
 description: "3D models of paperd.ink"
 lead: "3D models of paperd.ink"
 date: 2022-04-04T22:20:38+05:30
