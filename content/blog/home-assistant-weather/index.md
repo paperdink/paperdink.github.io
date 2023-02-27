@@ -1,13 +1,15 @@
 ---
 title: "Home Assistant Weather 🏠"
 description: "Setting up Paperd.Ink to show weather and date information"
-lead: "Setting up Paperd.Ink to show weather and date information. This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display)"
+lead: "Setting up Paperd.Ink to show weather and date information."
 date: 2020-02-28T09:19:42+01:00
 lastmod: 2020-02-28T09:19:42+01:00
 draft: false
 weight: 50
 images: []
 ---
+
+This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display).
 
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
 
