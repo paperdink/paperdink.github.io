@@ -21,10 +21,10 @@ Note that you need to install the HA Supervisor in order to install the ESPHome 
 
 ## Setting up ESPHome addon
 - Go to HA `Settings` by clicking on the sidebar icon.
-- Go to `Devices & Services` from the menu.
-- Click on the `Add Integration button` available on the bottom right.
+- Go to `Add-Ons` from the menu.
+- Click on the `Add-On Store` button on the bottom right.
 - Search for `ESPHome` and install it.
-- Follow the instruction on screen to complete the set up.
+- Follow the instructions on screen to complete the set up.
 - `ESPHome` should now show up on your HA sidebar.
 
 More instructions available [here →](https://www.home-assistant.io/integrations/esphome/)
