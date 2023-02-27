@@ -1,7 +1,7 @@
 ---
 title: "Home Assistant Weather 🏠"
 description: "Setting up Paperd.Ink to show weather and date information"
-lead: "Setting up Paperd.Ink to show weather and date information"
+lead: "Setting up Paperd.Ink to show weather and date information. This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display)
 date: 2020-02-28T09:19:42+01:00
 lastmod: 2020-02-28T09:19:42+01:00
 draft: false
@@ -23,9 +23,9 @@ Follow instructions in our docs page to configure and install Home Assistant [he
 - You should now see an AccuWeather card. Click on `Configure` and enable the `Weather Forecast` button and click `Submit`. Click `Finish` on the success pop-up. 
 - The weather information should be available on your Home Assistant dashboard now.
 
-## Installing Terminal and File Editor
+## Installing File Editor
 - Go to `Settings > Add-Ons` in Home Assistant and click on `Add-On Store` on the bottom right.
-- Search and install `Terminal` and `File Editor`.
+- Search and install `File Editor`.
 - Enable all options like `Start on boot`, `Watchdog`, `Auto Update` and `Show in sidebar`.
 
 ## Add new sensors for weather parsing
