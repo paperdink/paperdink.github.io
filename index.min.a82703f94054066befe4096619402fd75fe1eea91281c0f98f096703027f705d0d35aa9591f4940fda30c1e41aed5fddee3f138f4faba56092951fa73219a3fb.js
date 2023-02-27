@@ -105,10 +105,10 @@ Note that you need to install the HA Supervisor in order to install the ESPHome 
 \u003ch2 id="setting-up-esphome-addon"\u003eSetting up ESPHome addon\u003c/h2\u003e
 \u003cul\u003e
 \u003cli\u003eGo to HA \u003ccode\u003eSettings\u003c/code\u003e by clicking on the sidebar icon.\u003c/li\u003e
-\u003cli\u003eGo to \u003ccode\u003eDevices \u0026amp; Services\u003c/code\u003e from the menu.\u003c/li\u003e
-\u003cli\u003eClick on the \u003ccode\u003eAdd Integration button\u003c/code\u003e available on the bottom right.\u003c/li\u003e
+\u003cli\u003eGo to \u003ccode\u003eAdd-Ons\u003c/code\u003e from the menu.\u003c/li\u003e
+\u003cli\u003eClick on the \u003ccode\u003eAdd-On Store\u003c/code\u003e button on the bottom right.\u003c/li\u003e
 \u003cli\u003eSearch for \u003ccode\u003eESPHome\u003c/code\u003e and install it.\u003c/li\u003e
-\u003cli\u003eFollow the instruction on screen to complete the set up.\u003c/li\u003e
+\u003cli\u003eFollow the instructions on screen to complete the set up.\u003c/li\u003e
 \u003cli\u003e\u003ccode\u003eESPHome\u003c/code\u003e should now show up on your HA sidebar.\u003c/li\u003e
 \u003c/ul\u003e
 \u003cp\u003eMore instructions available \u003ca href="https://www.home-assistant.io/integrations/esphome/"\u003ehere →\u003c/a\u003e\u003c/p\u003e

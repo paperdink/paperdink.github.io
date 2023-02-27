@@ -1,0 +1,459 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css><script type=text/javascript src=https://code.jquery.com/jquery-2.2.4.min.js></script>
+<script type=text/javascript src=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js></script>
+<script>var clicky_site_ids=clicky_site_ids||[];clicky_site_ids.push(101314302)</script><script async src=//static.getclicky.com/js></script>
+<link rel=preload as=font href=https://docs.paperd.ink/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://docs.paperd.ink/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><link rel=stylesheet href=https://docs.paperd.ink/main.0004a45e0b67bf9869eb4ae04e8c1185923ec55980bb9938f18aa2236f7b72889918b81f02959bcc541549a53e2c24f2da1874fa647dd6509f12cb9f2f95cadf.css integrity="sha512-AASkXgtnv5hp60rgTowRhZI+xVmAu5k48YqiI297coiZGLgfApWbzFQVSaU+LCTy2hh0+mR91lCfEsufL5XK3w==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>Home Assistant Weather 🏠 | paperd.ink</title><meta name=description content="Setting up Paperd.Ink to show weather and date information"><link rel=canonical href=https://docs.paperd.ink/blog/home-assistant-weather/><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://docs.paperd.ink/paperd_ink_penguin.jpg"><meta name=twitter:title content="Home Assistant Weather 🏠"><meta name=twitter:description content="Setting up Paperd.Ink to show weather and date information"><meta name=twitter:site content="@paperddotink"><meta name=twitter:creator content="@paperddotink"><meta property="og:title" content="Home Assistant Weather 🏠"><meta property="og:description" content="Setting up Paperd.Ink to show weather and date information"><meta property="og:type" content="article"><meta property="og:url" content="https://docs.paperd.ink/blog/home-assistant-weather/"><meta property="og:image" content="https://docs.paperd.ink/paperd_ink_penguin.jpg"><meta property="article:published_time" content="2020-02-28T09:19:42+01:00"><meta property="article:modified_time" content="2020-02-28T09:19:42+01:00"><meta property="og:site_name" content="paperd.ink"><meta property="article:publisher" content="https://www.facebook.com/"><meta property="article:author" content="https://www.facebook.com/"><meta property="og:locale" content="en_US"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/docs.paperd.ink\/blog\/home-assistant-weather\/"},"headline":"Home Assistant Weather 🏠","image":[],"datePublished":"2020-02-28T09:19:42CET","dateModified":"2020-02-28T09:19:42CET","author":{"@type":"Organization","name":"paperd.ink"},"publisher":{"@type":"Organization","name":"paperd.ink","logo":{"@type":"ImageObject","url":"https:\/\/docs.paperd.ink\/paperd_ink.svg"}},"description":"Setting up Paperd.Ink to show weather and date information"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/docs.paperd.ink"},{"@type":"ListItem","position":3,"name":"Blog","item":"https:\/\/docs.paperd.ink\/blog\/"},{"@type":"ListItem","position":4,"name":"Home Assistant Weather","item":"https:\/\/docs.paperd.ink\/blog\/home-assistant-weather\/"}]}</script><meta name=theme-color content="#f5f5f5"><link rel=apple-touch-icon sizes=180x180 href=https://docs.paperd.ink/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://docs.paperd.ink/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://docs.paperd.ink/favicon-16x16.png><link rel=manifest href=https://docs.paperd.ink/site.webmanifest></head><body class="blog single"><div id=userinput></div><form><div id=suggestions class="shadow bg-white rounded"></div></form><div class="wrap container" role=document><div class=content><div class="row justify-content-center"><div class="col-md-12 col-lg-10 col-xl-8"><article><div class=blog-header><h1>Home Assistant Weather 🏠</h1><p><small>Posted February 28, 2020 by &nbsp;&dash;&nbsp;<strong>9&nbsp;min read</strong></small><p></div><p class=lead>Setting up Paperd.Ink to show weather and date information</p><div class="alert alert-warning d-flex" role=alert><div class="flex-shrink-1 alert-icon">⚠️</div><div class=w-100>Home Assistant is currently only supported on Paperd.Ink Classic.</div></div><h2 id=setting-up-home-assistant>Setting up Home Assistant</h2><p>Follow instructions in our docs page to configure and install Home Assistant <a href=http://localhost:1313/docs/software/home_assistant/>here →</a></p><h2 id=install-and-configure-accuweather-integration>Install and Configure AccuWeather Integration</h2><ul><li>Go to the AccuWeather <a href=https://developer.accuweather.com/>website →</a> and create an account.</li><li>Login to your AccuWeather account and go to <code>MyApps</code> tab and create a new app.</li><li>Once the app is created, click on it to find your API Key. Note this key.</li><li>Go to <code>Settings > Devices & Services</code> in Home Assistant and click on <code>Add Integration</code> on the bottom right.</li><li>Search and install <code>AccuWeather</code> add-on and input your API Key. Make sure the Lat and Lon are correct for your location. And name it as <code>Home</code>. Click <code>Finish</code> on the success pop-up.</li><li>You should now see an AccuWeather card. Click on <code>Configure</code> and enable the <code>Weather Forecast</code> button and click <code>Submit</code>. Click <code>Finish</code> on the success pop-up.</li><li>The weather information should be available on your Home Assistant dashboard now.</li></ul><h2 id=installing-terminal-and-file-editor>Installing Terminal and File Editor</h2><ul><li>Go to <code>Settings > Add-Ons</code> in Home Assistant and click on <code>Add-On Store</code> on the bottom right.</li><li>Search and install <code>Terminal</code> and <code>File Editor</code>.</li><li>Enable all options like <code>Start on boot</code>, <code>Watchdog</code>, <code>Auto Update</code> and <code>Show in sidebar</code>.</li></ul><h2 id=add-new-sensors-for-weather-parsing>Add new sensors for weather parsing</h2><ul><li>Click on the new <code>File Editor</code> icon in the HA sidebar.</li><li>Once the window opens, click on the <code>Folder</code> icon on the top left.</li><li>Make sure you are in <code>config/</code> directory and create a new file called <code>sensor.yaml</code>.</li><li>Copy and paste the following into <code>sensor.yaml</code> and save the file.</li></ul><pre><code>- platform: template
+  sensors:
+    weather_now:
+      friendly_name: &quot;Weather Now&quot;
+      value_template: &gt;-
+        {{ states.weather.home.state }};{{ states.weather.home.attributes.temperature | round(0) }}°C
+    weather_fivedays:
+      friendly_name: &quot;Five day weather&quot;
+      value_template: &gt;-
+        {% set days = {'Mon':'Mon','Tue':'Tue','Wed':'Wed','Thu':'Thu','Fri':'Fri','Sat':'Sat','Sun':'Sun'} %}
+        {% for state in states.weather.home.attributes.forecast[0:3] -%}
+          {{ days[as_timestamp(state.datetime)| timestamp_custom(&quot;%a&quot;)] }};{{state.templow}}/{{ state.temperature }}°C;{{ state.condition }}#
+        {%- endfor %}
+    it_days:
+      friendly_name: &quot;Translated Days&quot;
+      value_template: &gt;-
+        {% set daysIt = [&quot;Mon&quot;, &quot;Tue&quot;,&quot;Wed&quot;,&quot;Thu&quot;,&quot;Fri&quot;,&quot;Suut&quot;,&quot;Sun&quot;] %}
+        {{ daysIt[now().weekday()] }}
+    it_months:
+      friendly_name: &quot;Translated Months&quot;
+      value_template: &gt;-
+        {% set monthsIt = [&quot;Jan&quot;, &quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;] %}
+        {{ monthsIt[now().month - 1] }}
+    it_weather:
+      friendly_name: &quot;Weather + Translated Days&quot;
+      value_template: &gt;-
+        {{ states.sensor.it_days.state }};{{ states.sensor.weather_now.state }};{{ states.sensor.it_months.state }};
+
+</code></pre><ul><li>Now open <code>configuration.yaml</code> file and add the following line.</li></ul><pre><code>sensor: !include sensor.yaml
+</code></pre><h2 id=add-fonts>Add fonts</h2><ul><li>Download the <a href=https://github.com/Templarian/MaterialDesign-Webfont/raw/master/fonts/materialdesignicons-webfont.ttf>Material WebIcons →</a> and <a href=https://www.fontsquirrel.com/fonts/download/open-sans>OpenSans →</a> fonts.</li><li>Extract the open-sans zip.</li><li>Click on the <code>File Editor</code> icon in the HA sidebar.</li><li>Once the window opens, click on the <code>Folder</code> icon on the top left.</li><li>Navigate to <code>config/esphome</code> directory. And create a new directory called <code>fonts</code>.</li><li>Upload the <code>OpenSans-Bold.ttf</code> and <code>materialdesignicons-webfont.ttf</code> files into the <code>fonts</code> directory.</li></ul><h2 id=configure-paperdink>Configure Paperd.Ink</h2><ul><li>Go to <code>ESPHome</code> in the HA sidebar.</li><li>Click on <code>Edit</code> under the Paperd.Ink device.</li><li>Note your api encryption key, ota password, and wifi ap password.</li><li>Replace the configuration with the following and update the api encryption key, ota password, wifi ap password, timezone, latitude and longitude.
+Display update_interval can also be changed. It is set to 1 hour in the below config.</li></ul><pre><code>esphome:
+  name: classic
+  on_boot:
+    priority: -10
+    then:
+      - delay: 90s
+      - component.update: epaperdisplay
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: &quot;*************************&quot;
+
+ota:
+  password: &quot;********************&quot;
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: &quot;Paperdink Fallback Hotspot&quot;
+    password: &quot;*********&quot;
+
+captive_portal:
+
+
+# Paperdink display config
+output:
+  - platform: gpio
+    pin:
+      number: 12
+    id: enable_epd
+
+font:
+  - file: 'fonts/OpenSans-Bold.ttf'
+    id: roboto_med_17
+    size: 17
+
+  - file: 'fonts/OpenSans-Bold.ttf'
+    id: roboto_reg_12
+    size: 12
+
+  - file: 'fonts/OpenSans-Bold.ttf'
+    id: roboto_reg_15
+    size: 15
+
+  - file: 'fonts/OpenSans-Bold.ttf'
+    id: roboto_reg_20
+    size: 20
+    glyphs:
+      ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D',
+       'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
+       'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', 'a', 'b', 'c', 'd', 'e',
+       'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
+       't', 'u', 'v', 'w', 'x', 'y', 'z', 'å', 'ä', 'ö', 'à', 'è', 'ì', 'ò', 
+       'ù', ':', '/']
+
+  - file: 'fonts/OpenSans-Bold.ttf'
+    id: roboto_bold_40
+    size: 40
+    glyphs:
+      ['&amp;', '@', '!', ',', '.', '&quot;', '%', '(', ')', '+', '-', '_', ':', '°', '0',
+       '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E',
+       'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
+       'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', 'a', 'b', 'c', 'd', 'e', 'f',
+       'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
+       'u', 'v', 'w', 'x', 'y', 'z','å', 'ä', 'ö', '/','º','µ','³']
+
+  - file: 'fonts/OpenSans-Bold.ttf'
+    id: roboto_bold_80
+    size: 80
+    glyphs:
+      ['&amp;', '@', '!', ',', '.', '&quot;', '%', '(', ')', '+', '-', '_', ':', '°', '0',
+       '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E',
+       'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S',
+       'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' ', 'a', 'b', 'c', 'd', 'e', 'f',
+       'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
+       'u', 'v', 'w', 'x', 'y', 'z','å', 'ä', 'ö', '/','º','µ','³']
+
+  - file: 'fonts/materialdesignicons-webfont.ttf'
+    id: weather_font_80
+    size: 80
+    glyphs: [
+      # Weather
+      &quot;\U000F0590&quot;, # mdi-weather-cloudy
+      &quot;\U000F0594&quot;, # mdi-weather-night
+      &quot;\U000F0591&quot;, # mdi-weather-fog
+      &quot;\U000F0592&quot;, # mdi-weather-hail
+      &quot;\U000F0593&quot;, # mdi-weather-lightning
+      &quot;\U000F067E&quot;, # mdi-weather-lightning-rainy
+      &quot;\U000F0595&quot;, # mdi-weather-partly-cloudy
+      &quot;\U000F0596&quot;, # mdi-weather-pouring
+      &quot;\U000F0597&quot;, # mdi-weather-rainy
+      &quot;\U000F0598&quot;, # mdi-weather-snowy
+      &quot;\U000F067F&quot;, # mdi-weather-snowy-rainy
+      &quot;\U000F0599&quot;, # mdi-weather-sunny
+      &quot;\U000F059B&quot;, # mdi-weather-sunset-down
+      &quot;\U000F059C&quot;, # mdi-weather-sunset-up
+      &quot;\U000F059D&quot;, # mdi-weather-windy
+      &quot;\U000F059E&quot;, # mdi-weather-windy-variant
+      ]
+
+  - file: 'fonts/materialdesignicons-webfont.ttf'
+    id: weather_font_40
+    size: 40
+    glyphs: [
+      # Sun
+      &quot;\U000F059A&quot;, # mdi-weather-sunset
+      # Moon
+      &quot;\U000F0F64&quot;, # mdi-moon-new
+      &quot;\U000F0F67&quot;, # mdi-moon-waxing-crescent
+      &quot;\U000F0F61&quot;, # mdi-moon-first-quarter
+      &quot;\U000F0F68&quot;, # mdi-moon-waxing-gibbous
+      &quot;\U000F0F62&quot;, # mdi-moon-full
+      &quot;\U000F0F66&quot;, # mdi-moon-waning-gibbous
+      &quot;\U000F0F63&quot;, # mdi-moon-last-quarter
+      &quot;\U000F0F65&quot;, # mdi-moon-waning-crescent
+
+      # Weather
+      &quot;\U000F0590&quot;, # mdi-weather-cloudy
+      &quot;\U000F0594&quot;, # mdi-weather-night
+      &quot;\U000F0591&quot;, # mdi-weather-fog
+      &quot;\U000F0592&quot;, # mdi-weather-hail
+      &quot;\U000F0593&quot;, # mdi-weather-lightning
+      &quot;\U000F067E&quot;, # mdi-weather-lightning-rainy
+      &quot;\U000F0595&quot;, # mdi-weather-partly-cloudy
+      &quot;\U000F0596&quot;, # mdi-weather-pouring
+      &quot;\U000F0597&quot;, # mdi-weather-rainy
+      &quot;\U000F0598&quot;, # mdi-weather-snowy
+      &quot;\U000F067F&quot;, # mdi-weather-snowy-rainy
+      &quot;\U000F0599&quot;, # mdi-weather-sunny
+      &quot;\U000F059B&quot;, # mdi-weather-sunset-down
+      &quot;\U000F059C&quot;, # mdi-weather-sunset-up
+      &quot;\U000F059D&quot;, # mdi-weather-windy
+      &quot;\U000F059E&quot;, # mdi-weather-windy-variant
+      ]
+
+  - file: 'fonts/materialdesignicons-webfont.ttf'
+    id: weather_font_15
+    size: 15
+    glyphs: [
+      # Wifi
+      &quot;\U000F092F&quot;, # mdi-wifi-strength-outline
+      &quot;\U000F091F&quot;, # mdi-wifi-strength-1
+      &quot;\U000F0922&quot;, # mdi-wifi-strength-2
+      &quot;\U000F0925&quot;, # mdi-wifi-strength-3
+      &quot;\U000F0928&quot;, # mdi-wifi-strength-4
+      ]
+
+  - file: 'fonts/materialdesignicons-webfont.ttf'
+    id: weather_font_30
+    size: 30
+    glyphs: [
+      # Sun
+      &quot;\U000F059A&quot;, # mdi-weather-sunset
+      # Moon
+      &quot;\U000F0F64&quot;, # mdi-moon-new
+      &quot;\U000F0F67&quot;, # mdi-moon-waxing-crescent
+      &quot;\U000F0F61&quot;, # mdi-moon-first-quarter
+      &quot;\U000F0F68&quot;, # mdi-moon-waxing-gibbous
+      &quot;\U000F0F62&quot;, # mdi-moon-full
+      &quot;\U000F0F66&quot;, # mdi-moon-waning-gibbous
+      &quot;\U000F0F63&quot;, # mdi-moon-last-quarter
+      &quot;\U000F0F65&quot;, # mdi-moon-waning-crescent
+      # Rooms
+      &quot;\U000F09A0&quot;, # mdi-shower
+      &quot;\U000F09A1&quot;, # mdi-shower-head
+      &quot;\U000F04B9&quot;, # mdi-sofa
+      &quot;\U000F0C99&quot;, # mdi-microwave
+      &quot;\U000F0FD1&quot;, # mdi-bed-king-outline
+      &quot;\U000F106E&quot;, # mdi-bed-single-outline
+      &quot;\U000F0322&quot;, # mdi-laptop
+      &quot;\U000F07F4&quot;, # mdi-television-classic
+      ]
+
+time:
+  - platform: homeassistant
+    id: ha_time
+    timezone: America/Chicago
+
+sun:
+  latitude: 20.1
+  longitude: 22.5
+
+sensor:
+  - platform: homeassistant
+    entity_id: sensor.moon_phase
+    id: moon_status
+    internal: true
+  - platform: wifi_signal
+    name: &quot;WiFi Signal Sensor&quot;
+    id: wifisignal
+    update_interval: 100000s
+
+text_sensor:
+  - platform: homeassistant
+    id: moon_icon
+    entity_id: sensor.moon_phase
+  - platform: sun
+    type: sunrise
+    id: sunrise_hour
+  - platform: sun
+    type: sunset
+    id: sunset_hour
+  - platform: homeassistant
+    entity_id: sensor.it_weather
+    id: weathertoday
+  - platform: homeassistant
+    entity_id: sensor.weather_fivedays
+    id: fweather
+
+spi:
+  clk_pin: GPIO18
+  mosi_pin: GPIO23
+  miso_pin: GPIO19
+
+display:
+  - platform: waveshare_epaper
+    cs_pin: GPIO22
+    dc_pin: GPIO15
+    busy_pin: GPIO34
+    reset_pin: GPIO13
+    model: 4.20in
+    update_interval: 3600s
+    id: epaperdisplay
+    lambda: |-
+      /* TURN ON EPD */
+      id(enable_epd).turn_on();
+      
+      /* SENSOR VARIABLES */
+      std::string moon_info = id(moon_icon).state;
+      std::string weather_days = id(fweather).state;
+      std::string weather_today = id(weathertoday).state;
+      std::string sunrise = id(sunrise_hour).state;
+      std::string sunset = id(sunset_hour).state;
+      std::map&lt;std::string, std::string&gt; weather_icon_state {
+          {&quot;cloudy&quot;, &quot;\U000F0590&quot;},
+          {&quot;clear-day&quot;, &quot;\U000F0599&quot;},
+          {&quot;clear-night&quot;, &quot;\U000F0594&quot;},
+          {&quot;fog&quot;, &quot;\U000F0591&quot;},
+          {&quot;hail&quot;, &quot;\U000F0592&quot;},
+          {&quot;lightning&quot;, &quot;\U000F0593&quot;},
+          {&quot;lightning-rainy&quot;, &quot;\U000F067E&quot;},
+          {&quot;partlycloudy&quot;, &quot;\U000F0595&quot;},
+          {&quot;pouring&quot;, &quot;\U000F0596&quot;},
+          {&quot;rainy&quot;, &quot;\U000F0597&quot;},
+          {&quot;snowy&quot;, &quot;\U000F0598&quot;},
+          {&quot;snowy-rainy&quot;, &quot;\U000F067F&quot;},
+          {&quot;sunny&quot;, &quot;\U000F0599&quot;},
+          {&quot;sunset-down&quot;, &quot;\U000F059B&quot;},
+          {&quot;sunset-up&quot;, &quot;\U000F059C&quot;},
+          {&quot;windy&quot;, &quot;\U000F059D&quot;},
+          {&quot;windy-variant&quot;, &quot;\U000F059E&quot;}
+      };
+      std::map&lt;std::string, std::string&gt; moon_state_icon {
+          {&quot;new_moon&quot;, &quot;\U000F0F64&quot;},
+          {&quot;waxing_crescent&quot;, &quot;\U000F0F67&quot;},
+          {&quot;first_quarter&quot;, &quot;\U000F0F61&quot;},
+          {&quot;waxing_gibbous&quot;, &quot;\U000F0F68&quot;},
+          {&quot;full_moon&quot;, &quot;\U000F0F62&quot;},
+          {&quot;waning_gibbous&quot;, &quot;\U000F0F66&quot;},
+          {&quot;last_quarter&quot;, &quot;\U000F0F63&quot;},
+          {&quot;waning_crescent&quot;, &quot;\U000F0F65&quot;}
+      };
+      std::map&lt;std::string, std::string&gt; moon_state_label {
+          {&quot;new_moon&quot;, &quot;New Moon&quot;},
+          {&quot;waxing_crescent&quot;, &quot;Waxing Crescent&quot;},
+          {&quot;first_quarter&quot;, &quot;First Quarter&quot;},
+          {&quot;waxing_gibbous&quot;, &quot;Waxing Gibbous&quot;},
+          {&quot;full_moon&quot;, &quot;Full Moon&quot;},
+          {&quot;waning_gibbous&quot;, &quot;Waning Gibbous&quot;},
+          {&quot;last_quarter&quot;, &quot;Last Quarter&quot;},
+          {&quot;waning_crescent&quot;, &quot;Waning Crescent&quot;}
+      };
+      char delimm = ';';
+
+      /* MAIN RECTANGLE */
+      it.rectangle(5, 5, 390, 295);
+      
+      /* CALENDAR RECT */
+      it.filled_rectangle(10, 10, 120, 30);
+      it.rectangle(10, 40, 120, 90);
+      it.filled_rectangle(10, 130, 120, 30);
+      it.rectangle(10, 160, 120, 135);
+      
+      /* DX RECT */ 
+      it.rectangle(135, 10, 255, 265);
+      
+      /* Todays Date */
+      uint16_t todays_date_base_x = 262;
+      uint16_t todays_date_base_y = 80;
+      // Day of the week
+      it.strftime(todays_date_base_x, todays_date_base_y, id(roboto_bold_80), TextAlign::BASELINE_CENTER, &quot;%a&quot;, id(ha_time).now());
+      // Day of the month
+      it.strftime(todays_date_base_x, todays_date_base_y + 50 , id(roboto_bold_40), TextAlign::BASELINE_CENTER, &quot;%d %b&quot;, id(ha_time).now());
+
+      /* WEATHER TODAY */ 
+      std::size_t currentWeatherToday, previousWeatherToday = 0;
+      currentWeatherToday = weather_today.find(delimm);
+      ESP_LOGD(&quot;WEATHER TODAY&quot;, &quot;%s&quot;, weather_today.c_str());
+      /* Loop for the single room */
+      for (int i=0; i&lt;4; i++){
+        if (i == 0) {
+          // Print &quot;Today&quot;
+          it.printf(70, 30, id(roboto_reg_20), COLOR_OFF, TextAlign::BASELINE_CENTER, &quot;Today&quot;);
+        } else if (i == 1) {
+          // Weather Icon
+          it.printf(70, 115, id(weather_font_80), TextAlign::BASELINE_CENTER, &quot;%s&quot;, weather_icon_state[weather_today.substr(previousWeatherToday, currentWeatherToday - previousWeatherToday).c_str()].c_str());          
+        } else if (i == 2){
+          // Current Temp
+          it.filled_circle(98, 63, 20, COLOR_OFF);
+          it.circle(98, 63, 20);
+          it.printf(98, 63, id(roboto_reg_15), TextAlign::CENTER, &quot;%s&quot;, weather_today.substr(previousWeatherToday, currentWeatherToday - previousWeatherToday).c_str());
+        } else if (i == 3){
+          // Print &quot;Next 3 days&quot;
+          it.printf(70, 150, id(roboto_reg_20), COLOR_OFF, TextAlign::BASELINE_CENTER, &quot;Next 3 days&quot;);
+        }
+        previousWeatherToday = currentWeatherToday + 1;
+        currentWeatherToday = weather_today.find(delimm, previousWeatherToday);
+      }
+
+      /* WEATHER FORECAST */ 
+      ESP_LOGD(&quot;WEATHER&quot;, &quot;%s&quot;, weather_days.c_str());
+      std::size_t currentWeather, previousWeather = 0;
+      char delimWeather = '#';
+      currentWeather = weather_days.find(delimWeather);
+      
+      int wx = 17;    // start position x 
+      int wy = 170;   // start position y 
+      /* Loop for the single string day */ 
+      for (int i=0; i&lt;3; i++) { 
+  
+        std::string forecastInfo = weather_days.substr(previousWeather, currentWeather - previousWeather).c_str();
+        std::size_t currentInfo, previousInfo = 0;
+        currentInfo = forecastInfo.find(delimm);
+      
+        /* Inner loop to get single information for each day */
+        for (int j=0; j&lt;3; j++) { 
+      
+          if (j == 0) {
+            // Day (Mon/Tue...) 
+            it.printf(wx + 42, wy + 2, id(roboto_med_17), &quot;%s&quot;, forecastInfo.substr(previousInfo, currentInfo - previousInfo).c_str());
+          } else if (j == 1) {
+            // Temperature 
+            it.printf(wx + 42, wy + 20, id(roboto_reg_12), &quot;%s&quot;, forecastInfo.substr(previousInfo, currentInfo - previousInfo).c_str());
+          } else if (j == 2) {
+            // Weather Icon             
+            it.printf(wx, wy, id(weather_font_40), &quot;%s&quot;, weather_icon_state[forecastInfo.substr(previousInfo, currentInfo - previousInfo).c_str()].c_str() );
+          }
+          previousInfo = currentInfo + 1;
+          currentInfo = forecastInfo.find(delimm, previousInfo);
+        }
+        wy += 40; // move down 50 pixels and output next day 
+        previousWeather = currentWeather + 1;
+        currentWeather = weather_days.find(delimWeather, previousWeather);
+      }
+
+      /* SUNRISE SUNSET */
+      uint16_t sunrise_sunset_base_x = 150;
+      uint16_t sunrise_sunset_base_y = 180;
+      ESP_LOGD(&quot;SUNRISE&quot;, &quot;%s&quot;, sunrise.c_str());
+      ESP_LOGD(&quot;SUNSET&quot;, &quot;%s&quot;, sunset.c_str());
+      it.printf(sunrise_sunset_base_x, sunrise_sunset_base_y, id(weather_font_40), TextAlign::BASELINE_LEFT, &quot;%s&quot;, &quot;\U000F059A&quot;);
+      if(id(sunrise_hour).has_state() &amp;&amp; id(sunset_hour).has_state()) {
+        it.printf(sunrise_sunset_base_x + 45, sunrise_sunset_base_y - 10, id(roboto_reg_20), TextAlign::BASELINE_LEFT, &quot;Sunrise: %s&quot;, sunrise.c_str());
+        it.printf(sunrise_sunset_base_x + 45, sunrise_sunset_base_y + 10, id(roboto_reg_20), TextAlign::BASELINE_LEFT, &quot;Sunset : %s&quot;, sunset.c_str());
+      } else {
+        it.printf(sunrise_sunset_base_x + 45, sunrise_sunset_base_y - 10, id(roboto_reg_20), TextAlign::BASELINE_LEFT, &quot;%s&quot;, &quot;n/a&quot;);
+        it.printf(sunrise_sunset_base_x + 45, sunrise_sunset_base_y + 10, id(roboto_reg_20), TextAlign::BASELINE_LEFT, &quot;%s&quot;, &quot;n/a&quot;);
+      }
+      
+      /* MOON */
+      uint16_t moon_base_x = 150;
+      uint16_t moon_base_y = 240;
+      if(id(moon_status).has_state()) {
+        ESP_LOGD(&quot;MOON&quot;, &quot;%s&quot;, moon_info.c_str());
+        // Icon 
+        it.printf(moon_base_x, moon_base_y, id(weather_font_40), TextAlign::BASELINE_LEFT, &quot;%s&quot;, moon_state_icon[moon_info.c_str()].c_str());
+
+        // Label 
+        it.printf(moon_base_x + 45, moon_base_y - 5, id(roboto_reg_20), TextAlign::BASELINE_LEFT, &quot;%s&quot;, moon_state_label[moon_info.c_str()].c_str());
+      };
+
+      /* FOOTER */ 
+      it.strftime(355, 295 , id(roboto_reg_15), TextAlign::BASELINE_RIGHT , &quot;Updated at: %d/%m/%Y %H:%M&quot;, id(ha_time).now());
+
+      /* WIFI SIGNAL */ 
+      if(id(wifisignal).has_state()) {
+        int wifi_x = 375;
+        int wifi_y = 295;
+        if (id(wifisignal).state &gt;= -50) {
+          // Excellent
+          it.print(wifi_x, wifi_y, id(weather_font_15), TextAlign::BASELINE_CENTER, &quot;\U000F0928&quot;);
+          ESP_LOGI(&quot;WiFi&quot;, &quot;Exellent&quot;);
+        } else if (id(wifisignal).state  &gt;= -60) {
+          // Good
+          it.print(wifi_x, wifi_y, id(weather_font_15), TextAlign::BASELINE_CENTER, &quot;\U000F0925&quot;);
+          ESP_LOGI(&quot;WiFi&quot;, &quot;Good&quot;);
+        } else if (id(wifisignal).state  &gt;= -75) {
+          // Fair
+          it.print(wifi_x, wifi_y, id(weather_font_15), TextAlign::BASELINE_CENTER, &quot;\U000F0922&quot;);
+          ESP_LOGI(&quot;WiFi&quot;, &quot;Fair&quot;);
+        } else if (id(wifisignal).state  &gt;= -100) {
+          // Weak
+          it.print(wifi_x, wifi_y, id(weather_font_15), TextAlign::BASELINE_CENTER, &quot;\U000F091F&quot;);
+          ESP_LOGI(&quot;WiFi&quot;, &quot;Weak&quot;);
+        } else {
+          // Unlikely working signal
+          it.print(wifi_x, wifi_y, id(weather_font_15), TextAlign::BASELINE_CENTER, &quot;\U000F092F&quot;);
+          ESP_LOGI(&quot;WiFi&quot;, &quot;Unlikely&quot;);
+        }
+      }
+      id(enable_epd).turn_off();
+</code></pre><ul><li>Finally click <code>Save</code> and <code>Install</code>. After successfully getting uploaded, you should see the expected screen after 90 seconds.</li></ul></article></div></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://gohugo.io/>Hugo</a>, and <a href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline><li class=list-inline-item><a href=https://docs.paperd.ink></a></li></ul></div></div></div></footer><script src=https://docs.paperd.ink/js/highlight.min.ae5b9ee0705bc39e286d230df06342bcb698a57e060da2114b1403055d582d374971bef3229984b6fe7fc46f6598ed5e3cd61757a0ba46334e891463e165903d.js integrity="sha512-rlue4HBbw54obSMN8GNCvLaYpX4GDaIRSxQDBV1YLTdJcb7zIpmEtv5/xG9lmO1ePNYXV6C6RjNOiRRj4WWQPQ==" crossorigin=anonymous defer></script>
+<script src=https://docs.paperd.ink/main.min.7dd226f8d2a80549f0f17f8261a7cae50b0df49830890b0eba2e2c8ee68614ae5b6be4de39bb445a4c012e248108f4f6325e6041dc4fe854ae5dd87ba7862b64.js integrity="sha512-fdIm+NKoBUnw8X+CYafK5QsN9JgwiQsOui4sjuaGFK5ba+TeObtEWkwBLiSBCPT2Ml5gQdxP6FSuXdh7p4YrZA==" crossorigin=anonymous defer></script>
+<script src=https://docs.paperd.ink/index.min.a82703f94054066befe4096619402fd75fe1eea91281c0f98f096703027f705d0d35aa9591f4940fda30c1e41aed5fddee3f138f4faba56092951fa73219a3fb.js integrity="sha512-qCcD+UBUBmvv5AlmGUAv11/h7qkSgcD5jwlnAwJ/cF0NNaqVkfSUD9owweQa7V/d7j8Tj0+rpWCSlR+nMhmj+w==" crossorigin=anonymous defer></script></body></html>
