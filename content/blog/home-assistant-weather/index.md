@@ -35,7 +35,7 @@ Follow instructions in our docs page to configure and install Home Assistant [he
 - Once the window opens, click on the `Folder` icon on the top left.
 - Make sure you are in `config/` directory and create a new file called `sensor.yaml`.
 - Copy and paste the following into `sensor.yaml` and save the file.
-```
+```yaml showLineNumbers
 - platform: template
   sensors:
     weather_now:
@@ -84,7 +84,7 @@ sensor: !include sensor.yaml
 - Note your api encryption key, ota password, and wifi ap password. 
 - Replace the configuration with the following and update the api encryption key, ota password, wifi ap password, timezone, latitude and longitude.
 Display update_interval can also be changed. It is set to 1 hour in the below config.
-```
+```yaml showLineNumbers
 esphome:
   name: classic
   on_boot:
