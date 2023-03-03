@@ -25,7 +25,7 @@ You’ll need to do the following for Windows/Mac/Linux:
 - Download the corresponding image and unzip it.
 - Set up a new VM with the given settings. (Pro tip: Make sure you select the Linux version "Linux 2.6 / 3.x / 4.x (64-bit)" and not Oracle Linux while setting up the VM).
 - Load the appliance image into your virtual image hypervisor.
-- You should now be able to access Home Assistant on [homeassistant.local:8123](http://homeassistant.local:8123) and see the message `Preparing Home Assistant (this can take up to 20 minutes` on your screen. You can then register and log in. 
+- You should now be able to access Home Assistant on [homeassistant.local:8123](http://homeassistant.local:8123) and see the message `Preparing Home Assistant (this can take up to 20 minutes)` on your screen. You can then register and log in. 
 
 
 ## Setting up ESPHome addon
