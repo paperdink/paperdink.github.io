@@ -37,7 +37,7 @@ More instructions available [here →](https://www.home-assistant.io/integration
 - Go to [ESPHome Dasboard →](https://web.esphome.io/?dashboard_wizard) and click on `Connect`, then select your Paperd.Ink device from the dropdown.
 - Click on `Prepare for first use` and `Install` on the popup.
 - After a successful installation, enter the same Wi-Fi details as the HA installation and access.
-- It will provision the device and show a `Provisioned` success message. Click `Close`.
+- It will provision the device and show a `Provisioned!` success message. Click `Close`.
 - Go to the `ESPHome` page on the HA sidebar and click on `Adopt` to create a new device name.
 - Install it and close the page once you see `INFO Successfully uploaded program`.
 
