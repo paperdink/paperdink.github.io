@@ -13,39 +13,39 @@ weight: 120
 toc: true
 ---
 
-{{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
+{{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five." >}}
 
 ## Setting up Home Assistant
-Setting up Home Assistant can differ for each person. Please follow the excellent instructions provided by the HA team [here →](https://www.home-assistant.io/installation/).
-Note that you need to install the HA Supervisor in order to install the ESPHome add-on which is used to communicate with Paperd.Ink
+- Visit the Home Assistant installation page and select the appropriate OS/Machine [here →](https://www.home-assistant.io/installation/).
+- Choose the Home Assistant Operating System method for installation.
+- If you decide to use a different installation method, make sure to install the HA Supervisor to enable the installation of the ESPHome add-on, which is needed to communicate with Paperd.Ink.
 
 ## Setting up ESPHome addon
-- Go to HA `Settings` by clicking on the sidebar icon.
-- Go to `Add-Ons` from the menu.
-- Click on the `Add-On Store` button on the bottom right.
+- Click on the sidebar icon to go to HA `Settings`.
+- From the menu, go to `Add-Ons`.
+- Click on the `Add-On Store` button located on the bottom right of the screen.
 - Search for `ESPHome` and install it.
-- Follow the instructions on screen to complete the set up.
-- `ESPHome` should now show up on your HA sidebar.
+- Follow the on-screen instructions to complete the setup process.
+- `ESPHome` should now appear on your HA sidebar.
 
 More instructions available [here →](https://www.home-assistant.io/integrations/esphome/)
 
 ## Installing ESPHome on Paperd.Ink
-{{< alert icon="⚠️" text="Only google chrome seems to be supported for the following steps at the moment." >}}
+{{< alert icon="⚠️" text="Currently, only Google Chrome browser seems to be supported for the following steps." >}}
 
-- Connect Paperd.Ink to your computer via a USB cable.
-- Go to [ESPHome Dasboard →](https://web.esphome.io/?dashboard_wizard).
-- Click on `Connect` and select your Paperd.Ink device from the dropdown.
-- Click on `Prepare for first use` and click `Install` on the popup.
-- After installation is succesful, the page will ask to connect to wifi. Enter the same wifi details where HA is installed and can be accessed.
-- It will start provisioning the device and once done it should show `Provisioned!` success message. Click `Close`.
-- Go to `ESPHome` page from yout HA sidebar and it should show a new device is discovered. Click on `Adopt`.
-- It will ask to create a new name. Make it whatever you want and click `Install`.
-- Click `close` once you see `INFO Successfully uploaded program.`.
+- Connect your Paperd.Ink to your computer via a USB cable.
+- Go to [ESPHome Dasboard →](https://web.esphome.io/?dashboard_wizard) and click on Connect, then select your Paperd.Ink device from the dropdown.
+- Click on `Prepare for first use` and `Install` on the popup.
+- After a successful installation, enter the same Wi-Fi details as the HA installation and access.
+- It will provision the device and show a `Provisioned`" success message. Click `Close`.
+- Go to the `ESPHome` page on the HA sidebar and click on `Adopt` to create a new device name.
+- Install it and close the page once you see `INFO Successfully uploaded program`.
+
 
 ## Configuring Paperd.Ink
 - Go to `ESPHome` page from your HA sidebar.
 - Click on `Edit` under the device you created in the previous step.
-- Copy the below configuration under the existing configuration.
+- Copy paste the configuration provided below the existing configuration
 ```
 output:
   - platform: gpio
@@ -79,8 +79,8 @@ display:
       it.printf(200, 150, id(source_sans_pro_25), TextAlign::BASELINE_CENTER, "%s", "Hello World from HA!");
       id(enable_epd).turn_off();// Turns off E-paper
 ```
-- Click `Save` and then `Install` and then `Wirelessly` to install it on your Paperd.Ink.
-- You should now see `Hello World from HA!` on your Paperd.Ink.
+- Click `Save`, then `Install`, and then `Wirelessly` to install it on your Paperd.Ink.
+- You should now see `Hello World from HA!` displayed on your Paperd.Ink.
 
 ## Further Reading
 - https://esphome.io/components/display/index.html
