@@ -97,42 +97,43 @@ void loop() {}
 \u003c/ul\u003e
 `},{id:2,href:"https://docs.paperd.ink/docs/software/home_assistant/",title:"3. Home Assistant",description:"Installing Home Assistant",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e⚠️\u003c/div\u003e
-  \u003cdiv class="w-100"\u003eHome Assistant is currently only supported on Paperd.Ink Classic.\u003c/div\u003e
+  \u003cdiv class="w-100"\u003eHome Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five.\u003c/div\u003e
 \u003c/div\u003e
 \u003ch2 id="setting-up-home-assistant"\u003eSetting up Home Assistant\u003c/h2\u003e
-\u003cp\u003eSetting up Home Assistant can differ for each person. Please follow the excellent instructions provided by the HA team \u003ca href="https://www.home-assistant.io/installation/"\u003ehere →\u003c/a\u003e.
-Note that you need to install the HA Supervisor in order to install the ESPHome add-on which is used to communicate with Paperd.Ink\u003c/p\u003e
+\u003cul\u003e
+\u003cli\u003eVisit the Home Assistant installation page and select the appropriate OS/Machine \u003ca href="https://www.home-assistant.io/installation/"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003eChoose the Home Assistant Operating System method for installation.\u003c/li\u003e
+\u003cli\u003eIf you decide to use a different installation method, make sure to install the HA Supervisor to enable the installation of the ESPHome add-on, which is needed to communicate with Paperd.Ink.\u003c/li\u003e
+\u003c/ul\u003e
 \u003ch2 id="setting-up-esphome-addon"\u003eSetting up ESPHome addon\u003c/h2\u003e
 \u003cul\u003e
-\u003cli\u003eGo to HA \u003ccode\u003eSettings\u003c/code\u003e by clicking on the sidebar icon.\u003c/li\u003e
-\u003cli\u003eGo to \u003ccode\u003eAdd-Ons\u003c/code\u003e from the menu.\u003c/li\u003e
-\u003cli\u003eClick on the \u003ccode\u003eAdd-On Store\u003c/code\u003e button on the bottom right.\u003c/li\u003e
+\u003cli\u003eClick on the sidebar icon to go to HA \u003ccode\u003eSettings\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eFrom the menu, go to \u003ccode\u003eAdd-Ons\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eClick on the \u003ccode\u003eAdd-On Store\u003c/code\u003e button located on the bottom right of the screen.\u003c/li\u003e
 \u003cli\u003eSearch for \u003ccode\u003eESPHome\u003c/code\u003e and install it.\u003c/li\u003e
-\u003cli\u003eFollow the instructions on screen to complete the set up.\u003c/li\u003e
-\u003cli\u003e\u003ccode\u003eESPHome\u003c/code\u003e should now show up on your HA sidebar.\u003c/li\u003e
+\u003cli\u003eFollow the on-screen instructions to complete the setup process.\u003c/li\u003e
+\u003cli\u003e\u003ccode\u003eESPHome\u003c/code\u003e should now appear on your HA sidebar.\u003c/li\u003e
 \u003c/ul\u003e
 \u003cp\u003eMore instructions available \u003ca href="https://www.home-assistant.io/integrations/esphome/"\u003ehere →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="installing-esphome-on-paperdink"\u003eInstalling ESPHome on Paperd.Ink\u003c/h2\u003e
 \u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e⚠️\u003c/div\u003e
-  \u003cdiv class="w-100"\u003eOnly google chrome seems to be supported for the following steps at the moment.\u003c/div\u003e
+  \u003cdiv class="w-100"\u003eCurrently, only Google Chrome browser seems to be supported for the following steps.\u003c/div\u003e
 \u003c/div\u003e
 \u003cul\u003e
-\u003cli\u003eConnect Paperd.Ink to your computer via a USB cable.\u003c/li\u003e
-\u003cli\u003eGo to \u003ca href="https://web.esphome.io/?dashboard_wizard"\u003eESPHome Dasboard →\u003c/a\u003e.\u003c/li\u003e
-\u003cli\u003eClick on \u003ccode\u003eConnect\u003c/code\u003e and select your Paperd.Ink device from the dropdown.\u003c/li\u003e
-\u003cli\u003eClick on \u003ccode\u003ePrepare for first use\u003c/code\u003e and click \u003ccode\u003eInstall\u003c/code\u003e on the popup.\u003c/li\u003e
-\u003cli\u003eAfter installation is succesful, the page will ask to connect to wifi. Enter the same wifi details where HA is installed and can be accessed.\u003c/li\u003e
-\u003cli\u003eIt will start provisioning the device and once done it should show \u003ccode\u003eProvisioned!\u003c/code\u003e success message. Click \u003ccode\u003eClose\u003c/code\u003e.\u003c/li\u003e
-\u003cli\u003eGo to \u003ccode\u003eESPHome\u003c/code\u003e page from yout HA sidebar and it should show a new device is discovered. Click on \u003ccode\u003eAdopt\u003c/code\u003e.\u003c/li\u003e
-\u003cli\u003eIt will ask to create a new name. Make it whatever you want and click \u003ccode\u003eInstall\u003c/code\u003e.\u003c/li\u003e
-\u003cli\u003eClick \u003ccode\u003eclose\u003c/code\u003e once you see \u003ccode\u003eINFO Successfully uploaded program.\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eConnect your Paperd.Ink to your computer via a USB cable.\u003c/li\u003e
+\u003cli\u003eGo to \u003ca href="https://web.esphome.io/?dashboard_wizard"\u003eESPHome Dasboard →\u003c/a\u003e and click on Connect, then select your Paperd.Ink device from the dropdown.\u003c/li\u003e
+\u003cli\u003eClick on \u003ccode\u003ePrepare for first use\u003c/code\u003e and \u003ccode\u003eInstall\u003c/code\u003e on the popup.\u003c/li\u003e
+\u003cli\u003eAfter a successful installation, enter the same Wi-Fi details as the HA installation and access.\u003c/li\u003e
+\u003cli\u003eIt will provision the device and show a \u003ccode\u003eProvisioned\u003c/code\u003e\u0026quot; success message. Click \u003ccode\u003eClose\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eGo to the \u003ccode\u003eESPHome\u003c/code\u003e page on the HA sidebar and click on \u003ccode\u003eAdopt\u003c/code\u003e to create a new device name.\u003c/li\u003e
+\u003cli\u003eInstall it and close the page once you see \u003ccode\u003eINFO Successfully uploaded program\u003c/code\u003e.\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="configuring-paperdink"\u003eConfiguring Paperd.Ink\u003c/h2\u003e
 \u003cul\u003e
 \u003cli\u003eGo to \u003ccode\u003eESPHome\u003c/code\u003e page from your HA sidebar.\u003c/li\u003e
 \u003cli\u003eClick on \u003ccode\u003eEdit\u003c/code\u003e under the device you created in the previous step.\u003c/li\u003e
-\u003cli\u003eCopy the below configuration under the existing configuration.\u003c/li\u003e
+\u003cli\u003eCopy paste the configuration provided below the existing configuration\u003c/li\u003e
 \u003c/ul\u003e
 \u003cpre\u003e\u003ccode\u003eoutput:
   - platform: gpio
@@ -167,8 +168,8 @@ display:
       id(enable_epd).turn_off();// Turns off E-paper
 \u003c/code\u003e\u003c/pre\u003e
 \u003cul\u003e
-\u003cli\u003eClick \u003ccode\u003eSave\u003c/code\u003e and then \u003ccode\u003eInstall\u003c/code\u003e and then \u003ccode\u003eWirelessly\u003c/code\u003e to install it on your Paperd.Ink.\u003c/li\u003e
-\u003cli\u003eYou should now see \u003ccode\u003eHello World from HA!\u003c/code\u003e on your Paperd.Ink.\u003c/li\u003e
+\u003cli\u003eClick \u003ccode\u003eSave\u003c/code\u003e, then \u003ccode\u003eInstall\u003c/code\u003e, and then \u003ccode\u003eWirelessly\u003c/code\u003e to install it on your Paperd.Ink.\u003c/li\u003e
+\u003cli\u003eYou should now see \u003ccode\u003eHello World from HA!\u003c/code\u003e displayed on your Paperd.Ink.\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="further-reading"\u003eFurther Reading\u003c/h2\u003e
 \u003cul\u003e
