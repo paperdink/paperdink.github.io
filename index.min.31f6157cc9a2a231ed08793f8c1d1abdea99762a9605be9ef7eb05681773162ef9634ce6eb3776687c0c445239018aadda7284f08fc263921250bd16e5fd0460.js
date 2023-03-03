@@ -116,7 +116,7 @@ void loop() {}
 \u003cp\u003e\u003cimg src="https://github.com/paperdink/paperdink.github.io/blob/main/content/blog/home-assistant-weather/ha-loading-screen.png" alt="HA Loading Screen"\u003e\u003c/p\u003e
 \u003ch2 id="setting-up-esphome-addon"\u003eSetting up ESPHome addon\u003c/h2\u003e
 \u003cul\u003e
-\u003cli\u003eClick on the sidebar icon to go to HA \u003ccode\u003eSettings\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eOnce you register and log in, click on the sidebar icon to go to HA \u003ccode\u003eSettings\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eFrom the menu, go to \u003ccode\u003eAdd-Ons\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eClick on the \u003ccode\u003eAdd-On Store\u003c/code\u003e button located on the bottom right of the screen.\u003c/li\u003e
 \u003cli\u003eSearch for \u003ccode\u003eESPHome\u003c/code\u003e and install it.\u003c/li\u003e
