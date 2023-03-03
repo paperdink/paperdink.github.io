@@ -83,6 +83,6 @@ display:
 - You should now see `Hello World from HA!` displayed on your Paperd.Ink.
 
 ## Further Reading
-- https://esphome.io/components/display/index.html
-- https://esphome.io/components/display/waveshare_epaper.html
+- [https://esphome.io/components/display/index.html](https://esphome.io/components/display/index.html)
+- [https://esphome.io/components/display/waveshare_epaper.html](https://esphome.io/components/display/waveshare_epaper.html)
 
