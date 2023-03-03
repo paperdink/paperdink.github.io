@@ -25,12 +25,11 @@ You’ll need to do the following for Windows/Mac/Linux:
 - Download the corresponding image and unzip it.
 - Set up a new VM with the given settings. (Pro tip: Make sure you select the Linux version "Linux 2.6 / 3.x / 4.x (64-bit)" and not Oracle Linux while setting up the VM).
 - Load the appliance image into your virtual image hypervisor.
-- You should now be able to access Home Assistant on [homeassistant.local:8123](http://homeassistant.local:8123) and see the following: 
+- You should now be able to access Home Assistant on [homeassistant.local:8123](http://homeassistant.local:8123) and see the message `Preparing Home Assistant (this can take up to 20 minutes` on your screen. You can then register and log in. 
 
-![HA Loading Screen](https://github.com/paperdink/paperdink.github.io/blob/main/content/blog/home-assistant-weather/ha-loading-screen.png)
 
 ## Setting up ESPHome addon
-- Once you register and log in, click on the sidebar icon to go to HA `Settings`.
+- Click on the sidebar icon to go to HA `Settings`.
 - From the menu, go to `Add-Ons`.
 - Click on the `Add-On Store` button located on the bottom right of the screen.
 - Search for `ESPHome` and install it.
