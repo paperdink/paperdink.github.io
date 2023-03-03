@@ -20,6 +20,15 @@ toc: true
 - Choose the Home Assistant Operating System method for installation.
 - If you decide to use a different installation method, make sure to install the HA Supervisor to enable the installation of the ESPHome add-on, which is needed to communicate with Paperd.Ink.
 
+You’ll need to do the following for Windows/Mac/Linux:
+- Install a Virtual Image Hypervisor such as VirtualBox, KVM, Vmware Workstation, or Hyper-V.
+- Download the corresponding image and unzip it.
+- Set up a new VM with the given settings. (Pro tip: Make sure you select the Linux version "Linux 2.6 / 3.x / 4.x (64-bit)" and not Oracle Linux while setting up the VM).
+- Load the appliance image into your virtual image hypervisor.
+- You should now be able to access Home Assistant on homeassistant.local:8123 and see the following: 
+
+![HA Loading Screen](https://github.com/paperdink/paperdink.github.io/blob/main/content/blog/home-assistant-weather/ha-loading-screen.png)
+
 ## Setting up ESPHome addon
 - Click on the sidebar icon to go to HA `Settings`.
 - From the menu, go to `Add-Ons`.
