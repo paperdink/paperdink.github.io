@@ -173,8 +173,8 @@ display:
 \u003c/ul\u003e
 \u003ch2 id="further-reading"\u003eFurther Reading\u003c/h2\u003e
 \u003cul\u003e
-\u003cli\u003ehttps://esphome.io/components/display/index.html\u003c/li\u003e
-\u003cli\u003ehttps://esphome.io/components/display/waveshare_epaper.html\u003c/li\u003e
+\u003cli\u003e\u003ca href="https://esphome.io/components/display/index.html"\u003ehttps://esphome.io/components/display/index.html\u003c/a\u003e\u003c/li\u003e
+\u003cli\u003e\u003ca href="https://esphome.io/components/display/waveshare_epaper.html"\u003ehttps://esphome.io/components/display/waveshare_epaper.html\u003c/a\u003e\u003c/li\u003e
 \u003c/ul\u003e
 `},{id:3,href:"https://docs.paperd.ink/docs/software/examples/",title:"4. Examples",description:"Sample codes and use-cases to get started",content:`\u003ch2 id="paperdink-arduino-library-examples"\u003ePaperdink Arduino Library Examples\u003c/h2\u003e
 \u003cp\u003eTo get started with the Paperdink library follow the instructions \u003ca href="https://docs.paperd.ink/docs/software/getting-started/#paperdink-library"\u003ehere→\u003c/a\u003e .\u003c/p\u003e
