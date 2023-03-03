@@ -14,27 +14,31 @@ This example was inspired from [Sainz work →](https://github.com/sainz/Home-As
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
 
 ## Setting up Home Assistant
-Follow instructions in our docs page to configure and install Home Assistant [here →](http://localhost:1313/docs/software/home_assistant/)
+Follow the instructions provided on our documentation page to configure and install Home Assistant [here →](http://localhost:1313/docs/software/home_assistant/)
 
 ## Install and Configure AccuWeather Integration
-- Go to the AccuWeather [website →](https://developer.accuweather.com/) and create an account.
-- Login to your AccuWeather account and go to `MyApps` tab and create a new app.
-- Once the app is created, click on it to find your API Key. Note this key.
-- Go to `Settings > Devices & Services` in Home Assistant and click on `Add Integration` on the bottom right.
-- Search and install `AccuWeather` add-on and input your API Key. Make sure the Lat and Lon are correct for your location. And name it as `Home`. Click `Finish` on the success pop-up.
-- You should now see an AccuWeather card. Click on `Configure` and enable the `Weather Forecast` button and click `Submit`. Click `Finish` on the success pop-up. 
-- The weather information should be available on your Home Assistant dashboard now.
+- Create an account on the AccuWeather [website →](https://developer.accuweather.com/).
+- Login to your account and go to the `MyApps` tab to create a new app.
+- After creating the app, note down your API key from the app details.
+- In Home Assistant, go to `Settings > Devices & Services` and click on `Add Integration`.
+- Search and install the `AccuWeather` add-on, and input your API key. Ensure that the Lat and Lon values are correct for your location and name it as `Home`. Click `Finish` on the success pop-up.
+- You should now see an AccuWeather card. Click on `Configure`, enable the `Weather Forecast` button, and click `Submit`. Click `Finish` on the success pop-up.
+- The weather information should now be available on your Home Assistant dashboard.
+
 
 ## Installing File Editor
-- Go to `Settings > Add-Ons` in Home Assistant and click on `Add-On Store` on the bottom right.
-- Search and install `File Editor`.
-- Enable all options like `Start on boot`, `Watchdog`, `Auto Update` and `Show in sidebar`.
+- In Home Assistant, go to `Settings > Add-Ons` and click on `Add-On Store`.
+- Search for and install the `File Editor` add-on.
+- Enable all the necessary options, such as `Start on Boot`, `Watchdog`, `Auto Update`, and `Show in Sidebar`.
+
 
 ## Add new sensors for weather parsing
-- Click on the new `File Editor` icon in the HA sidebar.
-- Once the window opens, click on the `Folder` icon on the top left.
-- Make sure you are in `config/` directory and create a new file called `sensor.yaml`.
-- Copy and paste the following into `sensor.yaml` and save the file.
+- Click on the `File Editor` icon in the Home Assistant sidebar.
+- Click on the `Folder` icon located on the top left corner of the window.
+- Ensure that you are in the `config/` directory and create a new file named `sensor.yaml`.
+- Copy and paste the following code into the newly created `sensor.yaml` file and save the file.
+
+
 ```yaml showLineNumbers
 - platform: template
   sensors:
@@ -65,25 +69,31 @@ Follow instructions in our docs page to configure and install Home Assistant [he
         {{ states.sensor.it_days.state }};{{ states.sensor.weather_now.state }};{{ states.sensor.it_months.state }};
 
 ```
-- Now open `configuration.yaml` file and add the following line.
+
+- Open the configuration.yaml file and add the following line. 
+
 ```
 sensor: !include sensor.yaml
 ```
 
 ## Add fonts
-- Download the [Material WebIcons →](https://github.com/Templarian/MaterialDesign-Webfont/raw/master/fonts/materialdesignicons-webfont.ttf) and [OpenSans →](https://www.fontsquirrel.com/fonts/download/open-sans) fonts.
-- Extract the open-sans zip.
-- Click on the `File Editor` icon in the HA sidebar.
-- Once the window opens, click on the `Folder` icon on the top left.
-- Navigate to `config/esphome` directory. And create a new directory called `fonts`.
-- Upload the `OpenSans-Bold.ttf` and `materialdesignicons-webfont.ttf` files into the `fonts` directory.
+- Download [Material WebIcons →](https://github.com/Templarian/MaterialDesign-Webfont/raw/master/fonts/materialdesignicons-webfont.ttf) and [OpenSans →](https://www.fontsquirrel.com/fonts/download/open-sans), extract the OpenSans zip file.
+- Open `File Editor` from HA sidebar, navigate to `config/esphome` directory by clicking on the folder icon and create a new directory named `fonts`.
+- Upload the `OpenSans-Bold.ttf` and `materialdesignicons-webfont.ttf` files to the `fonts` directory.
+
+
+
 
 ## Configure Paperd.Ink
 - Go to `ESPHome` in the HA sidebar.
 - Click on `Edit` under the Paperd.Ink device.
-- Note your api encryption key, ota password, and wifi ap password. 
-- Replace the configuration with the following and update the api encryption key, ota password, wifi ap password, timezone, latitude and longitude.
-Display update_interval can also be changed. It is set to 1 hour in the below config.
+- Note your API encryption key, OTA password, and Wi-Fi AP password.
+- Replace the configuration with the following, updating the API encryption key, OTA password, Wi-Fi AP password, timezone, latitude, and longitude as needed. You can also change the display update interval, which is set to 1 hour in the config below.
+- Click Save and Install.
+- Wait for the installation to complete (around 90 seconds), then check the Paperd.Ink display to confirm that it's working properly.
+
+
+
 ```yaml showLineNumbers
 esphome:
   name: classic
@@ -509,4 +519,3 @@ display:
       }
       id(enable_epd).turn_off();
 ```
-- Finally click `Save` and `Install`. After successfully getting uploaded, you should see the expected screen after 90 seconds.
