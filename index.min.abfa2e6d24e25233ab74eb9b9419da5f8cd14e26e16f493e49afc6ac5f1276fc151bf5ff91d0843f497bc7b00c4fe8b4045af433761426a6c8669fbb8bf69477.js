@@ -122,10 +122,10 @@ void loop() {}
 \u003c/div\u003e
 \u003cul\u003e
 \u003cli\u003eConnect your Paperd.Ink to your computer via a USB cable.\u003c/li\u003e
-\u003cli\u003eGo to \u003ca href="https://web.esphome.io/?dashboard_wizard"\u003eESPHome Dasboard →\u003c/a\u003e and click on Connect, then select your Paperd.Ink device from the dropdown.\u003c/li\u003e
+\u003cli\u003eGo to \u003ca href="https://web.esphome.io/?dashboard_wizard"\u003eESPHome Dasboard →\u003c/a\u003e and click on \u003ccode\u003eConnect\u003c/code\u003e, then select your Paperd.Ink device from the dropdown.\u003c/li\u003e
 \u003cli\u003eClick on \u003ccode\u003ePrepare for first use\u003c/code\u003e and \u003ccode\u003eInstall\u003c/code\u003e on the popup.\u003c/li\u003e
 \u003cli\u003eAfter a successful installation, enter the same Wi-Fi details as the HA installation and access.\u003c/li\u003e
-\u003cli\u003eIt will provision the device and show a \u003ccode\u003eProvisioned\u003c/code\u003e\u0026quot; success message. Click \u003ccode\u003eClose\u003c/code\u003e.\u003c/li\u003e
+\u003cli\u003eIt will provision the device and show a \u003ccode\u003eProvisioned\u003c/code\u003e success message. Click \u003ccode\u003eClose\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003eGo to the \u003ccode\u003eESPHome\u003c/code\u003e page on the HA sidebar and click on \u003ccode\u003eAdopt\u003c/code\u003e to create a new device name.\u003c/li\u003e
 \u003cli\u003eInstall it and close the page once you see \u003ccode\u003eINFO Successfully uploaded program\u003c/code\u003e.\u003c/li\u003e
 \u003c/ul\u003e
