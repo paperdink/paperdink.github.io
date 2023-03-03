@@ -30,7 +30,7 @@ You’ll need to do the following for Windows/Mac/Linux:
 ![HA Loading Screen](https://github.com/paperdink/paperdink.github.io/blob/main/content/blog/home-assistant-weather/ha-loading-screen.png)
 
 ## Setting up ESPHome addon
-- Click on the sidebar icon to go to HA `Settings`.
+- Once you register and log in, click on the sidebar icon to go to HA `Settings`.
 - From the menu, go to `Add-Ons`.
 - Click on the `Add-On Store` button located on the bottom right of the screen.
 - Search for `ESPHome` and install it.
