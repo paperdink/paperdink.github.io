@@ -111,7 +111,7 @@ void loop() {}
 \u003cli\u003eDownload the corresponding image and unzip it.\u003c/li\u003e
 \u003cli\u003eSet up a new VM with the given settings. (Pro tip: Make sure you select the Linux version \u0026ldquo;Linux 2.6 / 3.x / 4.x (64-bit)\u0026rdquo; and not Oracle Linux while setting up the VM).\u003c/li\u003e
 \u003cli\u003eLoad the appliance image into your virtual image hypervisor.\u003c/li\u003e
-\u003cli\u003eYou should now be able to access Home Assistant on \u003ca href="http://homeassistant.local:8123"\u003ehomeassistant.local:8123\u003c/a\u003e and see the message \u003ccode\u003ePreparing Home Assistant (this can take up to 20 minutes\u003c/code\u003e on your screen. You can then register and log in.\u003c/li\u003e
+\u003cli\u003eYou should now be able to access Home Assistant on \u003ca href="http://homeassistant.local:8123"\u003ehomeassistant.local:8123\u003c/a\u003e and see the message \u003ccode\u003ePreparing Home Assistant (this can take up to 20 minutes)\u003c/code\u003e on your screen. You can then register and log in.\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="setting-up-esphome-addon"\u003eSetting up ESPHome addon\u003c/h2\u003e
 \u003cul\u003e
