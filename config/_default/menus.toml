@@ -2,23 +2,24 @@
   name = "Software"
   weight = 10
   identifier = "software"
-  url = "/docs/software/"
+  url = "/docs/software/getting-started/"
 
 [[docs]]
   name = "Hardware"
-  weight = 20
+  weight = 11
   identifier = "hardware"
-  url = "/docs/hardware/"
+  url = "/docs/hardware/hardware"
+
+[[docs]]
+ name = "Blog"
+ weight = 12
+ identifier = "blog"
+ url = "/blog/"
 
 [[main]]
  name = "Docs"
  url = "/docs/"
  weight = 10
-
-[[main]]
- name = "Blog"
- url = "/blog/"
- weight = 20
 
 [[social]]
   name = "Hackaday"
