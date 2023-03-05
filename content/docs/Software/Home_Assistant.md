@@ -90,6 +90,9 @@ display:
 - Click `Save`, then `Install`, and then `Wirelessly` to install it on your Paperd.Ink.
 - You should now see `Hello World from HA!` displayed on your Paperd.Ink.
 
+## Advanced Config
+For a more advanced config which shows weather forecast, day and date. Checkout our [blog →](https://docs.paperd.ink/blog/home-assistant-weather/)
+
 ## Further Reading
 - [https://esphome.io/components/display/index.html](https://esphome.io/components/display/index.html)
 - [https://esphome.io/components/display/waveshare_epaper.html](https://esphome.io/components/display/waveshare_epaper.html)
