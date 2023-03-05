@@ -179,6 +179,8 @@ display:
 \u003cli\u003eClick \u003ccode\u003eSave\u003c/code\u003e, then \u003ccode\u003eInstall\u003c/code\u003e, and then \u003ccode\u003eWirelessly\u003c/code\u003e to install it on your Paperd.Ink.\u003c/li\u003e
 \u003cli\u003eYou should now see \u003ccode\u003eHello World from HA!\u003c/code\u003e displayed on your Paperd.Ink.\u003c/li\u003e
 \u003c/ul\u003e
+\u003ch2 id="advanced-config"\u003eAdvanced Config\u003c/h2\u003e
+\u003cp\u003eFor a more advanced config which shows weather forecast, day and date. Checkout our \u003ca href="https://docs.paperd.ink/blog/home-assistant-weather/"\u003eblog →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="further-reading"\u003eFurther Reading\u003c/h2\u003e
 \u003cul\u003e
 \u003cli\u003e\u003ca href="https://esphome.io/components/display/index.html"\u003ehttps://esphome.io/components/display/index.html\u003c/a\u003e\u003c/li\u003e
