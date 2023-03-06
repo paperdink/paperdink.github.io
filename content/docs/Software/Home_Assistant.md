@@ -34,6 +34,7 @@ You’ll need to do the following for Windows/Mac/Linux:
 - Click on the `Add-On Store` button located on the bottom right of the screen.
 - Search for `ESPHome` and install it.
 - Follow the on-screen instructions to complete the setup process.
+- Enable `start on boot`, `Watchdog`, and `Show in sidebar` options. Click on `START`.
 - `ESPHome` should now appear on your HA sidebar.
 
 More instructions available [here →](https://www.home-assistant.io/integrations/esphome/)
