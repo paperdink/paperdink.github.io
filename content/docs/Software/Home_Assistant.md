@@ -54,7 +54,7 @@ More instructions available [here →](https://www.home-assistant.io/integration
 ## Configuring Paperd.Ink
 - Go to `ESPHome` page from your HA sidebar.
 - Click on `Edit` under the device you created in the previous step.
-- Copy paste the configuration provided below the existing configuration
+- Copy paste the configuration provided below the existing configuration and make sure the identation is correct. 
 ```
 output:
   - platform: gpio
