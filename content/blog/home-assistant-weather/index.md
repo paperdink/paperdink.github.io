@@ -14,7 +14,7 @@ This example was inspired from [Sainz work →](https://github.com/sainz/Home-As
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
 
 ## Setting up Home Assistant
-Follow the instructions provided on our documentation page to configure and install Home Assistant [here →](http://localhost:1313/docs/software/home_assistant/)
+Follow the instructions provided on our documentation page to configure and install Home Assistant [here →](https://docs.paperd.ink/docs/software/home_assistant/)
 
 ## Install and Configure AccuWeather Integration
 - Create an account on the AccuWeather [website →](https://developer.accuweather.com/).
