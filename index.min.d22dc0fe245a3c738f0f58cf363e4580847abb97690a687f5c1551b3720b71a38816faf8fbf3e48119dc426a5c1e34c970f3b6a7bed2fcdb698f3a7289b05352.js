@@ -142,7 +142,7 @@ void loop() {}
 \u003cul\u003e
 \u003cli\u003eGo to \u003ccode\u003eESPHome\u003c/code\u003e page from your HA sidebar.\u003c/li\u003e
 \u003cli\u003eClick on \u003ccode\u003eEdit\u003c/code\u003e under the device you created in the previous step.\u003c/li\u003e
-\u003cli\u003eCopy paste the configuration provided below the existing configuration\u003c/li\u003e
+\u003cli\u003eCopy paste the configuration provided below the existing configuration and make sure the identation is correct.\u003c/li\u003e
 \u003c/ul\u003e
 \u003cpre\u003e\u003ccode\u003eoutput:
   - platform: gpio
