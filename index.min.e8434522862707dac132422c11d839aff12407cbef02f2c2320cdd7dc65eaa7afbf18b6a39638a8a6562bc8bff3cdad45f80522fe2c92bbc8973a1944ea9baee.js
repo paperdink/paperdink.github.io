@@ -120,6 +120,7 @@ void loop() {}
 \u003cli\u003eClick on the \u003ccode\u003eAdd-On Store\u003c/code\u003e button located on the bottom right of the screen.\u003c/li\u003e
 \u003cli\u003eSearch for \u003ccode\u003eESPHome\u003c/code\u003e and install it.\u003c/li\u003e
 \u003cli\u003eFollow the on-screen instructions to complete the setup process.\u003c/li\u003e
+\u003cli\u003eEnable \u003ccode\u003estart on boot\u003c/code\u003e, \u003ccode\u003eWatchdog\u003c/code\u003e, and \u003ccode\u003eShow in sidebar\u003c/code\u003e options. Click on \u003ccode\u003eSTART\u003c/code\u003e.\u003c/li\u003e
 \u003cli\u003e\u003ccode\u003eESPHome\u003c/code\u003e should now appear on your HA sidebar.\u003c/li\u003e
 \u003c/ul\u003e
 \u003cp\u003eMore instructions available \u003ca href="https://www.home-assistant.io/integrations/esphome/"\u003ehere →\u003c/a\u003e\u003c/p\u003e
