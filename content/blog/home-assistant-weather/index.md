@@ -88,7 +88,7 @@ sensor: !include sensor.yaml
 - Go to `ESPHome` in the HA sidebar.
 - Click on `Edit` under the Paperd.Ink device.
 - Note your API encryption key, OTA password, and Wi-Fi AP password.
-- Replace the configuration with the following, updating the API encryption key, OTA password, Wi-Fi AP password, timezone, latitude, and longitude as needed. You can also change the display update interval, which is set to 1 hour in the config below.
+- Replace the configuration in the following code with the ones you noted earlier. Please update the API encryption key, OTA password, Wi-Fi AP password, timezone, latitude, and longitude as needed in the code below and replace it in the ESPHome code. You can also change the display update interval, which is set to 1 hour in the config below.
 - Click Save and Install.
 - Wait for the installation to complete (around 90 seconds), then check the Paperd.Ink display to confirm that it's working properly.
 
