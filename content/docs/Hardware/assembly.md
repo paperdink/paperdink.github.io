@@ -15,6 +15,7 @@ toc: true
 ## How to assemble paperd.ink
 <img src="/images/paperd_ink_merlot_assembly.gif" width="375" height="300">
 
+
 Note: paperd.ink devices do not come with extension headers pre-installed. The above visuals are for representation purposes only. 
 
 ## Enclosure files
