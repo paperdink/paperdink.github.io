@@ -13,6 +13,8 @@ This example was inspired from [Sainz work →](https://github.com/sainz/Home-As
 
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
 
+{{< alert icon="⚠️" text="The battery life while using Paperd.Ink with HA is only a day currently due to the constant need for connection. We are working on adding deep sleep functionality which will prolong the battery life." >}}
+
 ## Setting up Home Assistant
 Follow the instructions provided on our documentation page to configure and install Home Assistant [here →](https://docs.paperd.ink/docs/software/home_assistant/)
 
