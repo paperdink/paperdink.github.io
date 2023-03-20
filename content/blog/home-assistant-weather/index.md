@@ -98,7 +98,7 @@ sensor: !include sensor.yaml
 
 ```yaml showLineNumbers
 esphome:
-  name: classic
+  name: *****
   on_boot:
     priority: -10
     then:
