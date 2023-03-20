@@ -25,6 +25,10 @@ Follow the instructions provided on our documentation page to configure and inst
 - You should now see an AccuWeather card. Click on `Configure`, enable the `Weather Forecast` button, and click `Submit`. Click `Finish` on the success pop-up.
 - The weather information should now be available on your Home Assistant dashboard.
 
+## Add Sun and Moon integration
+- In Home Assistant, go to `Settings > Devices & Services`.
+- Click on `+ Add integration` button on the bottom right.
+- Search for `Sun` and `Moon` and add them.
 
 ## Installing File Editor
 - In Home Assistant, go to `Settings > Add-Ons` and click on `Add-On Store`.
@@ -81,18 +85,14 @@ sensor: !include sensor.yaml
 - Open `File Editor` from HA sidebar, navigate to `config/esphome` directory by clicking on the folder icon and create a new directory named `fonts`.
 - Upload the `OpenSans-Bold.ttf` and `materialdesignicons-webfont.ttf` files to the `fonts` directory.
 
-
-
-
 ## Configure Paperd.Ink
 - Go to `ESPHome` in the HA sidebar.
 - Click on `Edit` under the Paperd.Ink device.
 - Note your API encryption key, OTA password, and Wi-Fi AP password.
-- Please update the API encryption key, OTA password (remove the password line if there was no password), Wi-Fi AP password, timezone, latitude, and longitude as needed in the code below and replace it in the ESPHome code. You can also change the display update interval, which is set to 1 hour in the config below.
+- Please update the name, API encryption key, OTA password (remove the password line if there was no password), Wi-Fi AP password, timezone, latitude, and longitude as needed in the code below and replace it in the ESPHome code. You can also change the display `update_interval`, which is set to 1 hour (3600 secs) in the config below.
 - Click Save and Install.
-- Wait for the installation to complete (around 90 seconds), then check the Paperd.Ink display to confirm that it's working properly.
-
-
+- Wait for the installation to complete (about a min), then check the Paperd.Ink display to confirm that it's working properly.
+- It takes about 90 seconds to refresh with all the data.
 
 ```yaml showLineNumbers
 esphome:
@@ -130,6 +130,14 @@ wifi:
 
 captive_portal:
 
+time:
+  - platform: homeassistant
+    id: ha_time
+    timezone: America/Chicago
+
+sun:
+  latitude: 20.1
+  longitude: 22.5
 
 # Paperdink display config
 output:
@@ -279,15 +287,6 @@ font:
       "\U000F0322", # mdi-laptop
       "\U000F07F4", # mdi-television-classic
       ]
-
-time:
-  - platform: homeassistant
-    id: ha_time
-    timezone: America/Chicago
-
-sun:
-  latitude: 20.1
-  longitude: 22.5
 
 sensor:
   - platform: homeassistant
