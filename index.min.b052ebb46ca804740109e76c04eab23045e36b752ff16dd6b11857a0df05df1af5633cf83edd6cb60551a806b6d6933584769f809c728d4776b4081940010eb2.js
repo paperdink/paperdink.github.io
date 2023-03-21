@@ -100,7 +100,6 @@ void loop() {}
   \u003cdiv class="w-100"\u003eHome Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five.\u003c/div\u003e
 \u003c/div\u003e
 \u003cimg src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600"\u003e\u003c/p\u003e
-\u003cp\u003e\u0026nbsp;\u003c/p\u003e
 \u003ch2 id="setting-up-home-assistant"\u003eSetting up Home Assistant\u003c/h2\u003e
 \u003cul\u003e
 \u003cli\u003eVisit the Home Assistant installation page and select the appropriate OS/Machine \u003ca href="https://www.home-assistant.io/installation/"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
