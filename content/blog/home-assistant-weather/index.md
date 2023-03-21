@@ -525,7 +525,9 @@ display:
       }
       id(enable_epd).turn_off();
 ```
-{{< alert icon="⚠️" text="We are currently experiencing a battery life of only a day when using paperd.ink with Home Assistant, as the device maintains a constant WiFi connection. However, our team is actively working on incorporating deep sleep functionality which will significantly extend the battery life." >}}
+{{< alert icon="⚠️" text="We are currently experiencing a battery life of only a day when using paperd.ink with Home Assistant, as the device maintains a constant WiFi connection. However, we are working on incorporating deep sleep functionality which will significantly extend the battery life." >}}
 
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.jpg" width="600">
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.JPEG" width="600">
+
+![IMG_0490](https://user-images.githubusercontent.com/39776766/226701395-8ac10855-9aee-48dd-ac04-018df5e3d031.JPEG)
 
