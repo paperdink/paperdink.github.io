@@ -6,14 +6,17 @@ date: 2020-02-28T09:19:42+01:00
 lastmod: 2020-02-28T09:19:42+01:00
 draft: false
 weight: 50
-images: []
+images: ["static/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
 ---
+
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg">
+
 
 This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display).
 
-{{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
 
-{{< alert icon="⚠️" text="The battery life while using Paperd.Ink with HA is only a day currently due to the constantly on WiFi connection. We are working on adding deep sleep functionality which will prolong the battery life." >}}
+
+{{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
 
 ## Setting up Home Assistant
 Follow the instructions provided on our documentation page to configure and install Home Assistant [here →](https://docs.paperd.ink/docs/software/home_assistant/)
@@ -520,3 +523,4 @@ display:
       }
       id(enable_epd).turn_off();
 ```
+{{< alert icon="⚠️" text="We are currently experiencing a battery life of only a day when using paperd.ink with Home Assistant, as the device maintains a constant WiFi connection. However, our team is actively working on incorporating deep sleep functionality which will significantly extend the battery life." >}}
