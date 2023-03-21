@@ -13,6 +13,7 @@ toc: true
 <p>&nbsp;</p>
 
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
+<p>&nbsp;</p>
 
 This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display).
 
