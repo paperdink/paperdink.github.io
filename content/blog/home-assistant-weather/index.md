@@ -9,7 +9,7 @@ weight: 50
 images: ["/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
 ---
 
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_1.jpg" width="600">
 
 
 
