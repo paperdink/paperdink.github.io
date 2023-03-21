@@ -7,6 +7,7 @@ lastmod: 2020-02-28T09:19:42+01:00
 draft: false
 weight: 50
 images: ["/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
+toc: true
 ---
 
 <img src="/images/blog/home_assistant/paperd_ink_home_assistant_1.jpg" width="600">
