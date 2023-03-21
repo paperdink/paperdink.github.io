@@ -95,12 +95,11 @@ void loop() {}
 \u003cli\u003eArduinoJson by Benoit Blanchon\u003c/li\u003e
 \u003cli\u003eJSON Streaming Parser by Daniel Eichhorn\u003c/li\u003e
 \u003c/ul\u003e
-`},{id:2,href:"https://docs.paperd.ink/docs/software/home_assistant/",title:"3. Home Assistant",description:"Installing Home Assistant",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
+`},{id:2,href:"https://docs.paperd.ink/docs/software/home_assistant/",title:"3. Home Assistant",description:"Installing Home Assistant",content:`\u003cp\u003e\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e⚠️\u003c/div\u003e
   \u003cdiv class="w-100"\u003eHome Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five.\u003c/div\u003e
 \u003c/div\u003e
-\u003cp\u003e\u0026nbsp;\u003c/p\u003e
-\u003cimg src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600"\u003e
+\u003cimg src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600"\u003e\u003c/p\u003e
 \u003cp\u003e\u0026nbsp;\u003c/p\u003e
 \u003ch2 id="setting-up-home-assistant"\u003eSetting up Home Assistant\u003c/h2\u003e
 \u003cul\u003e
