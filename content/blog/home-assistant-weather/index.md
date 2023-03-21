@@ -2,8 +2,8 @@
 title: "Home Assistant Weather 🏠"
 description: "Setting up Paperd.Ink to show weather and date information"
 lead: "Setting up Paperd.Ink to show weather and date information."
-date: 2020-02-28T09:19:42+01:00
-lastmod: 2020-02-28T09:19:42+01:00
+date: 2023-02-28T09:19:42+01:00
+lastmod: 2023-02-28T09:19:42+01:00
 draft: false
 weight: 50
 images: ["/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
@@ -527,8 +527,12 @@ display:
       id(enable_epd).turn_off();
 ```
 {{< alert icon="⚠️" text="We are currently experiencing a battery life of only a day when using paperd.ink with Home Assistant, as the device maintains a constant WiFi connection. However, we are working on incorporating deep sleep functionality which will significantly extend the battery life." >}}
+<p>&nbsp;</p>
+
+
+
 
 <img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.JPEG" width="600">
+<p>&nbsp;</p>
 
-![IMG_0490](https://user-images.githubusercontent.com/39776766/226701395-8ac10855-9aee-48dd-ac04-018df5e3d031.JPEG)
 
