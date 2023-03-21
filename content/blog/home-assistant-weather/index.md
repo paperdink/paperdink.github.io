@@ -9,14 +9,7 @@ weight: 50
 images: ["/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
 toc: true
 ---
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.JPEG" width="550">
-<p>&nbsp;</p>
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_1.jpg" width="575">
-<p>&nbsp;</p>
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
-<p>&nbsp;</p>
-
-
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.JPEG" width="600">
 <p>&nbsp;</p>
 
 This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display).
@@ -533,10 +526,9 @@ display:
 {{< alert icon="⚠️" text="We are currently experiencing a battery life of only a day when using paperd.ink with Home Assistant, as the device maintains a constant WiFi connection. However, we are working on incorporating deep sleep functionality which will significantly extend the battery life." >}}
 <p>&nbsp;</p>
 
-
-
-
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.JPEG" width="600">
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_1.jpg" width="600">
 <p>&nbsp;</p>
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
+
 
 
