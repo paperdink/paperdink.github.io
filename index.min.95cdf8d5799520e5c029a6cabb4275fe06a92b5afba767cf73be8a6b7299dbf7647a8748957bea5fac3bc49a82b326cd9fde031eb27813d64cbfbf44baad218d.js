@@ -102,10 +102,12 @@ void loop() {}
 \u003cp\u003e\u0026nbsp;\u003c/p\u003e
 \u003cimg src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600"\u003e
 \u003cp\u003e\u0026nbsp;\u003c/p\u003e
-## Setting up Home Assistant
-- Visit the Home Assistant installation page and select the appropriate OS/Machine [here →](https://www.home-assistant.io/installation/).
-- Choose the Home Assistant Operating System method for installation.
-- If you decide to use a different installation method, make sure to install the HA Supervisor to enable the installation of the ESPHome add-on, which is needed to communicate with Paperd.Ink.
+\u003ch2 id="setting-up-home-assistant"\u003eSetting up Home Assistant\u003c/h2\u003e
+\u003cul\u003e
+\u003cli\u003eVisit the Home Assistant installation page and select the appropriate OS/Machine \u003ca href="https://www.home-assistant.io/installation/"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003eChoose the Home Assistant Operating System method for installation.\u003c/li\u003e
+\u003cli\u003eIf you decide to use a different installation method, make sure to install the HA Supervisor to enable the installation of the ESPHome add-on, which is needed to communicate with Paperd.Ink.\u003c/li\u003e
+\u003c/ul\u003e
 \u003cp\u003eYou’ll need to do the following for Windows/Mac/Linux:\u003c/p\u003e
 \u003cul\u003e
 \u003cli\u003eInstall a Virtual Image Hypervisor such as VirtualBox, KVM, Vmware Workstation, or Hyper-V.\u003c/li\u003e
