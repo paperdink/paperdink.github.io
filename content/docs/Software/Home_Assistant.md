@@ -2,8 +2,8 @@
 title: "3. Home Assistant"
 description: "Installing Home Assistant"
 lead: "Installing Home Assistant"
-date: 2020-10-13T15:21:01+02:00
-lastmod: 2020-10-13T15:21:01+02:00
+date: 2023-10-13T15:21:01+02:00
+lastmod: 2023-10-13T15:21:01+02:00
 draft: false
 images: []
 menu:
@@ -12,6 +12,7 @@ menu:
 weight: 120
 toc: true
 ---
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
 
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five." >}}
 
