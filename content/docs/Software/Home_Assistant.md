@@ -14,7 +14,9 @@ toc: true
 ---
 
 {{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five." >}}
-
+<p>&nbsp;</p>
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
+<p>&nbsp;</p>
 ## Setting up Home Assistant
 - Visit the Home Assistant installation page and select the appropriate OS/Machine [here →](https://www.home-assistant.io/installation/).
 - Choose the Home Assistant Operating System method for installation.
