@@ -12,6 +12,7 @@ images: ["/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
 <img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
 
 
+
 This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display).
 
 
