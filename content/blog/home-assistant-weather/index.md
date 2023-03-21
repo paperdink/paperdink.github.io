@@ -10,7 +10,8 @@ images: ["/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg"]
 toc: true
 ---
 
-<img src="/images/blog/home_assistant/paperd_ink_home_assistant_1.jpg" width="600">
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_1.jpg" width="500">
+<img src="/images/blog/home_assistant/paperd_ink_home_assistant_2.jpg" width="600">
 
 
 <p>&nbsp;</p>
