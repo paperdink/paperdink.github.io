@@ -12,11 +12,7 @@ toc: true
 <img src="/images/blog/home_assistant/paperd_ink_home_assistant_3.JPEG" width="600">
 <p>&nbsp;</p>
 
-This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display).
-
-
-
-{{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic." >}}
+{{< alert icon="⚠️" text="Home Assistant is currently only supported on Paperd.Ink Classic. This example was inspired from [Sainz work →](https://github.com/sainz/Home-Assistant-e-Ink-Display)." >}}
 
 ## Setting up Home Assistant
 Follow the instructions provided on our documentation page to configure and install Home Assistant [here →](https://docs.paperd.ink/docs/software/home_assistant/)
