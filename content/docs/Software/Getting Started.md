@@ -51,7 +51,7 @@ https://dl.espressif.com/dl/package_esp32_index.json
 
 If your computer is unable to recognize your paperd.ink device, you will need to install the CP210x driver. To do this, follow these steps:
 
-1. Visit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu [here →](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
+1. Visit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu [here →](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 2. Follow the instructions provided by the setup to install the driver on your computer.
 3. Once the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device. A restart might be required.
 
