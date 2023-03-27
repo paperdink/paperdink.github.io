@@ -37,7 +37,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003ch2 id="cp210x-usb-to-uart-bridge-vcp-drivers-windowsmac"\u003eCP210x USB to UART Bridge VCP Drivers (Windows/Mac)\u003c/h2\u003e
 \u003cp\u003eIf your computer is unable to recognize your paperd.ink device, you will need to install the CP210x driver. To do this, follow these steps:\u003c/p\u003e
 \u003col\u003e
-\u003cli\u003eVisit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu \u003ca href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
+\u003cli\u003eVisit the Silicon Labs website and download the CP210x USB to UART Bridge VCP Drivers from the top menu \u003ca href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads"\u003ehere →\u003c/a\u003e.\u003c/li\u003e
 \u003cli\u003eFollow the instructions provided by the setup to install the driver on your computer.\u003c/li\u003e
 \u003cli\u003eOnce the driver is installed, your computer should be able to recognize and communicate with your paperd.ink device. A restart might be required.\u003c/li\u003e
 \u003c/ol\u003e
