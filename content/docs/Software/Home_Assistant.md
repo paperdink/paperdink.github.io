@@ -1,7 +1,7 @@
 ---
 title: "3. Home Assistant"
-description: "Installing Home Assistant"
-lead: "Installing Home Assistant"
+description: "Installing Home Assistant on paperd.ink Classic"
+lead: "Installing Home Assistant on paperd.ink Classic"
 date: 2020-10-13T15:21:01+02:00
 lastmod: 2020-10-13T15:21:01+02:00
 draft: false
@@ -93,7 +93,7 @@ display:
 - You should now see `Hello World from HA!` displayed on your Paperd.Ink.
 
 ## Advanced Config
-For a more advanced config which shows weather forecast, day and date. Checkout our [blog →](https://docs.paperd.ink/blog/home-assistant-weather/)
+For a more advanced config which shows weather forecast, day and date, checkout our [blog →](https://docs.paperd.ink/blog/home-assistant-weather/)
 
 ## Further Reading
 - [https://esphome.io/components/display/index.html](https://esphome.io/components/display/index.html)
