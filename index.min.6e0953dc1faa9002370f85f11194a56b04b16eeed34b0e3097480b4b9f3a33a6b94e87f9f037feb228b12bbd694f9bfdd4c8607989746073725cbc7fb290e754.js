@@ -95,7 +95,7 @@ void loop() {}
 \u003cli\u003eArduinoJson by Benoit Blanchon\u003c/li\u003e
 \u003cli\u003eJSON Streaming Parser by Daniel Eichhorn\u003c/li\u003e
 \u003c/ul\u003e
-`},{id:2,href:"https://docs.paperd.ink/docs/software/home_assistant/",title:"3. Home Assistant",description:"Installing Home Assistant",content:`\u003cp\u003e\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
+`},{id:2,href:"https://docs.paperd.ink/docs/software/home_assistant/",title:"3. Home Assistant",description:"Installing Home Assistant on paperd.ink Classic",content:`\u003cp\u003e\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e⚠️\u003c/div\u003e
   \u003cdiv class="w-100"\u003eHome Assistant is currently only supported on Paperd.Ink Classic. It can take up to 20 minutes to install Home Assistant, so you might want to have a cup of coffee. Or five.\u003c/div\u003e
 \u003c/div\u003e
@@ -182,7 +182,7 @@ display:
 \u003cli\u003eYou should now see \u003ccode\u003eHello World from HA!\u003c/code\u003e displayed on your Paperd.Ink.\u003c/li\u003e
 \u003c/ul\u003e
 \u003ch2 id="advanced-config"\u003eAdvanced Config\u003c/h2\u003e
-\u003cp\u003eFor a more advanced config which shows weather forecast, day and date. Checkout our \u003ca href="https://docs.paperd.ink/blog/home-assistant-weather/"\u003eblog →\u003c/a\u003e\u003c/p\u003e
+\u003cp\u003eFor a more advanced config which shows weather forecast, day and date, checkout our \u003ca href="https://docs.paperd.ink/blog/home-assistant-weather/"\u003eblog →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="further-reading"\u003eFurther Reading\u003c/h2\u003e
 \u003cul\u003e
 \u003cli\u003e\u003ca href="https://esphome.io/components/display/index.html"\u003ehttps://esphome.io/components/display/index.html\u003c/a\u003e\u003c/li\u003e
